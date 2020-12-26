@@ -92,31 +92,6 @@ def import_index_mapping(es_address,key_es):
 
                logger.info('import_index_mapping:response {}'.format(response))
 
-def import_index_a9k_mapping(es_address,key_es):
-     os.chdir(index_mapping_path)
-     index_ext_time = get_nowtime()[1]
-     host = set_eshost[key_es]
-     elastic = Elasticsearch(hosts= host)
-     for each_index in jsondir:
-          index_database = jsondir[each_index] + index_ext_time
-          url = es_address  + index_database
-          res = requests.get(url)
-          if res.status_code != 200:
-               mapping_file = jsondir[each_index] + "mapping.json"
-               with open(mapping_file, 'r', encoding='utf-8') as f:
-                    data=json.loads(f.read())
-
-               response = elastic.indices.create(index=index_database,body=data,ignore=400)
-               if 'acknowledged' in response:
-                    if response['acknowledged'] == True:
-                         logger.info('import_index_mapping:{} INDEX MAPPING SUCCESS FOR INDEX'.format(response['index']))
-
-               elif 'error' in response:
-                    logger.info('import_index_mapping:ERROR {}'.format(response['error']['root_cause']))
-                    logger.info('import_index_mapping:TYPE {}'.format(response['error']['type']))
-
-               logger.info('import_index_mapping:response {}'.format(response))
-
 def import_es_new(file_list,name):
      if len(file_list) == len(crs_command):
           logger.info('Import_es_new:{} there are {} Json file!'.format(name,len(file_list)))
@@ -177,69 +152,11 @@ def import_es_new(file_list,name):
                     if i == len(file_list) - 1:
                          logger.warning('Import_es_new:{}--{} Json file is not exist!'.format(name,key_compare))
 
-def import_es_a9k_new(file_list,name):
-     if len(file_list) == len(a9k_command):
-          logger.info('Import_es_a9k_new:{} there are {} Json file!'.format(name,len(file_list)))
-     else:
-          logger.warning('Import_es_a9k_new:{} there are {} Json file, but {} Json file is not exist!'.format(name,len(file_list),len(a9k_command)-len(file_list)))
-
-     index_database = ""
-     for key_es in set_eshost:
-          es_address = "http://" + str(set_eshost[key_es]) + ":9200/"
-
-     os.chdir(data_dir)
-     for key_compare in a9k_command:
-          key_diff = key_compare.replace(" ","_")
-          key_diff_power = key_diff + "_old"
-          #print(key_compare)     
-          for i in range(len(file_list)):
-               file_split = os.path.splitext(file_list[i])
-               file_head = str(file_split[0])
-               start = file_head.find("%") + 1
-               file_head_temp = file_head[start:]
-               end = file_head_temp.find("%")
-               key = file_head[start:start+end]
-               if key.find(key_diff) == 0:
-                    if key_diff_power == key:
-                         #print("****************************************",key_diff_power)
-                         index = str(a9k_jsondir[key])
-                         index_date = get_nowtime()
-                         index_database = index + index_date[1]
-                         url = es_address + index_database + "/" + "_bulk" 
-                         payload = open(file_list[i])
-                         headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
-                         res = requests.post(url, data=payload, headers=headers)
-                         if res.status_code == 200:
-                              #print("The %s file import to ES OK!" % (file)) 
-                              logger.info('Import_es_a9k_new:{}--{} import to ES OK!'.format(name,file_list[i]))
-                         else:
-                              #print("The %s file not import to ES!" % (file))
-                              logger.warning('Import_es_a9k_new:{}--{} import to ES Failed!'.format(name,file_list[i]))
-                         payload.close()
-                         break
-                    else:
-                         index = str(a9k_jsondir[key])
-                         index_date = get_nowtime()
-                         index_database = index + index_date[1]
-                         url = es_address + index_database + "/" + "_bulk" 
-                         payload = open(file_list[i])
-                         headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
-                         res = requests.post(url, data=payload, headers=headers)
-                         if res.status_code == 200:
-                              #print("The %s file import to ES OK!" % (file)) 
-                              logger.info('Import_es_a9k_new:{}--{} import to ES OK!'.format(name,file_list[i]))
-                         else:
-                              #print("The %s file not import to ES!" % (file))
-                              logger.warning('Import_es_a9k_new:{}--{} import to ES Failed!'.format(name,file_list[i]))
-                         payload.close()
-                         break
-               else:
-                    if i == len(file_list) - 1:
-                         logger.warning('Import_es_a9k_new:{}--{} Json file is not exist!'.format(name,key_compare))
-
 def timeconvert(name,showtime):
      if  "PRC" in str(showtime):
           showtime = showtime.replace("PRC", "CST")
+     elif  "UTC" in str(showtime):
+          showtime = showtime.replace("UTC", "CST")
      else:
           pass
      try:     
@@ -318,13 +235,6 @@ def run(show_file, template_file):
     res = textfsm_result_conver_to_dic_new(fsm_header_list= re_table.header, fsm_content=fsm_results)
     return res
 
-def a9k_run(show_file, template_file):
-    template = Get_templete(template_name= template_file)
-    text_data = Get_data(filename=show_file)
-    re_table = textfsm.TextFSM(template)
-    fsm_results = re_table.ParseText(text_data)
-    res = textfsm_result_conver_to_dic_new(fsm_header_list= re_table.header, fsm_content=fsm_results)
-    return res
 
 def login_and_execcommand(name,ip_address,user,passwd,platform,login_mode):
      login_flags = bool()
@@ -345,7 +255,7 @@ def login_and_execcommand(name,ip_address,user,passwd,platform,login_mode):
                time.sleep(WAITE_COMMAND_TIME)
                command_result = tn.read_very_eager().decode('ascii')
           except:
-               logger.critical('login_and_execcommand:{} login read error'.format(name,i))
+               logger.critical('login_and_execcommand:{}-{} login read error'.format(name,i))
                continue
           
           if '#' in command_result:
@@ -453,76 +363,30 @@ def login_and_execcommand(name,ip_address,user,passwd,platform,login_mode):
                command_file.write(command_result)
                time.sleep(WAITE_FILE_TIME)
                command_file.close()
+               
+               try:
+                    output_command = run(show_file=command_txt_filename, template_file=select_template[command_key])
+               except:
+                    logger.warning('login_and_execcommand: {}-{} template error!'.format(command_txt_filename,select_template[command_key]))
+               if len(output_command) == 0:
+                    logger.warning('login_and_execcommand: {}_{} exec ok but no record match the template. the json can not create!!!!'.format(name,crs_command[command_key]))
+                    continue  
+               else:             
+                    for command_dict in output_command:
+                         command_dict.update(dict3)
+               #output json file
+               json_filename = name + "%" + exec_command + "%" + str(create_file_time[0]) + ".json"
+               command_json_file = open(json_filename,'w')
+               json_data_command = json.dumps(output_command, indent=1)
+               time.sleep(WAITE_FILE_TIME)
+               command_json_file.write(json_data_command)
+               time.sleep(WAITE_FILE_TIME)
+               #print ("%s %s exec ok and write completed." % (name,command))
+               logger.info('login_and_execcommand: {}-{} exec ok and write completed!'.format(name,crs_command[command_key]))
 
-               if command_key == "admin show environment power-supply":
-                    try:
-                         output_command = run(show_file=command_txt_filename, template_file=select_template[command_key])
-                         if len(output_command) == 0:
-                              try:
-                                   output_command = run(show_file=command_txt_filename, template_file="CRS_OLD_cisco_xr_admin_show_environment_power_supply.textfsm")
-                                   if len(output_command) == 0:
-                                        logger.warning('login_and_execcommand: {}_{} exec ok but no record match the template. the json can not create!!!!'.format(name,crs_command[command_key]))
-                                        continue
-                                   else:
-                                        #output json file
-                                        for command_dict in output_command:
-                                             command_dict.update(dict3)  
-                                        json_filename = name + "%" + exec_command + "_old%" + str(create_file_time[0]) + ".json"
-                                        command_json_file = open(json_filename,'w')
-                                        json_data_command = json.dumps(output_command, indent=1)
-                                        time.sleep(WAITE_FILE_TIME)
-                                        command_json_file.write(json_data_command)
-                                        time.sleep(WAITE_FILE_TIME)
-                                        #print ("%s %s exec ok and write completed." % (name,command))
-                                        logger.info('login_and_execcommand: {}-{}old exec ok and write completed!'.format(name,crs_command[command_key]))
-
-                                        command_json_file.close()
-                                        file_list.append(json_filename)
-                                        modify_json(json_filename,name)
-                              except:
-                                   logger.warning('login_and_execcommand: {}-{} template error!'.format(command_txt_filename,select_template[command_key]))
-                         else:
-                              #output json file
-                              for command_dict in output_command:
-                                   command_dict.update(dict3)  
-                              json_filename = name + "%" + exec_command + "%" + str(create_file_time[0]) + ".json"
-                              command_json_file = open(json_filename,'w')
-                              json_data_command = json.dumps(output_command, indent=1)
-                              time.sleep(WAITE_FILE_TIME)
-                              command_json_file.write(json_data_command)
-                              time.sleep(WAITE_FILE_TIME)
-                              #print ("%s %s exec ok and write completed." % (name,command))
-                              logger.info('login_and_execcommand: {}-{} exec ok and write completed!'.format(name,crs_command[command_key]))
-
-                              command_json_file.close()
-                              file_list.append(json_filename)
-                              modify_json(json_filename,name)
-                    except:
-                         logger.warning('login_and_execcommand: {}-{} template error!'.format(command_txt_filename,select_template[command_key]))
-               else:
-                    try:
-                         output_command = run(show_file=command_txt_filename, template_file=select_template[command_key])
-                    except:
-                         logger.warning('login_and_execcommand: {}-{} template error!'.format(command_txt_filename,select_template[command_key]))
-                    if len(output_command) == 0:
-                         logger.warning('login_and_execcommand: {}_{} exec ok but no record match the template. the json can not create!!!!'.format(name,crs_command[command_key]))
-                         continue  
-                    else:             
-                         for command_dict in output_command:
-                              command_dict.update(dict3)
-                    #output json file
-                    json_filename = name + "%" + exec_command + "%" + str(create_file_time[0]) + ".json"
-                    command_json_file = open(json_filename,'w')
-                    json_data_command = json.dumps(output_command, indent=1)
-                    time.sleep(WAITE_FILE_TIME)
-                    command_json_file.write(json_data_command)
-                    time.sleep(WAITE_FILE_TIME)
-                    #print ("%s %s exec ok and write completed." % (name,command))
-                    logger.info('login_and_execcommand: {}-{} exec ok and write completed!'.format(name,crs_command[command_key]))
-
-                    command_json_file.close()
-                    file_list.append(json_filename)
-                    modify_json(json_filename,name)
+               command_json_file.close()
+               file_list.append(json_filename)
+               modify_json(json_filename,name)
           try:
                tn.write(b"admin clear controller fabric statistics plane all\n")
                #tn.read_until(b'Clear counters?[confirm] ',timeout=10)
@@ -544,125 +408,6 @@ def login_and_execcommand(name,ip_address,user,passwd,platform,login_mode):
           tn.write(b"exit\n")
           import_es_new(file_list,name)
 
-     elif login_flags == True and (platform == "asr9010" or platform == "asr9006") :  
-          dict3={} 
-          file_list = []
-          create_file_time = get_nowtime()
-          #add clock 
-          os.chdir(data_dir)
-
-          tn.write("ter len 0".encode('ascii')+b'\n')
-          time.sleep(WAITE_COMMAND_TIME)
-          tn.read_very_eager().decode('ascii')
-
-          command_clock = "show clock"
-          dict_time = {}
-          new_command_clock = command_clock.replace(" ","_")
-          clock_txt_filename = name + "%" + new_command_clock + "%" + str(create_file_time[0]) + ".txt"
-          f = open(str(clock_txt_filename),'w')
-          tn.write(command_clock.encode('ascii')+b'\n')
-          time.sleep(WAITE_COMMAND_TIME)
-          command_result_clock = tn.read_very_eager().decode('ascii')
-          flags = True
-          while  flags:
-               if command_result_clock[-1] == "#":
-                    flags = False
-               else:
-                    time.sleep(WAITE_COMMAND_TIME)
-                    command_result_clock += tn.read_very_eager().decode("ascii")
-          f.write(command_result_clock)
-          time.sleep(WAITE_FILE_TIME)
-          f.close()
-          time.sleep(WAITE_FILE_TIME)
-
-          output_clock = run(show_file=clock_txt_filename, template_file=select_template[command_clock])
-          for name_time in output_clock:
-               for key in name_time:
-                    showtime = str(name_time[key])
-                    time_res = timeconvert(name,showtime)
-                    name_time['Timestamp'] = time_res
-                    dict_time = name_time
-
-          #add hostname
-          command_hostname = "show running hostname"
-          new_command_hostname = command_hostname.replace(" ","_")
-          hostname_txt_filename = name + "%" + new_command_hostname + "%" + str(create_file_time[0]) + ".txt"
-          hostfile = open(hostname_txt_filename,'w')
-          tn.write(command_hostname.encode("ascii") + b'\n')
-          time.sleep(WAITE_COMMAND_TIME)
-          result = tn.read_very_eager().decode("ascii")
-          flags_host = True
-          while  flags_host:
-               if result[-1] == "#":
-                    flags_host = False
-               else:
-                    time.sleep(WAITE_COMMAND_TIME)
-                    result += tn.read_very_eager().decode("ascii")          
-          hostfile.write(result)
-          time.sleep(WAITE_FILE_TIME)
-          hostfile.close()
-          output_hostname = run(show_file=hostname_txt_filename, template_file=select_template[command_hostname])
-          hostdict = {}
-          for host_id in output_hostname:
-               hostdict.update(host_id)  
-
-          #add Platform type
-          platform_type_dict = {"Platform_type":platform}
-
-          #update all information to temp dict   
-          dict3.update(dict_time)
-          dict3.update(hostdict)
-          dict3.update(platform_type_dict)
-
-          
-          for command_key in a9k_command:
-               cmddict = {"Command_name":command_key}
-               dict3.update(cmddict)
-
-               exec_command = command_key.replace(" ","_")
-               command_txt_filename = name + "%" + exec_command + "%" + str(create_file_time[0]) + ".txt"
-
-               command_file = open(command_txt_filename,'w')
-               tn.write(a9k_command[command_key].encode('ascii')+b'\n')
-               time.sleep(WAITE_COMMAND_TIME)
-               command_result = tn.read_very_eager().decode('ascii')
-               flags_command = True
-               while  flags_command:
-                    if command_result[-1] == "#":
-                         flags_command = False
-                    else:
-                         time.sleep(WAITE_COMMAND_TIME)
-                         command_result += tn.read_very_eager().decode("ascii")                      
-               command_file.write(command_result)
-               time.sleep(WAITE_FILE_TIME)
-               command_file.close()
-
-               try:
-                    output_command = run(show_file=command_txt_filename, template_file=a9k_select_template[command_key])
-               except:
-                    logger.warning('login_and_execcommand: {}-{} template error!'.format(command_txt_filename,a9k_select_template[command_key]))
-               if len(output_command) == 0:
-                    logger.warning('login_and_execcommand: {}_{} exec ok but no record match the template. the json can not create!!!!'.format(name,a9k_command[command_key]))
-                    continue  
-               else:             
-                    for command_dict in output_command:
-                         command_dict.update(dict3)
-                    #output json file
-                    json_filename = name + "%" + exec_command + "%" + str(create_file_time[0]) + ".json"
-                    command_json_file = open(json_filename,'w')
-                    json_data_command = json.dumps(output_command, indent=1)
-                    time.sleep(WAITE_FILE_TIME)
-                    command_json_file.write(json_data_command)
-                    time.sleep(WAITE_FILE_TIME)
-                    #print ("%s %s exec ok and write completed." % (name,command))
-                    logger.info('login_and_execcommand: {}-{} exec ok and write completed!'.format(name,a9k_command[command_key]))
-
-                    command_json_file.close()
-                    file_list.append(json_filename)
-                    modify_json(json_filename,name)
-
-          tn.write(b"exit\n")
-          import_es_a9k_new(file_list,name)
      else:
           pass
 
@@ -713,56 +458,6 @@ def mv_files():
                     shutil.move(f_name,temp_dir)
      logger.info('mv_files: all files moved success')
  
-def mv_a9k_files():
-     #raw_directory_list = ["show_running_hostname","show_clock","admin show environment fan","admin show platform","admin show hw-module fpd location all","admin show controllers fabric plane all", \
-     #"admin show controllers fabric connectivity all","admin show install active sum"]
-     command_new_list = []
-     dir_list = []
-     os.chdir(data_dir)
-     for command_key in a9k_command:
-          command_new = command_key.replace(" ","_")
-          command_new_list.append(command_new)
-          try:
-               os.mkdir(command_new)
-          except:
-               #print("directory is exists!!!")
-               logger.info('mv_files: {} directory is exists!!!'.format(command_new))
-     try:
-          clock_dir = "show_clock"
-          os.mkdir(clock_dir)
-     except:
-          #print("directory is exists!!!")
-          logger.info('mv_files: {} directory is exists!!!'.format(clock_dir))
-     try:
-          hostname_dir = "show_running_hostname"
-          os.mkdir(hostname_dir)
-     except:
-          #print("directory is exists!!!")
-          logger.info('mv_files: {} directory is exists!!!'.format(hostname_dir))
-     try:
-          power_dir = "admin_show_environment_power-supply_old"
-          os.mkdir(power_dir)
-     except:
-          #print("directory is exists!!!")
-          logger.info('mv_files: {} directory is exists!!!'.format(power_dir))
-     
-     
-     command_new_list.append(clock_dir)
-     command_new_list.append(hostname_dir)
-     command_new_list.append(power_dir)
-
-
-     dir_list = command_new_list
-     dir_dict = dict(zip(command_new_list, dir_list))
-
-     for f_name in os.listdir(data_dir):
-          for key in dir_dict:
-               pattern = "*" + dir_dict[key] + "%" + "*"
-               if fnmatch.fnmatch(f_name, pattern):
-                    temp_dir = data_dir + "/" + dir_dict[key]
-                    shutil.move(f_name,temp_dir)
-     logger.info('mv_files: all files moved success')
- 
 
 os.chdir(current_dir)
 
@@ -800,18 +495,6 @@ with open('hc_check_env.conf') as envf:
      set_eshost = dict(x.strip().strip("\n\t").split("::", 1) for x in envf)
 with open('command_ncs_v1.conf') as command_alias:
      crs_command = dict(x.strip().strip("\n\t").split("::", 1) for x in command_alias)
-
-
-#ASR9K
-#with open('template_a9k_v1.conf') as a9k_f:
-     #a9k_select_template = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_f)
-#with open('es_file_a9k_v1.conf') as a9k_esf:
-     #a9k_jsondir = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_esf)
-#with open('command_alias_matrix_a9k_v1.conf') as a9k_command_alias:
-     #a9k_command = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_command_alias)
-
-
-
 
 with open ('device.ncs.txt') as devices_file:
      for device_node in devices_file:
