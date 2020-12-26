@@ -1,0 +1,10 @@
+Value Node (\S+)
+Value Shared_plane (\S+)
+Value Ipc_space (\S+)
+
+Start
+  ^setting\s+target\s+node\s+to\s+${Node}
+  ^sysdb\s+health\s+on\s+.shared\s+plane.*\s+${Shared_plane}.*
+  ^sysdb\s+health\s+on\s+.ipc\s+space.*\s+${Ipc_space}.* -> Record 
+
+

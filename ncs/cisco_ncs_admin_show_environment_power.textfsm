@@ -1,0 +1,23 @@
+Value Filldown Chassis_id (\w+)
+Value Filldown Power_shelf (\d+)
+Value Power_module (\S+)
+Value Supply_type (\S+)
+Value In_voltage_v (\d+\.\d+)
+Value In_current_a (\d+\.\d+)
+Value Out_voltage_v (\d+\.\d+)
+Value Out_current_a (\d+\.\d+)
+Value Required Status (.*\S+)
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^CHASSIS\s+LEVEL\s+POWER\s+INFO:\s+${Chassis_id}
+  ^Power\s+Shelf\s+${Power_shelf}:.*
+  ^\s+${Power_module}\s+${Supply_type}\s+${In_voltage_v}\s+${In_current_a}\s+${Out_voltage_v}\s+${Out_current_a}\s+${Status}\s* -> Record
+
+
+
+
+

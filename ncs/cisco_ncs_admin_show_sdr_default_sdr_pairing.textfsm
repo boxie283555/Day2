@@ -1,0 +1,15 @@
+Value Filldown Pairing_mode (\S+)
+Value Filldown Pair_item ((SDR\s+Lead)|(Pairs))
+Value Filldown Pair_name (Pair\d)
+Value Filldown Pair_node (Node\s+\d+)
+Value Required Pair_rp (\S+)
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s*Pairing\s+Mode\s+${Pairing_mode}
+  ^\s*${Pair_item}
+  ^\s*Pair\s+Name\s+${Pair_name}
+  ^\s*${Pair_node}\s+${Pair_rp} -> Record

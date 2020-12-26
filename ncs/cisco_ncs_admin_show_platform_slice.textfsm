@@ -1,0 +1,15 @@
+Value Filldown Location (\S+)
+Value Slice_num (\d+)
+Value Required Admin_state (\S+)
+Value Oper_state (\S+)
+
+
+Start
+  ^\-+ -> Parse
+
+#Parse
+#  ^${Location}\s+${Slice_num}\s+${Admin_State}\s+${Oper_state}.*  -> Record
+#  ^\s+${Slice_num}\s+${Admin_state}\s+${Oper_state}.*   -> Record
+Parse
+  ^${Location}\s+${Slice_num}\s+${Admin_state}\s+${Oper_state}.*  -> Record
+  ^\s+${Slice_num}\s+${Admin_state}\s+${Oper_state}.*   -> Record

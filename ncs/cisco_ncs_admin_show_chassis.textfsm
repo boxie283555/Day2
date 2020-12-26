@@ -1,0 +1,17 @@
+Value Serial_num (\S+)
+Value Rack_num (\S+)
+Value Rack_type (\S+)
+Value Rack_state (\S+)
+Value Data_plane (\S+)
+Value Ctrl_plane (\S+)
+
+
+
+Start
+  #^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+  ^-+ -> Parse
+
+Parse
+  ^\s*${Serial_num}\s*${Rack_num}\s+${Rack_type}\s+${Rack_state}\s+${Data_plane}\s+${Ctrl_plane}.* -> Record
+
+

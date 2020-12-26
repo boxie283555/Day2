@@ -1,0 +1,10 @@
+Value A_node (\S+)
+Value S_node (\S+)
+Value State (\(.*\)|(.*))
+
+Start
+  ^\s+\-+ -> Parse
+
+Parse
+  ^\s+${A_node}\s+${S_node} -> Continue
+  ^\s+${A_node}\s+${S_node}\s+${State} -> Record

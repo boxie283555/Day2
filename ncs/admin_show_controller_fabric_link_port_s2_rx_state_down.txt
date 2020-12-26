@@ -1,0 +1,24 @@
+RP/0/RP0/CPU0:r1-a-sdjn-1#                            admin show controller fabric link port s2 rx state down
+Tue Dec 22 12:54:47.183 CST
+Tue Dec  22 12:54:48.240 UTC-08:00
+
+Description:
+Ch - Channel,    Sx - Slice/bus #,    Px - Port # within slice/bus
+DN - Down,       LI - Lane into CDR,  LO - Lane out of CDR
+
+SFE port       Admin  Near-end      Near    Far     Far-end       Other End
+R/S/A/P        /Oper    CDR         -end    -end      CDR         R/S/A/P  
+               state  LO-Sx-Px-LI   CXP/Ch  CXP/Ch  LO-Sx-Px-LI            
+------------------------------------------------------------------------------
+F1/FC3/0/60    UP/DN  02-S0-P1-02   01/02   01/02                 0/FC1/2/131   
+F1/FC3/0/61    UP/DN  01-S0-P1-01   01/03   01/03                 0/FC1/2/117   
+F1/FC3/0/62    UP/DN  12-S0-P1-12   01/01   01/01                 0/FC1/2/118   
+F1/FC3/0/63    UP/DN  11-S0-P1-11   01/00   01/00                 0/FC1/2/119   
+F1/FC3/1/80    UP/DN  06-S0-P1-06   01/05   01/05                 0/FC1/2/116   
+F1/FC3/1/81    UP/DN  05-S0-P1-05   01/04   01/04                 0/FC1/2/130   
+F1/FC3/1/82    UP/DN  04-S0-P1-04   01/06   01/06                 0/FC1/2/128   
+F1/FC3/1/83    UP/DN  03-S0-P1-03   01/07   01/07                 0/FC1/2/125   
+F1/FC3/2/80    UP/DN  10-S0-P1-10   01/09   01/09                 0/FC1/2/124   
+F1/FC3/2/81    UP/DN  09-S0-P1-09   01/08   01/08                 0/FC1/2/129   
+F1/FC3/2/82    UP/DN  08-S0-P1-08   01/10   01/10                 0/FC1/2/126   
+F1/FC3/2/83    UP/DN  07-S0-P1-07   01/11   01/11                 0/FC1/2/127

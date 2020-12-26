@@ -1,0 +1,261 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#show bgp neighbors | i "neighbor is|Remote AS|BGP state|Family|accepted prefixes|Maximum prefixes allowed"
+Thu Dec 24 10:29:22.875 CST
+BGP neighbor is 110.242.66.1
+ Remote AS 64634, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  34 accepted prefixes, 27 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.1
+ Remote AS 64960, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  148 accepted prefixes, 79 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.208
+ Remote AS 64966, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  38 accepted prefixes, 14 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.212
+ Remote AS 64965, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  41 accepted prefixes, 25 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.216
+ Remote AS 64969, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  33 accepted prefixes, 17 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.220
+ Remote AS 64970, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  22 accepted prefixes, 12 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.224
+ Remote AS 64967, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  51 accepted prefixes, 28 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.226
+ Remote AS 64965, local AS 4837, external link
+  BGP state = Active
+ For Address Family: IPv4 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.227
+ Remote AS 64968, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  14 accepted prefixes, 6 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.232
+ Remote AS 64964, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  36 accepted prefixes, 21 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.234
+ Remote AS 64963, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  24 accepted prefixes, 17 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.240
+ Remote AS 64962, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  51 accepted prefixes, 25 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.241
+ Remote AS 64961, local AS 4837, external link
+  BGP state = Established, up for 4d10h
+ For Address Family: IPv4 Unicast
+  47 accepted prefixes, 26 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 202.99.164.246
+ Remote AS 64630, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  146 accepted prefixes, 69 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 219.158.1.17
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 17w1d
+ For Address Family: IPv4 Unicast
+  844197 accepted prefixes, 737638 are bestpaths
+  Maximum prefixes allowed 2000000 (warning-only)
+BGP neighbor is 219.158.1.18
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 1y00w
+ For Address Family: IPv4 Unicast
+  844668 accepted prefixes, 106975 are bestpaths
+  Maximum prefixes allowed 2000000 (warning-only)
+BGP neighbor is 219.158.1.21
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 1y00w
+ For Address Family: IPv4 Unicast
+  1 accepted prefixes, 1 are bestpaths
+  Maximum prefixes allowed 2000000 (warning-only)
+BGP neighbor is 220.195.23.253
+ Remote AS 64979, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  62 accepted prefixes, 61 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 220.195.23.254
+ Remote AS 64979, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  62 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 220.250.73.11
+ Remote AS 65526, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  3 accepted prefixes, 3 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 220.250.73.139
+ Remote AS 65526, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  1 accepted prefixes, 1 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 221.192.80.129
+ Remote AS 64637, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv4 Unicast
+  94 accepted prefixes, 94 are bestpaths
+  Maximum prefixes allowed 1048576
+BGP neighbor is 2048:8000:3222::1
+ Remote AS 64634, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  3 accepted prefixes, 3 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:1::1:17
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 17w1d
+ For Address Family: IPv6 Unicast
+  126246 accepted prefixes, 119126 are bestpaths
+  Maximum prefixes allowed 1000000 (warning-only)
+BGP neighbor is 2408:8000:1::1:18
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 1y00w
+ For Address Family: IPv6 Unicast
+  126246 accepted prefixes, 7086 are bestpaths
+  Maximum prefixes allowed 1000000 (warning-only)
+BGP neighbor is 2408:8000:1::1:21
+ Remote AS 4837, local AS 4837, internal link
+  BGP state = Established, up for 40w6d
+ For Address Family: IPv6 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1000000 (warning-only)
+BGP neighbor is 2408:8000:3001:1000::1
+ Remote AS 64630, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  4 accepted prefixes, 4 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3001:2001::1
+ Remote AS 64960, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  86 accepted prefixes, 45 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3002:2000::1
+ Remote AS 64962, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  70 accepted prefixes, 36 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3003:2000::1
+ Remote AS 64967, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  16 accepted prefixes, 8 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3004:2000::1
+ Remote AS 64968, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  14 accepted prefixes, 7 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3005:2000::1
+ Remote AS 64961, local AS 4837, external link
+  BGP state = Established, up for 10:25:22
+ For Address Family: IPv6 Unicast
+  34 accepted prefixes, 18 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3006:2001::1
+ Remote AS 64965, local AS 4837, external link
+  BGP state = Established, up for 06:20:54
+ For Address Family: IPv6 Unicast
+  42 accepted prefixes, 23 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3007:2000::1
+ Remote AS 64966, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  15 accepted prefixes, 8 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3008:2000::1
+ Remote AS 64970, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  14 accepted prefixes, 7 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3009:2000::1
+ Remote AS 64969, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  13 accepted prefixes, 7 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:300a:2000::1
+ Remote AS 64964, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  17 accepted prefixes, 9 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:300b:2000::1
+ Remote AS 64963, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  12 accepted prefixes, 6 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3020::1
+ Remote AS 64979, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  3 accepted prefixes, 3 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3020:1::1
+ Remote AS 64979, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  3 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:8000:3021:1::1
+ Remote AS 64637, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  3 accepted prefixes, 3 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:815f:e000:1:6:1::
+ Remote AS 65526, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  1 accepted prefixes, 1 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 2408:815f:e000:1:6:2::
+ Remote AS 65526, local AS 4837, external link
+  BGP state = Established, up for 2w0d
+ For Address Family: IPv6 Unicast
+  1 accepted prefixes, 1 are bestpaths
+  Maximum prefixes allowed 524288
+RP/0/RP0/CPU0:r1-a-hesj-1#     

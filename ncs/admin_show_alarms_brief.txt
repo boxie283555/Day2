@@ -1,0 +1,21 @@
+RP/0/RP1/CPU0:NCS6008-A#  admin show alarms br
+Sun Nov 22 11:16:21.860 UTC
+
+-------------------------------------------------------------------------------
+Active Alarms
+-------------------------------------------------------------------------------
+Location          Severity      Group           Set time            Description
+-------------------------------------------------------------------------------
+0/RP1             major         ethernet        11/11/20 16:13:56   MLAP protocol state is not Active or Standby
+0/RP1             major         ethernet        11/11/20 16:13:56   MLAP protocol state is not Active or Standby
+0/RP1             major         ethernet        11/11/20 16:13:56   MLAP protocol state is not Active or Standby
+0/PT3-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_VIN_VOLT_OOR).
+0/PT3-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_NO_INPUT_DETECTED).
+0/PT3-PM0         major         environ         11/11/20 16:13:32   Power Module Output Disabled (PM_OUTPUT_EN_PIN_HI).
+0/PT2-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_VIN_VOLT_OOR).
+0/PT2-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_NO_INPUT_DETECTED).
+0/PT2-PM0         major         environ         11/11/20 16:13:32   Power Module Output Disabled (PM_OUTPUT_EN_PIN_HI).
+0/PT0-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_VIN_VOLT_OOR).
+0/PT0-PM0         major         environ         11/11/20 16:13:32   Power Module Error (PM_NO_INPUT_DETECTED).
+0/PT0-PM0         major         environ         11/11/20 16:13:32   Power Module Output Disabled (PM_OUTPUT_EN_PIN_HI).
+0                 major         environ         11/11/20 16:13:57   Power Shelf redundancy lost.

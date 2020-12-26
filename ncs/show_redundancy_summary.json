@@ -1,0 +1,1 @@
+[{"A_node": "0/RP1/CPU0", "S_node": "1/RP0/CPU0", "State": "(Node Ready, NSR:Not Configured)"}, {"A_node": "0/RP0/CPU0", "S_node": "1/RP1/CPU0", "State": "(Node Ready, NSR:Ready)"}]

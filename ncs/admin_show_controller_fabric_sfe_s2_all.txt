@@ -1,0 +1,47 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#  admin show controller fabric sfe s2 all 
+Tue Dec 22 13:05:19.090 CST
+
+   Sfe         Admin    Oper
+  R/S/A        State    State
+-----------------------------
+F0/FC3/0       UP       UP     
+F0/FC3/1       UP       UP     
+F0/FC3/2       UP       UP     
+F0/FC4/0       UP       UP     
+F0/FC4/1       UP       UP     
+F0/FC4/2       UP       UP     
+F0/FC5/0       UP       UP     
+F0/FC5/1       UP       UP     
+F0/FC5/2       UP       UP     
+F0/FC9/0       UP       UP     
+F0/FC9/1       UP       UP     
+F0/FC9/2       UP       UP     
+F0/FC10/0      UP       UP     
+F0/FC10/1      UP       UP     
+F0/FC10/2      UP       UP     
+F0/FC11/0      UP       UP     
+F0/FC11/1      UP       UP     
+F0/FC11/2      UP       UP     
+
+   Sfe         Admin    Oper
+  R/S/A        State    State
+-----------------------------
+F1/FC3/0       UP       UP     
+F1/FC3/1       UP       UP     
+F1/FC3/2       UP       UP     
+F1/FC4/0       UP       UP     
+F1/FC4/1       UP       UP     
+F1/FC4/2       UP       UP     
+F1/FC5/0       UP       UP     
+F1/FC5/1       UP       UP     
+F1/FC5/2       UP       UP     
+F1/FC9/0       UP       UP     
+F1/FC9/1       UP       UP     
+F1/FC9/2       UP       UP     
+F1/FC10/0      UP       UP     
+F1/FC10/1      UP       UP     
+F1/FC10/2      UP       UP     
+F1/FC11/0      UP       UP     
+F1/FC11/1      UP       UP     
+F1/FC11/2      UP       UP     
+RP/0/RP0/CPU0:r1-a-hesj-1#

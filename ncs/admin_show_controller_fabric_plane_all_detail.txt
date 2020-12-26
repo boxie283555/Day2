@@ -1,0 +1,13 @@
+RP/0/RP0/CPU0:r1-a-hesj-1# admin show controller fabric plane all detail 
+Tue Dec 22 10:57:22.720 CST
+
+Plane Admin Plane  Plane  up->dn  up->mcast Total   Down    PPU
+Id    State State  Mode   counter   counter Bundles Bundles State
+------------------------------------------------------------
+0     UP    UP          MC       0         3     32       0  NA        
+1     UP    UP          MC       0         6     32       0  NA        
+2     UP    UP          MC       0         6     32       0  NA        
+3     UP    UP          MC       0         7     32       0  NA        
+4     UP    UP          MC       0         7     32       0  NA        
+5     UP    UP          MC       0         7     32       0  NA        
+RP/0/RP0/CPU0:r1-a-hesj-1#

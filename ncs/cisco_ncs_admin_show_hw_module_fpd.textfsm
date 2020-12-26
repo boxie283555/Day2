@@ -1,0 +1,17 @@
+Value Location (\S+)
+Value Cardtype ((NCS-F-SCSW\s+\(SW\))|(\S+))
+Value Hw_version (\d+.\d+)
+Value Fpd_device (\S+)
+Value Atr (\w{1,3})
+Value Status (\S+)
+Value Run (\d+\.\d+)
+Value Programed (\d+\.\d+)
+
+Start
+  ^-+ -> Parse
+
+Parse
+  ^${Location}\s+${Cardtype}\s+${Hw_version}\s+${Fpd_device}\s+${Atr}\s+${Status}\s{7,13}${Programed}\s+ -> Record
+  ^${Location}\s+${Cardtype}\s+${Hw_version}\s+${Fpd_device}\s+${Atr}\s+${Status}\s+${Run}\s+${Programed}\s+ -> Record
+  ^${Location}\s+${Cardtype}\s+${Hw_version}\s+${Fpd_device}\s{5,20}${Status}\s+${Run}\s+${Programed}\s+ -> Record
+

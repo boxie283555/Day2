@@ -1,0 +1,13 @@
+Value Required Location (\S+)
+Value Fru_type (\S+)
+Value Fan0 (\d+)
+Value Fan1 (\d+)
+
+
+Start
+  #^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+  ^Location.* -> Parse
+
+Parse
+  ^${Location}\s+${Fru_type}\s+${Fan0}\s+${Fan1}.* -> Record
+

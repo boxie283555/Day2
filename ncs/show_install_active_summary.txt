@@ -1,0 +1,21 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#show install active summary 
+Mon Dec 21 13:37:14.810 CST
+    Active Packages: 17
+        ncs6k-xr-6.3.3 version=6.3.3 [Boot image]
+        ncs6k-mcast-1.0.0.0-r633
+        ncs6k-mpls-1.1.0.0-r633
+        ncs6k-mgbl-2.0.0.0-r633
+        ncs6k-doc-1.0.0.0-r633
+        ncs6k-k9sec-2.1.0.0-r633
+        openssh-sshd-6.6p1.p1-r0.0.CSCvp70185.xr
+        ncs6k-iosxr-os-2.1.0.1-r633.CSCvm08595
+        ncs6k-iosxr-fwding-3.0.0.3-r633.CSCvo06593
+        ncs6k-iosxr-routing-1.2.0.1-r633.CSCvq10030
+        ncs6k-mcast-1.0.0.1-r633.CSCvm83650
+        ncs6k-k9sec-2.1.0.2-r633.CSCvm63836
+        ncs6k-base-1.0.0.1-r633.CSCvp43528
+        ncs6k-iosxr-infra-1.2.0.2-r633.CSCvm95530
+        ncs6k-fwding-1.0.0.1-r633.CSCvp43528
+        ncs6k-mpls-1.1.0.1-r633.CSCvo15889
+        ncs6k-sse-1.1.0.5-r633.CSCvr90450
+RP/0/RP0/CPU0:r1-a-hesj-1#

@@ -1,0 +1,10 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#             admin show chassis 
+Tue Dec 22 12:32:06.847 CST
+Serial Num    Rack Num    Rack Type   Rack State  Data Plane  Ctrl Plane  
+--------------------------------------------------------------------------
+FLM2243082T   F0          FCC         OPERATIONAL CONN        CONN        
+FLM224908KE   F1          FCC         OPERATIONAL CONN        CONN        
+FLM230602PM   1           LCC         OPERATIONAL CONN        CONN        
+FLM230606B9   0           LCC         OPERATIONAL CONN        CONN        
+
+RP/0/RP0/CPU0:r1-a-hesj-1#

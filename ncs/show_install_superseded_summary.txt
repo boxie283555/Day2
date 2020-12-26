@@ -1,0 +1,6 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#show install superseded summary 
+Mon Dec 21 13:47:41.473 CST
+    Superseded Packages: 1
+        ncs6k-sse-1.1.0.3-r633.CSCvp43528 is fully superseded by ncs6k-sse-1.1.0.5-r633.CSCvr90450
+
+RP/0/RP0/CPU0:r1-a-hesj-1#

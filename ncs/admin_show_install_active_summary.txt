@@ -1,0 +1,7 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#admin show install active summary 
+Mon Dec 21 13:24:55.288 CST
+     Active Packages: 4
+        ncs6k-sysadmin-6.3.3 version=6.3.3 [Boot image]
+        openssh-sshd-6.6p1.p1-r0.0.CSCvp70185.host
+        openssh-sshd-6.6p1.p1-r0.0.CSCvp70185.admin
+        ncs6k-sysadmin-platform-6.3.3.1-r633.CSCvn45710

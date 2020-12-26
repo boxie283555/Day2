@@ -1,0 +1,79 @@
+RP/0/RP0/CPU0:r1-a-hesj-1#  admin dir rootfs: location all  | in "node|kbytes free" 
+Tue Dec 22 10:27:00.113 CST
+node:   1/0/VM1
+3965116 kbytes total (1898072 kbytes free)
+node:   1/0
+2453228 kbytes total (1368136 kbytes free)
+node:   1/RP1/CPU0/VM1
+3965116 kbytes total (2009288 kbytes free)
+node:   1/RP1
+2453228 kbytes total (1617532 kbytes free)
+node:   0/5/VM1
+3965116 kbytes total (1898084 kbytes free)
+node:   0/5
+2453228 kbytes total (1368108 kbytes free)
+node:   1/6/VM1
+3965116 kbytes total (1897256 kbytes free)
+node:   0/0/VM1
+3965116 kbytes total (1897256 kbytes free)
+node:   0/2/VM1
+3965116 kbytes total (1897244 kbytes free)
+node:   1/4/VM1
+3965116 kbytes total (1897268 kbytes free)
+node:   1/5/VM1
+3965116 kbytes total (1897272 kbytes free)
+node:   0/4/VM1
+3965116 kbytes total (1897264 kbytes free)
+node:   1/2/VM1
+3965116 kbytes total (1897248 kbytes free)
+node:   0/3/VM1
+3965116 kbytes total (1897260 kbytes free)
+node:   0/1/VM1
+3965116 kbytes total (1897252 kbytes free)
+node:   1/3/VM1
+3965116 kbytes total (1897264 kbytes free)
+node:   1/1/VM1
+3965116 kbytes total (1897260 kbytes free)
+node:   1/RP0/CPU0/VM1
+3965116 kbytes total (2012236 kbytes free)
+node:   0/RP1/CPU0/VM1
+3965116 kbytes total (2012256 kbytes free)
+node:   0/RP0/CPU0/VM1
+3965116 kbytes total (2008940 kbytes free)
+node:   0/4
+2453228 kbytes total (1368048 kbytes free)
+node:   0/3
+2453228 kbytes total (1368012 kbytes free)
+node:   0/0
+2453228 kbytes total (1368064 kbytes free)
+node:   1/6
+2453228 kbytes total (1368068 kbytes free)
+node:   1/5
+2453228 kbytes total (1368064 kbytes free)
+node:   1/4
+2453228 kbytes total (1368056 kbytes free)
+node:   1/2
+2453228 kbytes total (1368072 kbytes free)
+node:   1/3
+2453228 kbytes total (1368064 kbytes free)
+node:   1/1
+2453228 kbytes total (1368072 kbytes free)
+node:   0/2
+2453228 kbytes total (1368008 kbytes free)
+node:   0/1
+2453228 kbytes total (1368024 kbytes free)
+node:   1/RP0
+2453228 kbytes total (1606676 kbytes free)
+node:   F1/SC0
+2453228 kbytes total (1662944 kbytes free)
+node:   F0/SC0
+2453228 kbytes total (1662412 kbytes free)
+node:   F0/SC1
+2453228 kbytes total (1663668 kbytes free)
+node:   F1/SC1
+2453228 kbytes total (1663516 kbytes free)
+node:   0/RP1
+2453228 kbytes total (1590208 kbytes free)
+node:   0/RP0
+2453228 kbytes total (1590968 kbytes free)
+RP/0/RP0/CPU0:r1-a-hesj-1#

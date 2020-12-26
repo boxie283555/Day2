@@ -1,0 +1,16 @@
+Value Filldown Location (\S+)
+Value Required Id (\S+)
+Value Status (\S+)
+Value Ip_address (\d+\.\d+\.\d+\.\d+)
+Value Hb_sent_recv (\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^Location:\s+${Location}.*
+  ^\s*${Id}\s+${Status}\s+${Ip_address}\s+${Hb_sent_recv}.* -> Record
+
+

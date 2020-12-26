@@ -1,0 +1,13 @@
+Value Node (\S+)
+Value Shared_plane (\S+)
+Value Ipc_space (\S+)
+
+
+
+Start
+ ^setting\s+target\s+node\s+to\s+${Node}
+#^sysdb\s+health\s+on\s+.*${Shared_plane}.* -> Record
+ ^sysdb\s+health\s+on\s+.shared\s+plane.\s+result\s+is.*\s+health\s+${Shared_plane}.* -> Record
+
+#^sysdb\s+health\s+on\s+\"shared\s+plane\"\s+result\s+is\s+\(cost\s+\d\s+seconds\s+for\s+this\s+check\)\s+health\s+${Shared_plane}. -> Record
+#^sysdb\s+health\s+on\s+("ipc_space")\s+.*${Ipc_space}. -> Record

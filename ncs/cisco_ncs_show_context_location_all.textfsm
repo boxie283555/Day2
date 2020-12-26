@@ -1,0 +1,27 @@
+Value Node (\S+\d+\_\S*\d*\_\S*\d*)
+Value Required Crash_pid (\d+\s+\(\S+.*\))
+Value Crash_time ((\w+\s+\w+\s+\d+\s+..:..:..\s+\d+)|(\d+.\d+.\d+\s+..:..:..\.\d+))
+Value Crash_process (.*)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^node:\s+${Node}
+ ^\S+.*=\s+${Crash_pid}
+ ^Core\s+for\s+process:\s+${Crash_process}
+ ^\S+.*:\s+${Crash_time}.* -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+
+

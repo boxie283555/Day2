@@ -1,0 +1,13 @@
+Value Sfe_rsa (\w+\d+\/\S+\/\S+)
+Value Admin_state (\S+)
+Value Oper_state (\S+)
+
+
+
+Start
+  #^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+  ^-+ -> Parse
+
+Parse
+  ^\s*${Sfe_rsa}\s*${Admin_state}\s+${Oper_state}.* -> Record
+

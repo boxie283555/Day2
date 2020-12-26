@@ -1,0 +1,15 @@
+Value Location (\S+)
+Value Severity (\S+)
+Value Group (\S+)
+Value Set_time (\d+\/\d+\/\d+\s+\d+:\d+:\d+)
+Value Description (.*)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s*${Location}\s+${Severity}\s+${Group}\s+${Set_time}\s+${Description}.* -> Record
+
+

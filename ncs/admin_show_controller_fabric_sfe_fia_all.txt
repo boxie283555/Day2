@@ -1,0 +1,76 @@
+RP/0/RP0/CPU0:r1-a-hesj-1# admin show controller fabric sfe fia all 
+Tue Dec 22 13:10:24.429 CST
+
+   Sfe         Admin    Oper
+  R/S/A        State    State
+-----------------------------
+0/0/0          UP       UP     
+0/0/1          UP       UP     
+0/0/2          UP       UP     
+0/0/3          UP       UP     
+0/0/4          UP       UP     
+0/1/0          UP       UP     
+0/1/1          UP       UP     
+0/1/2          UP       UP     
+0/1/3          UP       UP     
+0/1/4          UP       UP     
+0/2/0          UP       UP     
+0/2/1          UP       UP     
+0/2/2          UP       UP     
+0/2/3          UP       UP     
+0/2/4          UP       UP     
+0/3/0          UP       UP     
+0/3/1          UP       UP     
+0/3/2          UP       UP     
+0/3/3          UP       UP     
+0/3/4          UP       UP     
+0/4/0          UP       UP     
+0/4/1          UP       UP     
+0/4/2          UP       UP     
+0/4/3          UP       UP     
+0/4/4          UP       UP     
+0/5/0          UP       UP     
+0/5/1          UP       UP     
+0/5/2          UP       UP     
+0/5/3          UP       UP     
+0/5/4          UP       UP     
+
+   Sfe         Admin    Oper
+  R/S/A        State    State
+-----------------------------
+1/0/0          UP       UP     
+1/0/1          UP       UP     
+1/0/2          UP       UP     
+1/0/3          UP       UP     
+1/0/4          UP       UP     
+1/1/0          UP       UP     
+1/1/1          UP       UP     
+1/1/2          UP       UP     
+1/1/3          UP       UP     
+1/1/4          UP       UP     
+1/2/0          UP       UP     
+1/2/1          UP       UP     
+1/2/2          UP       UP     
+1/2/3          UP       UP     
+1/2/4          UP       UP     
+1/3/0          UP       UP     
+1/3/1          UP       UP     
+1/3/2          UP       UP     
+1/3/3          UP       UP     
+1/3/4          UP       UP     
+1/4/0          UP       UP     
+1/4/1          UP       UP     
+1/4/2          UP       UP     
+1/4/3          UP       UP     
+1/4/4          UP       UP     
+1/5/0          UP       UP     
+1/5/1          UP       UP     
+1/5/2          UP       UP     
+1/5/3          UP       UP     
+1/5/4          UP       UP     
+1/6/0          UP       UP     
+1/6/1          UP       UP     
+1/6/2          UP       UP     
+1/6/3          UP       UP     
+1/6/4          UP       UP     
+RP/0/RP0/CPU0:r1-a-hesj-1# 

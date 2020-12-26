@@ -1,0 +1,140 @@
+RP/0/RP0/CPU0:r1-a-hesj-1# admin show led
+Mon Dec 21 18:37:48.304 CST
+=============================================================
+Location  LED Name                      Mode         Color  
+=============================================================
+0/0        
+          0/0-Attention LED             WORKING     OFF       
+          0/0-Status LED                WORKING     GREEN     
+0/1        
+          0/1-Attention LED             WORKING     OFF       
+          0/1-Status LED                WORKING     GREEN     
+0/2        
+          0/2-Attention LED             WORKING     OFF       
+          0/2-Status LED                WORKING     GREEN     
+0/3        
+          0/3-Attention LED             WORKING     OFF       
+          0/3-Status LED                WORKING     GREEN     
+0/4        
+          0/4-Attention LED             WORKING     OFF       
+          0/4-Status LED                WORKING     GREEN     
+0/5        
+          0/5-Attention LED             WORKING     OFF       
+          0/5-Status LED                WORKING     GREEN     
+0/RP0        
+          0/RP0-Attention LED           WORKING     OFF       
+          0/RP0-Status LED              WORKING     GREEN     
+          0/RP0-Alarm Minor LED         WORKING     OFF       
+          0/RP0-Alarm Major LED         WORKING     OFF       
+          0/RP0-Alarm Critical LED      WORKING     OFF       
+0/RP1        
+          0/RP1-Attention LED           WORKING     OFF       
+          0/RP1-Status LED              WORKING     GREEN     
+          0/RP1-Alarm Minor LED         WORKING     OFF       
+          0/RP1-Alarm Major LED         WORKING     OFF       
+          0/RP1-Alarm Critical LED      WORKING     OFF       
+0/FC0        
+          0/FC0-Attention LED           WORKING     OFF       
+          0/FC0-Status LED              WORKING     GREEN     
+0/FC1        
+          0/FC1-Attention LED           WORKING     OFF       
+          0/FC1-Status LED              WORKING     GREEN     
+0/FC2        
+          0/FC2-Attention LED           WORKING     OFF       
+          0/FC2-Status LED              WORKING     GREEN     
+0/FC3        
+          0/FC3-Attention LED           WORKING     OFF       
+          0/FC3-Status LED              WORKING     GREEN     
+0/FC4        
+          0/FC4-Attention LED           WORKING     OFF       
+          0/FC4-Status LED              WORKING     GREEN     
+0/FC5        
+          0/FC5-Attention LED           WORKING     OFF       
+          0/FC5-Status LED              WORKING     GREEN     
+0/FT0        
+          0/FT0-Status LED              WORKING     GREEN     
+0/FT1        
+          0/FT1-Status LED              WORKING     GREEN     
+0/PT0        
+         0/PT0-PM0-Input OK LED        WORKING     GREEN     
+          0/PT0-PM0-Output OK LED       WORKING     GREEN     
+          0/PT0-PM0-Fault LED           WORKING     OFF       
+          0/PT0-PM1-Input OK LED        WORKING     GREEN     
+          0/PT0-PM1-Output OK LED       WORKING     GREEN     
+          0/PT0-PM1-Fault LED           WORKING     OFF       
+          0/PT0-PM2-Input OK LED        WORKING     GREEN     
+          0/PT0-PM2-Output OK LED       WORKING     GREEN     
+          0/PT0-PM2-Fault LED           WORKING     OFF       
+          0/PT0-PM3-Input OK LED        WORKING     GREEN     
+          0/PT0-PM3-Output OK LED       WORKING     GREEN     
+          0/PT0-PM3-Fault LED           WORKING     OFF       
+0/PT1        
+          0/PT1-PM0-Input OK LED        WORKING     GREEN     
+          0/PT1-PM0-Output OK LED       WORKING     GREEN     
+          0/PT1-PM0-Fault LED           WORKING     OFF       
+          0/PT1-PM1-Input OK LED        WORKING     GREEN     
+          0/PT1-PM1-Output OK LED       WORKING     GREEN     
+          0/PT1-PM1-Fault LED           WORKING     OFF       
+          0/PT1-PM2-Input OK LED        WORKING     GREEN     
+          0/PT1-PM2-Output OK LED       WORKING     GREEN     
+          0/PT1-PM2-Fault LED           WORKING     OFF       
+          0/PT1-PM3-Input OK LED        WORKING     GREEN     
+          0/PT1-PM3-Output OK LED       WORKING     GREEN     
+          0/PT1-PM3-Fault LED           WORKING     OFF       
+0/PT2        
+          0/PT2-PM0-Input OK LED        WORKING     GREEN     
+          0/PT2-PM0-Output OK LED       WORKING     GREEN     
+          0/PT2-PM0-Fault LED           WORKING     OFF       
+          0/PT2-PM1-Input OK LED        WORKING     GREEN     
+          0/PT2-PM1-Output OK LED       WORKING     GREEN     
+          0/PT2-PM1-Fault LED           WORKING     OFF       
+          0/PT2-PM2-Input OK LED        WORKING     GREEN     
+          0/PT2-PM2-Output OK LED       WORKING     GREEN     
+          0/PT2-PM2-Fault LED           WORKING     OFF       
+          0/PT2-PM3-Input OK LED        WORKING     GREEN     
+          0/PT2-PM3-Output OK LED       WORKING     GREEN     
+          0/PT2-PM3-Fault LED           WORKING     OFF       
+0/PT3        
+          0/PT3-PM0-Input OK LED        WORKING     GREEN     
+          0/PT3-PM0-Output OK LED       WORKING     GREEN     
+          0/PT3-PM0-Fault LED           WORKING     OFF       
+          0/PT3-PM1-Input OK LED        WORKING     GREEN     
+          0/PT3-PM1-Output OK LED       WORKING     GREEN     
+          0/PT3-PM1-Fault LED           WORKING     OFF       
+          0/PT3-PM2-Input OK LED        WORKING     GREEN     
+          0/PT3-PM2-Output OK LED       WORKING     GREEN     
+          0/PT3-PM2-Fault LED           WORKING     OFF       
+          0/PT3-PM3-Input OK LED        WORKING     GREEN     
+          0/PT3-PM3-Output OK LED       WORKING     GREEN     
+          0/PT3-PM3-Fault LED           WORKING     OFF       
+0/PT4        
+          0/PT4-PM0-Input OK LED        WORKING     GREEN     
+          0/PT4-PM0-Output OK LED       WORKING     GREEN     
+          0/PT4-PM0-Fault LED           WORKING     OFF       
+          0/PT4-PM1-Input OK LED        WORKING     GREEN     
+         0/PT4-PM1-Output OK LED       WORKING     GREEN     
+          0/PT4-PM1-Fault LED           WORKING     OFF       
+          0/PT4-PM2-Input OK LED        WORKING     GREEN     
+          0/PT4-PM2-Output OK LED       WORKING     GREEN     
+          0/PT4-PM2-Fault LED           WORKING     OFF       
+          0/PT4-PM3-Input OK LED        WORKING     GREEN     
+          0/PT4-PM3-Output OK LED       WORKING     GREEN     
+          0/PT4-PM3-Fault LED           WORKING     OFF       
+0/PT5        
+          0/PT5-PM0-Input OK LED        WORKING     GREEN     
+          0/PT5-PM0-Output OK LED       WORKING     GREEN     
+          0/PT5-PM0-Fault LED           WORKING     OFF       
+          0/PT5-PM1-Input OK LED        WORKING     GREEN     
+          0/PT5-PM1-Output OK LED       WORKING     GREEN     
+          0/PT5-PM1-Fault LED           WORKING     OFF       
+          0/PT5-PM2-Input OK LED        WORKING     GREEN     
+          0/PT5-PM2-Output OK LED       WORKING     GREEN     
+          0/PT5-PM2-Fault LED           WORKING     OFF       
+          0/PT5-PM3-Input OK LED        WORKING     GREEN     
+          0/PT5-PM3-Output OK LED       WORKING     GREEN     
+          0/PT5-PM3-Fault LED           WORKING     OFF       
+0/CI0        
+          0/CI0-Alarm Minor LED         WORKING     OFF       
+          0/CI0-Alarm Major LED         WORKING     OFF       
+          0/CI0-Alarm Critical LED      WORKING     OFF       
+RP/0/RP0/CPU0:r1-a-hesj-1# 

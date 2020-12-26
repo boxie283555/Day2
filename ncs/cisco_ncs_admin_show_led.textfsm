@@ -1,0 +1,15 @@
+Value Filldown Location (\S+)
+Value Required Led_name (\S+\s*.*\s*.*)
+Value Mode (\S+)
+Value Color (\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^${Location}\s+
+  ^\s+${Led_name}\s+${Mode}\s+${Color}\s+.* -> Record
+
+

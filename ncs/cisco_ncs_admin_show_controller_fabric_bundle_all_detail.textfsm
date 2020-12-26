@@ -1,0 +1,13 @@
+Value Required Bundle_rsp (\S+)
+Value Oper_state (\S+)
+Value Plane_id (\d+)
+Value Total_links (\d+)
+Value Down_links (\d+)
+Value Bundle_port1 (\S+)
+Value Bundle_port2 (\S+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s*${Bundle_rsp}\s+${Oper_state}\s+${Plane_id}\s+${Total_links}\s+${Down_links}\s+${Bundle_port1}\s+${Bundle_port2}.* -> Record

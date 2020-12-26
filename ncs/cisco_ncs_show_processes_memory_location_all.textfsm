@@ -1,0 +1,18 @@
+Value Filldown Node_id (\S+_\S+_\S+)
+Value Required Jid (\d+)
+Value Text_kb (\d+)
+Value Data_kb (\d+)
+Value Stack_kb (\d+)
+Value Dynamic_kb (\d+)
+Value Process (\S+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^node:\s+${Node_id}
+ ^${Jid}\s+${Text_kb}\s+${Data_kb}\s+${Stack_kb}\s+${Dynamic_kb}\s+${Process} -> Record
+
+
+
+

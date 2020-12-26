@@ -1,0 +1,10 @@
+Value Filldown Node_id (\S+)
+Value Required Kb_bytes_total (\d+)
+Value Kb_bytes_free (\d+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^\s*node:\s+${Node_id}
+ ^${Kb_bytes_total}\s+kbytes\s+total\s+\(${Kb_bytes_free}.* -> Record

@@ -1,0 +1,20 @@
+Value Required Plane_id (\d+)
+Value Admin_state (\S+)
+Value Plane_state (\S+)
+Value Plane_mode (\S+)
+Value Up_dn_counter (\d+)
+Value Up_mcast_counter (\d+)
+Value Total_bundles (\d+)
+Value Down_bundles (\d+)
+Value Ppu_state (\S+)
+
+
+
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s*${Plane_id}\s+${Admin_state}\s+${Plane_state}\s+${Plane_mode}\s+${Up_dn_counter}\s+${Up_mcast_counter}\s+${Total_bundles}\s+${Down_bundles}\s+${Ppu_state}.* -> Record

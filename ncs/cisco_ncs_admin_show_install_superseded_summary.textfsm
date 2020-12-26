@@ -1,0 +1,16 @@
+Value Packages_total (\d+)
+Value List Packages (.*)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+  ^\s*Superseded\s+Packages:\s+${Packages_total}
+  ^\s+${Packages} 
+  ^\s+${Packages} -> Record
+
+
+
+
+
+

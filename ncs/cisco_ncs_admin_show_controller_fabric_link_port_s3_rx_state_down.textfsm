@@ -1,0 +1,19 @@
+Value Sfe_port (\S+)
+Value Admin_oper_state (\S+)
+Value Near_end_cdr (\S+)
+Value Near_end_cxp_ch (\d+\/\d+)
+Value Far_end_cxp_ch (\d+\/\d+)
+Value Far_end_cdr (\S+-\S+-\S+-\S+)
+Value Other_end (\S+)
+
+
+
+Start
+  #^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+  ^-+ -> Parse
+
+Parse
+  ^\s*${Sfe_port}\s*${Admin_oper_state}\s{12,16}${Near_end_cxp_ch}\s+${Far_end_cxp_ch}\s+${Far_end_cdr}\s+${Other_end}.* -> Record
+  ^\s*${Sfe_port}\s*${Admin_oper_state}\s+${Near_end_cdr}\s+${Near_end_cxp_ch}\s+${Far_end_cxp_ch}\s+${Far_end_cdr}\s+${Other_end}.* -> Record
+
+

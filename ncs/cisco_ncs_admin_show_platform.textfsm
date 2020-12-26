@@ -1,0 +1,12 @@
+Value Required Location (\S+)
+Value Card_Type ((NCS-F-SCSW\s+\(SW\))|(\S+))
+Value Hw_State (\S+)
+Value Sw_state (\S+)
+Value Config_state (\S+)
+
+
+Start
+  ^\-+ -> Parse
+
+Parse
+  ^${Location}\s+${Card_Type}\s+${Hw_State}\s+${Sw_state}\s+${Config_state} -> Record
