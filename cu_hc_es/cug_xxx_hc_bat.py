@@ -1,4 +1,4 @@
-__author__ = 'jing'
+__author__ = 'Jing'
 import sys
 from os import system
 from common import write_log
