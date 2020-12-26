@@ -1,0 +1,37 @@
+Value Filldown RSI (^(\d+\/\w+\/.*)|(F\d\/.*))
+#Value Filldown Slot (\S+)
+#Value List Module (\S+)
+Value Required,Filldown Module (\S+)
+Value Inlet (\d*(\, \d*)*)
+Value Exhaust (\d*(\, \d*)*)
+Value List Hostspot (\d+(\, \d+)*)
+
+Start
+  ^${RSI}
+  ^\d+\/FC\d\/* -> parse
+  ^F\d\/.* -> fcparse
+  ^\s+${Module}\s{5}${Exhaust}\s{1,2}${Hostspot} -> Record
+  ^\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{1,2}${Inlet}\s{1,2}${Exhaust}\s{1,2}${Hostspot} -> Record
+  ^\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{2}${Inlet} -> Record
+
+parse
+  ^\s+${Module}\s{1,2}${Inlet}\s{1,2}${Exhaust} -> Record
+  ^\s+${Module}\s{5}${Inlet} -> Record
+  ^\s+${Module}\s{7}${Hostspot} -> Record
+
+fcparse
+  ^\s+${Module}\s{5}${Exhaust}\s{1,2}${Hostspot} -> Record
+  ^\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{1,2}${Inlet}\s{1,2}${Exhaust}\s{1,2}${Hostspot} -> Record
+  ^\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{7}${Hostspot} -> Record
+  ^\s+${Module}\s{2}${Inlet} -> Record
+
+
+
+
+
+

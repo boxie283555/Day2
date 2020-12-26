@@ -1,0 +1,11 @@
+show ntp status
+Sat Dec 26 10:24:39.526 UTC
+
+Clock is synchronized, stratum 2, reference is 172.18.108.15
+nominal freq is 1000.1530 Hz, actual freq is 1000.1452 Hz, precision is 2**10
+reference time is E3918C05.811F0A98 (10:16:37.504 UTC Sat Dec 26 2020)
+clock offset is -2.291 msec, root delay is 0.977 msec
+root dispersion is 26.28 msec, peer dispersion is 15.80 msec
+loopfilter state is 'CTRL' (Normal Controlled Loop), drift is 0.0000077807 s/s
+system poll interval is 1024, last update was 482 sec ago
+RP/0/RP0/CPU0:CRS-B#

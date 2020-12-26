@@ -1,0 +1,17 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Filldown Location ((\d+\/\d+\/\d+)|(\d\/\w+\/\w+))
+Value Filldown Cardtype (\S+)
+Value Filldown Version ((\d+.\d+)|(N/A))
+Value Type (\w+)
+Value Subtype (\w+)
+Value Currversion ((\d+\.\d+)|(.*))
+Value Required Upgrade (No|Yes)
+
+Start
+ # ^${Showtime} 
+  ^=+ -> Parse
+
+Parse
+  ^${Location}\s+${Cardtype}\s+${Version}\s+${Type}\s+${Subtype}\s+\d+\s+${Currversion}\s+${Upgrade}\s* -> Record
+  ^\s+${Type}\s+${Subtype}\s+\d+\s+${Currversion}\s+${Upgrade}\s* -> Record

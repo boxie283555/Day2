@@ -1,0 +1,65 @@
+{"index":{}}
+{"Node": "0/0/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/0/*","Module": "plimasic","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/1/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/1/*","Module": "plimasic","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/2/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/2/*","Module": "plimasic","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "jacket","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "spa0","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "spa1","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "spa2","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/3/*","Module": "spa4","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/5/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/5/*","Module": "plimasic","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/6/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/6/*","Module": "plimasic","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/RP0/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/RP1/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/FC0/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "Rack 0","Module": "Upper Fan Tray","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "Rack 0","Module": "Lower Fan Tray","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/FC1/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/AM0/*","Module": "Alarm LED status says","Status": "MAJOR","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/AM1/*","Module": "Alarm LED status says","Status": "NONE","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM0/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM1/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM2/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM3/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM4/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM5/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM6/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+{"index":{}}
+{"Node": "0/SM7/*","Module": "host","Status": "OK","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment led location all"}
+

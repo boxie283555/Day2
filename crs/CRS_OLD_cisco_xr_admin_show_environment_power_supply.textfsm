@@ -1,0 +1,16 @@
+Value Filldown Rack (Rack\s+\d)
+Value Zone (\S+\s+\d)
+Value Required Powermodule_a (\[A\d\])
+Value Powermodule_b (\[B\d\])
+Value Powermodue_a_Voltage (\d+\.\d+)
+Value Powermodue_b_Voltage (\d+\.\d+)
+Value Powermodue_a_urr_A (\d+\.\d+)
+Value Powermodue_b_urr_A (\d+\.\d+)
+
+
+Start
+ ^${Rack}:
+ ^\s+${Zone}:\s+${Powermodule_a},\s+${Powermodule_b}\s+${Powermodue_a_Voltage},\s+${Powermodue_b_Voltage}\s+${Powermodue_a_urr_A},\s+${Powermodue_b_urr_A} -> Record
+ #^\s+Total\s+Current:\s+${TotalA} -> Record
+ #^\s+Total\s+Power\s+:\s+${TotalW} -> Record
+

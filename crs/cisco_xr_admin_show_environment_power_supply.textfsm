@@ -1,0 +1,13 @@
+Value Filldown Rack ((Rack\s+\d)|(Rack\s+F\d))
+Value Required Pem ((A|B)\d)
+Value Outv ((\d+\.\d+))
+Value Outc ((\d+\.\d+))
+
+Start
+ ^${Rack}:
+ ^\s+${Pem}\s+${Outv}\s+${Outc} -> Record
+ ^${Rack}: -> Start
+
+
+
+
