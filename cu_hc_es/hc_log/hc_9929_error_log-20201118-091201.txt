@@ -1,3 +1,0 @@
-2020-11-18 09:12:04 index "hc.9929_a9k.iox.bgp.vrf.prefix_2020.11" divltnum process number transform failed , host "snxa-cal-e-1" dividend is  subtrahend is 5500 
-2020-11-18 09:12:04 index "hc.9929_a9k.iox.bgp.vrf.prefix_2020.11" divltnum process number transform failed , host "snxa-cal-e-1" dividend is  subtrahend is 5500 
-2020-11-18 09:12:06 got es index "hc.9929_a9k.iox.install.superceded_2020.11" data is empty

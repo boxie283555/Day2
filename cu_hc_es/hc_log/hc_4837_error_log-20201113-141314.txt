@@ -1,3 +1,0 @@
-2020-11-13 14:13:16 got es index "hc.4837_a9k.iox.process.mem_2020.11" data is empty
-2020-11-13 14:13:16 "hc.4837_a9k.iox.process.mem_2020.11" index rules json get "a9k.iox.process.mem" checklist failed
-2020-11-13 14:13:16 "hc.4837_a9k.iox.temperture_2020.11" index rules json get "a9k.iox.temperture" checklist failed

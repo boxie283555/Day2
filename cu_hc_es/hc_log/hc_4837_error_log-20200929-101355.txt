@@ -1,2 +1,0 @@
-2020-09-29 10:13:55 got es index "hc.4837_excel.iox.process.mem_2020.09" data is empty
-2020-09-29 10:13:55 "hc.4837_excel.iox.process.mem_2020.09" index rules json get "excel.iox.process.mem" checklist failed

@@ -1,6 +1,0 @@
-2020-12-01 09:01:02 got es index "hc.4837_a9k.iox.bgp.info_2020.12" data is empty
-2020-12-01 09:01:02 got es index "hc.4837_a9k.iox.bgp.vrf.prefix_2020.12" data is empty
-2020-12-01 09:01:02 got es index "hc.4837_a9k.iox.context_2020.12" data is empty
-2020-12-01 09:01:02 got es index "hc.4837_a9k.iox.install.active.smu_2020.12" data is empty
-2020-12-01 09:01:02 "hc.4837_a9k.iox.install.active.smu_2020.12" index rules json get "a9k.iox.install.active.smu" checklist failed
-2020-12-01 09:01:02 got es index "hc.4837_a9k.iox.install.inactive_2020.12" data is empty

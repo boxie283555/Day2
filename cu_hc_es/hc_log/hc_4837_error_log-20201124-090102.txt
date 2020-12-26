@@ -1,2 +1,0 @@
-2020-11-24 09:01:03 got es index "hc.4837_a9k.iox.install.superceded_2020.11" data is empty
-2020-11-24 09:01:04 got es index "hc.4837_a9k.iox.redundancy_2020.11" data is empty

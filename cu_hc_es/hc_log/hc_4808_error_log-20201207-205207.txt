@@ -1,1 +1,0 @@
-2020-12-07 20:52:07 "4808" customer indexes got failed by url "/_cat/indices?index=hc.4808*" 

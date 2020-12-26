@@ -1,2 +1,0 @@
-2020-12-05 09:01:02 got es index "hc.4837_a9k.iox.context_2020.12" data is empty
-2020-12-05 09:01:02 got es index "hc.4837_a9k.iox.install.inactive_2020.12" data is empty
