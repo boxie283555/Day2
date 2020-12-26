@@ -11,6 +11,10 @@
      #设备类型目前仅支持NCS或CRS
 4.修改/etc/hosts文件，指定ES服务器的地址,格式如下：
      x.x.x.x	elastic_host
+5.修改es_file_ncs_v1.conf文件，将所有字段xxx替换成项目名称
+6.修改es_file_v1.conf文件，将所有字段xxx替换成项目名称
+
+
 5.修改主脚本文件的属性如下：
      chmod 777 run.sh #CRS主脚本
      chmod 777 run_ncs.sh #NCS主脚本
