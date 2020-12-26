@@ -26,7 +26,7 @@ import multiprocessing
 current_dir = str(os.getcwd())+ "/"
 parent_dir =  "hcdata_crs"
 data_dir = current_dir + parent_dir
-template_dir = current_dir + "/ncs/"
+template_dir = current_dir + "/crs/"
 index_mapping_path = current_dir + "/crs_index_mapping"
 
 

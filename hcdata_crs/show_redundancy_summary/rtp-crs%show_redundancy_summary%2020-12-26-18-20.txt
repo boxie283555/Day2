@@ -1,0 +1,6 @@
+admin show redundancy summary
+Sat Dec 26 10:25:03.543 UTC
+    Active Node    Standby Node
+    -----------    ------------
+     0/RP0/CPU0      0/RP1/CPU0 (Ready, NSR: Ready)
+RP/0/RP0/CPU0:CRS-B#

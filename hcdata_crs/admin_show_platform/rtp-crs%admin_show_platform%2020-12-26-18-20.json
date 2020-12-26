@@ -1,0 +1,59 @@
+{"index":{}}
+{"Node": "0/0/SP","Type": "MSC-B(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/0/CPU0","Type": "MSC-B","Plim": "8-10GbE","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/1/CPU0","Type": "FP-140G","Plim": "Services Plim","State": "IOS XR RUN","Config_state": "PWR,NSHUT,NMON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/1/0","Type": "FP-140G(SPA)","Plim": "CGSE-PLUS","State": "OK","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/2/CPU0","Type": "MSC-140G","Plim": "1-100GbE","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/SP","Type": "FP40(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/CPU0","Type": "FP40","Plim": "20-1GbE-FLX","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/0","Type": "FP40(SPA)","Plim": "10X1GE","State": "OK","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/1","Type": "FP40(SPA)","Plim": "5X1GE","State": "OK","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/2","Type": "FP40(SPA)","Plim": "10X1GE","State": "OK","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/3/4","Type": "FP40(SPA)","Plim": "OC192RPR-XFP","State": "OK","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/5/CPU0","Type": "FP-140G","Plim": "20-10GbE","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/6/CPU0","Type": "FP-140G","Plim": "14-10GbE","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/7/*","Type": "UNKNOWN","Plim": "N/A","State": "PRESENT","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/15/*","Type": "UNKNOWN","Plim": "N/A","State": "PRESENT","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/RP0/CPU0","Type": "RP(Active)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/RP1/CPU0","Type": "RP(Standby)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/FC0/SP","Type": "LCC-FAN-CT-B(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/FC1/SP","Type": "LCC-FAN-CT-B(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/AM0/SP","Type": "ALARM(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/AM1/SP","Type": "ALARM(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM0/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM1/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM2/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM3/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM4/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM5/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM6/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+{"index":{}}
+{"Node": "0/SM7/SP","Type": "FC-140G/S(SP)","Plim": "N/A","State": "IOS XR RUN","Config_state": "PWR,NSHUT,MON","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show platform"}
+

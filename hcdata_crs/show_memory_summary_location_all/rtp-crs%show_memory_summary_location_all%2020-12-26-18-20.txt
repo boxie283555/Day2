@@ -1,0 +1,67 @@
+show memory summary location all
+Sat Dec 26 10:27:46.715 UTC
+
+node:      node0_0_CPU0
+------------------------------------------------------------------
+Physical Memory: 2048M total
+ Application Memory : 1845M (809M available)
+ Image: 42M (bootram: 42M)
+ Reserved: 160M, IOMem: 2028M, flashfsys: 0
+ Total shared window: 77M
+
+node:      node0_1_CPU0
+------------------------------------------------------------------
+Physical Memory: 4096M total
+ Application Memory : 3657M (2416M available)
+ Image: 49M (bootram: 49M)
+ Reserved: 324M, IOMem: 0, flashfsys: 0
+ Total shared window: 135M
+
+node:      node0_2_CPU0
+------------------------------------------------------------------
+Physical Memory: 4096M total
+ Application Memory : 3657M (2449M available)
+ Image: 49M (bootram: 49M)
+ Reserved: 324M, IOMem: 0, flashfsys: 0
+ Total shared window: 136M
+
+node:      node0_3_CPU0
+------------------------------------------------------------------
+Physical Memory: 2048M total
+ Application Memory : 1845M (784M available)
+ Image: 42M (bootram: 42M)
+ Reserved: 160M, IOMem: 2028M, flashfsys: 0
+ Total shared window: 77M
+
+node:      node0_5_CPU0
+------------------------------------------------------------------
+Physical Memory: 4096M total
+ Application Memory : 3657M (2200M available)
+ Image: 49M (bootram: 49M)
+ Reserved: 324M, IOMem: 0, flashfsys: 0
+ Total shared window: 138M
+
+node:      node0_6_CPU0
+------------------------------------------------------------------
+Physical Memory: 4096M total
+ Application Memory : 3657M (2391M available)
+ Image: 49M (bootram: 49M)
+ Reserved: 324M, IOMem: 0, flashfsys: 0
+ Total shared window: 138M
+
+node:      node0_RP0_CPU0
+------------------------------------------------------------------
+Physical Memory: 12288M total (8925M available)
+ Application Memory : 11809M (8925M available)
+ Image: 93M (bootram: 93M)
+ Reserved: 320M, IOMem: 0, flashfsys: 0
+ Total shared window: 42M
+
+node:      node0_RP1_CPU0
+------------------------------------------------------------------
+Physical Memory: 12288M total
+ Application Memory : 11809M (9565M available)
+ Image: 93M (bootram: 93M)
+ Reserved: 320M, IOMem: 0, flashfsys: 0
+ Total shared window: 39M
+RP/0/RP0/CPU0:CRS-B#
