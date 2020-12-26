@@ -1,0 +1,1 @@
+ncs1::1.1.1.1::test::123456::cisco_xr::NCS::cisco_xr
