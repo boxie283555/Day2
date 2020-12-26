@@ -13,13 +13,13 @@
      x.x.x.x	elastic_host
 5.修改es_file_ncs_v1.conf文件，将所有字段xxx替换成项目名称
 6.修改es_file_v1.conf文件，将所有字段xxx替换成项目名称
-
-
-5.修改主脚本文件的属性如下：
+7.将ncs_index_mapping目录下的所有文件改名hc.xxx -> hc.项目名称
+8.将crs_index_mapping目录下的所有文件改名hc.xxx -> hc.项目名称
+9.修改主脚本文件的属性如下：
      chmod 777 run.sh #CRS主脚本
      chmod 777 run_ncs.sh #NCS主脚本
-6.若检查CRS，执行./run.sh，结果数据存在hcdata_crs目录中。若检查NCS，执行./run_ncs.sh，结果数据存在hcdata_ncs目录中
-7.结果报表的输出：
+10.若检查CRS，执行./run.sh，结果数据存在hcdata_crs目录中。若检查NCS，执行./run_ncs.sh，结果数据存在hcdata_ncs目录中
+11.结果报表的输出：
      修改cu_hc_es\rules_json\conf.py文件.将所有字段xxx替换成项目名称，并修改这些字段：
      ES_IP_xxx = "x.x.x.x" 
      ES_PORT_xxx = "9200"
@@ -30,7 +30,7 @@
      MAIL_PASS_xxx = ""
      MAIL_FROM_xxx = ""
      MAIL_TO_xxx = [""]
-8.修改cug_xxx_hc_bat.py文件，将所有字段xxx替换成项目名称。包括文件名中的XXX。增加cug_xxx_hc_bat.py的执行属性。
+12.修改cug_xxx_hc_bat.py文件，将所有字段xxx替换成项目名称。包括文件名中的XXX。增加cug_xxx_hc_bat.py的执行属性。
 
     
 
