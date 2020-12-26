@@ -803,12 +803,12 @@ with open('command_ncs_v1.conf') as command_alias:
 
 
 #ASR9K
-with open('template_a9k_v1.conf') as a9k_f:
-     a9k_select_template = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_f)
-with open('es_file_a9k_v1.conf') as a9k_esf:
-     a9k_jsondir = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_esf)
-with open('command_alias_matrix_a9k_v1.conf') as a9k_command_alias:
-     a9k_command = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_command_alias)
+#with open('template_a9k_v1.conf') as a9k_f:
+     #a9k_select_template = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_f)
+#with open('es_file_a9k_v1.conf') as a9k_esf:
+     #a9k_jsondir = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_esf)
+#with open('command_alias_matrix_a9k_v1.conf') as a9k_command_alias:
+     #a9k_command = dict(x.strip().strip("\n\t").split("::", 1) for x in a9k_command_alias)
 
 
 
