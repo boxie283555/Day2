@@ -1,0 +1,7 @@
+Value Clock_ntp_state (unsynchronized|synchronized)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^Clock\s+is\s+${Clock_ntp_state}.* -> Record

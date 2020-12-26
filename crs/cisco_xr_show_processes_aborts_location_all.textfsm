@@ -1,0 +1,28 @@
+Value Node (\S+\d+\_\S*\d*\_\S*\d*)
+Value Time (\d{2}\/\d{2}\/\d{4}\s+..:..:..\.\d{3})
+#Value Required Reason (\d{2}\/\d{2}\/\d{4}\s+..:..:..\.\d{3}\s+.*)
+Value Required Reason (\S+.*)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+#Node or node diffrence
+ ^node:\s+${Node}
+ ^-+
+ #^\d{2}\/\d{2}\/\d{4}\s+..:..:..\.\d{3}\s+${Reason} -> Record
+ #^${Reason} -> Record
+ ^${Time}\s+${Reason} -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+

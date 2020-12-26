@@ -1,0 +1,13 @@
+Value Required Group_name (\S+)
+Value Current_placement ((\S+\/\S+\/\S+\(\S+\/\S+\/\S+\))|(\S+\/\S+\/\S+\(NO\S+\)))
+Value Reoptimized_placement ((\S+\/\S+\/\S+\(\S+\/\S+\/\S+\))|(\S+\/\S+\/\S+\(NO\S+\)))
+Value Fillup Reopt (No\s+changes\s+predicted)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^${Group_name}\s+${Current_placement}\s+${Reoptimized_placement}\s+ -> Continue.Record
+  ^${Reopt}.* -> Record
+
+

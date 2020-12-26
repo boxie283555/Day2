@@ -1,0 +1,27 @@
+Value Node ((\w+\/\w+\/\*)|(\S+\s+\d+))
+Value Module (((\w+\s+)*\w+)|(\S+))
+Value Status (\S+)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^${Node}:.*\(${Module}\)\s+\S+.*:\s+${Status} -> Record
+ ^${Node}:\s+${Module}:\s+\S+.*:\s+${Status} -> Record
+ ^${Node}:\s+${Module}:\s+${Status} -> Record
+
+
+ #^${Node}:\s+Module\s+\(${Module}\)\s+\S+.*:\s+${Status} -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+

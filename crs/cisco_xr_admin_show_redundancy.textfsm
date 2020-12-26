@@ -1,0 +1,52 @@
+Value Redundancy_info ((F\d|\d)\/(SC|RP)\d\/CPU0)
+#Value Active_node ((F\d|\d)\/(SC|RP)\d\/CPU0)
+#Value Standby_node ((F\d|\d)\/(SC|RP)\d\/CPU0)
+#Value Ready_YN_node ((F\d|\d)\/(SC|RP)\d\/CPU0\s+(is ready)|(Node Ready))
+#Value NSR_YN_Node (((F\d|\d)\/(SC|RP)\d\/CPU0)\s+(is NSR-not-configured)|(is NSR-ready))
+Value Required Sw_times ([1-9]{1,2})
+Value Lastsotime (\S{3}\s+\S{3}\s+\d{1,2}\s+..:..:..\s+\d{4})
+#Value Lastsotime (..:..:..)
+#Value LASTSOYDAY (\S{3}\s+\S{3}\s+\d{2}\s+..:..:..\s+\d{4}:\s+\d+\s+weeks\,\s+\d+\s+days)
+Value Reason (.*)
+
+
+
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+ # ^\.+ -> Parse1
+
+Parse1
+ ^Redundancy\s+information\s+for\s+node\s+${Redundancy_info}:
+ #^Node\s+${Active_node}\s+.*ACTIVE\s+role
+ #^Partner\s+.*${Standby_node}.*\s+.*STANDBY\s+role
+ #^.*${Ready_YN_node}
+ #^.*${NSR_YN_Node}
+ #^Last\s+switch\-over\s+${Lastsoymd}\s+${Lastsohmm}\s+\d{4}:\s+${LASTSOMIN}\s+minute.* -> Record
+ #^Last\s+switch\-over\s+${Lastsoymd}\s+${Lastsohmm}\s+\d{4}:\s+${LASTSOHOUR}\s+hour\,\s+${LASTSOMIN}\s+minute.* -> Record
+ ^Last\s+switch\-over\s+${Lastsotime}.*
+ ^\S+\s+\S+\s+been\s+${Sw_times}.*
+ #^There\s+has\s+been\s+${Sw_times}\s+switch\S+\s+since\s+reload
+ ^Standby\s+node\s+reload\s+\"${Reason}\" -> Record
+ #^\s+ -> Continue
+ #^\s+ -> Parse1
+
+ #^\sStandby\s+node\s+reload\s+\"${Reason}\" -> Parse1
+ #^Last\s+switch\-over\s+${Lastsoymd}\s+${Lastsohmm}\s+\d{4}:\s+${LASTSOWEEK}\s+weeks\,\s+${LASTSODAY}\s+days.*
+ #^Redundancy\s+information\s+for\s+node\s+${Redundancy_info}: -> Start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
