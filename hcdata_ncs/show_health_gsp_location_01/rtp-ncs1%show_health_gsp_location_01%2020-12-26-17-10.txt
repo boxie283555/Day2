@@ -1,17 +1,0 @@
-show health gsp location 0/rp1/cpu0
-Sat Dec 26 05:25:48.105 UTC
-------------------------------------------------------------
-In case this blocks for more than 6 minutes, Ctrl-C to abort.
-Target node: 0/RP1/CPU0
-------------------------------------------------------------
-1) Verifying global transport ...
-   gsp transport is healthy.
-2) Verifying gsp global system group ...
-   gsp global system group transport is healthy.
-3) Verifying SDR transport ...
-   gsp SDR system group transport is healthy.
-4) Verifying gsp SDR system group ...
-   gsp SDR system group transport is healthy.
-GSP health check completed at Sat Dec 26 05:25:48 UTC 2020.
-Summary: gsp is healthy.
-RP/1/RP0/CPU0:NCS-6008-B#

@@ -1,11 +1,0 @@
-show install active summary
-Sat Dec 26 05:16:21.486 UTC
-    Active Packages: 7
-        ncs6k-xr-6.3.3 version=6.3.3 [Boot image]
-        ncs6k-mcast-1.0.0.0-r633
-        ncs6k-mpls-1.1.0.0-r633
-        ncs6k-mgbl-2.0.0.0-r633
-        ncs6k-doc-1.0.0.0-r633
-        ncs6k-k9sec-2.1.0.0-r633
-        ncs6k-iosxr-fwding-3.0.0.4-r633.CSCvv99857
-RP/1/RP0/CPU0:NCS-6008-B#

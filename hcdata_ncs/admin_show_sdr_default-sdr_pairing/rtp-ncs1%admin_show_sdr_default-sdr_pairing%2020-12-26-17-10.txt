@@ -1,15 +1,0 @@
-admin show sdr default-sdr pairing
-Sat Dec 26 05:23:21.994 UTC
- Pairing Mode  INTER-RACK
- SDR Lead
-   Node 0 1/RP0
-   Node 1 NONE
- Pairs
-   Pair Name Pair0
-    Node 0   1/RP0
-    Node 1   NONE
- Pairs
-   Pair Name Pair1
-    Node 0   0/RP0
-    Node 1   0/RP1
-RP/1/RP0/CPU0:NCS-6008-B#

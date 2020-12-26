@@ -1,5 +1,0 @@
-RP/0/RP0/CPU0:r1-a-hesj-1# admin show install inactive summary 
-Mon Dec 21 13:32:48.207 CST
-inactive     Inactive Packages: 2
-        openssh-sshd-6.6p1-r0.0.host.x86_64
-        openssh-sshd-6.6p1-r0.0.admin.x86_64

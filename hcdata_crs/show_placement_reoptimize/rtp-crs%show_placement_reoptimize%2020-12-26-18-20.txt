@@ -1,14 +1,0 @@
-show placement reoptimize
-Sat Dec 26 10:25:20.555 UTC
----------------------------------------------------------------------------
-Group-Name          Current-Placement             Reoptimized-Placement         
----------------------------------------------------------------------------
-central-services    0/RP0/CPU0(0/RP1/CPU0)        0/RP0/CPU0(0/RP1/CPU0)        
-v4-routing          0/RP0/CPU0(0/RP1/CPU0)        0/RP0/CPU0(0/RP1/CPU0)        
-netmgmt             0/RP0/CPU0(0/RP1/CPU0)        0/RP0/CPU0(0/RP1/CPU0)        
-mcast-routing       0/RP0/CPU0(0/RP1/CPU0)        0/RP0/CPU0(0/RP1/CPU0)        
-v6-routing          0/RP0/CPU0(0/RP1/CPU0)        0/RP0/CPU0(0/RP1/CPU0)        
----------------------------------------------------------------------------
-No changes predicted.
----------------------------------------------------------------------------
-RP/0/RP0/CPU0:CRS-B#

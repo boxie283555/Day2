@@ -1,5 +1,0 @@
-RP/0/RP0/CPU0:r1-a-sxty-2#admin show install superseded summary
-Tue Dec 22 11:31:41.913 CST
-    Superseded Packages: 2
-        ncs6k-sse-1.1.0.3-r633.CSCvp43528 is fully superseded by ncs6k-sse-1.1.0.5-r633.CSCvr90450
-        ncs6k-base-1.0.0.1-r633.CSCvp43528 is fully superseded by ncs6k-base-1.0.0.2-r633.CSCvo35085

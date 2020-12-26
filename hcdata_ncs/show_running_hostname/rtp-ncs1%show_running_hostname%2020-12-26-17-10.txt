@@ -1,5 +1,0 @@
-show running hostname
-Sat Dec 26 05:12:53.029 UTC
-hostname NCS-6008-B
-
-RP/1/RP0/CPU0:NCS-6008-B#

@@ -1,7 +1,0 @@
-show redundancy summary
-Sat Dec 26 05:21:31.885 UTC
-    Active Node    Standby Node
-    -----------    ------------
-     0/RP0/CPU0      0/RP1/CPU0 (Node Ready, NSR:Ready)
-     1/RP0/CPU0             N/A 
-RP/1/RP0/CPU0:NCS-6008-B#

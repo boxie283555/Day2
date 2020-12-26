@@ -1,5 +1,0 @@
-show running hostname
-Sat Dec 26 10:20:49.335 UTC
-hostname CRS-B
-
-RP/0/RP0/CPU0:CRS-B#

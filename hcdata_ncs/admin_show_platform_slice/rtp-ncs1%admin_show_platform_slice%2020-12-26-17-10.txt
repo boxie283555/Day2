@@ -1,15 +1,0 @@
-admin show platform slice | exclude "RP"
-Sat Dec 26 05:17:21.542 UTC
-Location    Slice Num   Admin State    Oper State     
-------------------------------------------------------
-0/4         0           UP             UP             
-            1           UP             UP             
-            2           UP             UP             
-            3           UP             UP             
-1/6         0           UP             UP             
-            1           UP             UP             
-            2           UP             UP             
-            3           UP             UP             
-            4           UP             UP             
-
-RP/1/RP0/CPU0:NCS-6008-B#

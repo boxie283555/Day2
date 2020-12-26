@@ -1,18 +1,0 @@
-admin show controllers fabric plane all statistics
-Sat Dec 26 10:23:01.464 UTC
-  Flags: E-D - Exceeded display width.
-               Check detail option.
- 
-                      In                  Out       CE        UCE       PE 
-Plane                Cells               Cells     Cells     Cells     Cells
---------------------------------------------------------------------------------
-  0               84828101           169491543         0         0         0
-  1               84693724           169367975         0         0         0
-  2               84825947           169502833         0         0         0
-  3               84693367           169357818         0         0         0
-  4               84693579           169364769         0         0         0
-  5               84825441           169495443         0         0         0
-  6               84826879           169496498         0         0         0
-  7               84829614           169495344         0         0         0
-
-RP/0/RP0/CPU0:CRS-B#

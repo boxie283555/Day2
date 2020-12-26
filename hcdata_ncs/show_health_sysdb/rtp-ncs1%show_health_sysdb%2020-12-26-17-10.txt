@@ -1,9 +1,0 @@
-show health sysdb
-Sat Dec 26 05:27:13.168 UTC
-setting target node to node1_RP0_CPU0
-sysdb health on "shared plane"  result is (cost 0 seconds for this check) health OK
-
-sysdb health on "ipc space"  result is (cost 0 seconds for this check) health OK
-
-health check finished in 5 seconds
-RP/1/RP0/CPU0:NCS-6008-B#

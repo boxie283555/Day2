@@ -1,4 +1,0 @@
-show clock
-Sat Dec 26 05:04:22.129 UTC
-05:04:22.237 UTC Sat Dec 26 2020
-RP/1/RP0/CPU0:NCS-6008-B#

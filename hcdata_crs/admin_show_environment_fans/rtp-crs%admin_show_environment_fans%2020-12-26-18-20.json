@@ -1,5 +1,0 @@
-{"index":{}}
-{"Rack": "0","Location": "Upper","Fan0": "3900","Fan1": "3900","Fan2": "3900","Fan3": "3900","Fan4": "3990","Fan5": "3990","Fan6": "3900","Fan7": "3990","Fan8": "3990","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment fans"}
-{"index":{}}
-{"Rack": "0","Location": "Lower","Fan0": "3990","Fan1": "3990","Fan2": "3990","Fan3": "3990","Fan4": "3960","Fan5": "3990","Fan6": "3990","Fan7": "3990","Fan8": "3960","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show environment fans"}
-

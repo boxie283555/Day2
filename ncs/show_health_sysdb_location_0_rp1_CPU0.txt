@@ -1,9 +1,0 @@
-RP/0/RP0/CPU0:r1-a-hesj-1#show health sysdb location 0/rp1/CPU0 
-Tue Dec 22 13:38:13.483 CST
-setting target node to node0_RP1_CPU0
-sysdb health on "shared plane"  result is (cost 0 seconds for this check) health OK
-
-sysdb health on "ipc space"  result is (cost 0 seconds for this check) health OK
-
-health check finished in 5 seconds
-RP/0/RP0/CPU0:r1-a-hesj-1#

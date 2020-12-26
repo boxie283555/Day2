@@ -1,9 +1,0 @@
-admin show environment fans
-Sat Dec 26 10:15:15.610 UTC
-  Fan speed (rpm):
-  	FAN0	FAN1	FAN2	FAN3
-Rack 0:
- Upper 	3662	3685	3708	3685
- Lower 	3708	3708	3708	3708
-
-RP/0/RP0/CPU0:CRS-M#

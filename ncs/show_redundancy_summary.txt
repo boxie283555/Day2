@@ -1,7 +1,0 @@
-RP/0/RP0/CPU0:r1-a-hesj-1# show redundancy summary 
-Tue Dec 22 10:50:42.718 CST
-    Active Node    Standby Node
-    -----------    ------------
-     0/RP1/CPU0      1/RP0/CPU0 (Node Ready, NSR:Not Configured)
-     0/RP0/CPU0      1/RP1/CPU0 (Node Ready, NSR:Ready)
-RP/0/RP0/CPU0:r1-a-hesj-1#

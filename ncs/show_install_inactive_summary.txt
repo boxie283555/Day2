@@ -1,5 +1,0 @@
-RP/0/RP0/CPU0:r1-a-hesj-1# show install inactive summary 
-Mon Dec 21 13:43:06.040 CST
-1 inactive package(s) found:
-    openssh-sshd-6.6p1-r0.0.xr
-RP/0/RP0/CPU0:r1-a-hesj-1#

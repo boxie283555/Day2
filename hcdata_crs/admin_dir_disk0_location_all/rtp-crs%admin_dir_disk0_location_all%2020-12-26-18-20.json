@@ -1,5 +1,0 @@
-{"index":{}}
-{"Node_id": "node0_RP0_CPU0","Bytes_total": "12166610944","Bytes_free": "7357680128","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin dir disk0 location all"}
-{"index":{}}
-{"Node_id": "node0_RP1_CPU0","Bytes_total": "10700701696","Bytes_free": "6059282944","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin dir disk0 location all"}
-
