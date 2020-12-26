@@ -1,6 +1,6 @@
-Value Neighbor ((\d+\.\d+\.\d+\.\d+)|(.*))
-Value Remote_as ((\d+)|(\d+.\d+))
-Value State (\S+)
+Value Neighbor (.*)
+Value Remote_as ((\d+)|(\d+\.\d+))
+Value State ((\w+\s+(.*))|(\w+))
 Value Route_refresh (\d+)
 Value Family (.*)
 
@@ -10,7 +10,7 @@ Start
 
 Parse
  ^BGP\s+neighbor\s+is\s+${Neighbor}.*
- ^\s+Remote\s+AS\s+${Remote_as}.*
- ^\s+BGP\s+state\s+.\s+${State},.*
+ ^\s+Remote\s+AS\s+${Remote_as},.*
+ ^\s+BGP\s+state\s+.\s+${State}
  ^\s+Route_Refresh:\s+.*\s+${Route_refresh}
  ^\s+For\s+Address\s+Family:\s+${Family} -> Record

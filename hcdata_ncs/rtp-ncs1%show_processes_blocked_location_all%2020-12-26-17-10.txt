@@ -1,0 +1,61 @@
+show processes blocked location all
+Sat Dec 26 05:15:06.426 UTC
+
+ node:	node0_4_CPU0
+
+------------------------------------------
+ PID    TID    ProcessName      State        TimeInState  MiscInfo
+
+
+ node:	node1_6_CPU0
+
+------------------------------------------
+ PID    TID    ProcessName      State        TimeInState  MiscInfo
+
+
+ node:	node0_RP1_CPU0
+
+------------------------------------------
+ PID    TID    ProcessName      State        TimeInState  MiscInfo
+
+   6443   6517          lpts_fm Reply        588:17:44.191 5828   node1_RP0_CPU0 PID:5828
+
+
+ node:	node0_RP0_CPU0
+
+------------------------------------------
+ PID    TID    ProcessName      State        TimeInState  MiscInfo
+
+   7732   7792             ospf Reply        588:19:51.975 8920   node1_RP0_CPU0 PID:8920
+
+   7698   7741             ospf Reply        588:19:52.721 8920   node1_RP0_CPU0 PID:8920
+
+   7523   7595             isis Reply        588:19:54.649 8920   node1_RP0_CPU0 PID:8920
+
+   7524   7593             isis Reply        588:19:54.654 8920   node1_RP0_CPU0 PID:8920
+
+   7408   7521             isis Reply        588:19:55.529 8920   node1_RP0_CPU0 PID:8920
+
+   7337   7575              bgp Reply        588:19:54.871 8920   node1_RP0_CPU0 PID:8920
+
+   7338   7406             isis Reply        588:19:56.451 8920   node1_RP0_CPU0 PID:8920
+
+   7215   7273        l2vpn_mgr Reply        588:19:57.937 8920   node1_RP0_CPU0 PID:8920
+
+   7216   7437         mpls_ldp Reply        588:19:56.133 8920   node1_RP0_CPU0 PID:8920
+
+   6182   6309          lpts_fm Reply        588:20:30.402 5828   node1_RP0_CPU0 PID:5828
+
+
+ node:	node1_RP0_CPU0
+
+------------------------------------------
+ PID    TID    ProcessName      State        TimeInState  MiscInfo
+
+  26191  26191 sh_proc_ng_blocked Reply        00:00:00.100 4799   procfs_server
+
+   8925   9299       te_control Reply        588:19:49.263 8920   lspv_server
+
+   6766   7169          lpts_fm Reply        00:02:40.207 5828   lpts_pa
+
+RP/1/RP0/CPU0:NCS-6008-B#

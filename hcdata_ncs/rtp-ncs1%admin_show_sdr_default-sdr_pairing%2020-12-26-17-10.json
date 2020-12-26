@@ -1,0 +1,13 @@
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "SDR Lead","Pair_name": "","Pair_node": "Node 0","Pair_rp": "1/RP0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "SDR Lead","Pair_name": "","Pair_node": "Node 1","Pair_rp": "NONE","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "Pairs","Pair_name": "Pair0","Pair_node": "Node 0","Pair_rp": "1/RP0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "Pairs","Pair_name": "Pair0","Pair_node": "Node 1","Pair_rp": "NONE","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "Pairs","Pair_name": "Pair1","Pair_node": "Node 0","Pair_rp": "0/RP0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+{"index":{}}
+{"Pairing_mode": "INTER-RACK","Pair_item": "Pairs","Pair_name": "Pair1","Pair_node": "Node 1","Pair_rp": "0/RP1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show sdr default-sdr pairing"}
+

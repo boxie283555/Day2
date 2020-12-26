@@ -1,0 +1,385 @@
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/0","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/0","Bundle_port2": "0/FC0/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/1","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/1","Bundle_port2": "0/FC0/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/2","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/2","Bundle_port2": "0/FC0/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/3","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/3","Bundle_port2": "0/FC0/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/4","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/4","Bundle_port2": "0/FC0/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/5","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/5","Bundle_port2": "0/FC0/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/6","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/6","Bundle_port2": "0/FC0/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/7","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/7","Bundle_port2": "0/FC0/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/8","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/8","Bundle_port2": "1/FC0/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/9","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/9","Bundle_port2": "1/FC0/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/10","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/10","Bundle_port2": "1/FC0/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/11","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/11","Bundle_port2": "1/FC0/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/12","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/12","Bundle_port2": "1/FC0/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/13","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/13","Bundle_port2": "1/FC0/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/14","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/14","Bundle_port2": "1/FC0/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC0/15","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC0/15","Bundle_port2": "1/FC0/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/0","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/0","Bundle_port2": "0/FC1/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/1","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/1","Bundle_port2": "0/FC1/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/2","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC1/2","Bundle_port2": "0/FC1/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/3","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/3","Bundle_port2": "0/FC1/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/4","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/4","Bundle_port2": "0/FC1/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/5","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/5","Bundle_port2": "0/FC1/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/6","Oper_state": "DN","Plane_id": "1","Total_links": "12","Down_links": "12","Bundle_port1": "F0/FC1/6","Bundle_port2": "0/FC1/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/7","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/7","Bundle_port2": "0/FC1/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/8","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/8","Bundle_port2": "1/FC1/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/9","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/9","Bundle_port2": "1/FC1/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/10","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/10","Bundle_port2": "1/FC1/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/11","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/11","Bundle_port2": "1/FC1/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/12","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/12","Bundle_port2": "1/FC1/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/13","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/13","Bundle_port2": "1/FC1/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/14","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/14","Bundle_port2": "1/FC1/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC1/15","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC1/15","Bundle_port2": "1/FC1/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/0","Oper_state": "DN","Plane_id": "2","Total_links": "12","Down_links": "12","Bundle_port1": "F0/FC2/0","Bundle_port2": "0/FC2/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/1","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/1","Bundle_port2": "0/FC2/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/2","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/2","Bundle_port2": "0/FC2/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/3","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/3","Bundle_port2": "0/FC2/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/4","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/4","Bundle_port2": "0/FC2/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/5","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC2/5","Bundle_port2": "0/FC2/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/6","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/6","Bundle_port2": "0/FC2/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/7","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/7","Bundle_port2": "0/FC2/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/8","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/8","Bundle_port2": "1/FC2/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/9","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/9","Bundle_port2": "1/FC2/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/10","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/10","Bundle_port2": "1/FC2/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/11","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/11","Bundle_port2": "1/FC2/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/12","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/12","Bundle_port2": "1/FC2/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/13","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/13","Bundle_port2": "1/FC2/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/14","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/14","Bundle_port2": "1/FC2/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC2/15","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC2/15","Bundle_port2": "1/FC2/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/0","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/0","Bundle_port2": "0/FC3/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/1","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC3/1","Bundle_port2": "0/FC3/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/2","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/2","Bundle_port2": "0/FC3/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/3","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/3","Bundle_port2": "0/FC3/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/4","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/4","Bundle_port2": "0/FC3/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/5","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/5","Bundle_port2": "0/FC3/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/6","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/6","Bundle_port2": "0/FC3/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/7","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/7","Bundle_port2": "0/FC3/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/8","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/8","Bundle_port2": "1/FC3/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/9","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/9","Bundle_port2": "1/FC3/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/10","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/10","Bundle_port2": "1/FC3/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/11","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/11","Bundle_port2": "1/FC3/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/12","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/12","Bundle_port2": "1/FC3/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/13","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/13","Bundle_port2": "1/FC3/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/14","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/14","Bundle_port2": "1/FC3/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC3/15","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC3/15","Bundle_port2": "1/FC3/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/0","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/0","Bundle_port2": "0/FC4/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/1","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/1","Bundle_port2": "0/FC4/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/2","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/2","Bundle_port2": "0/FC4/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/3","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "2","Bundle_port1": "F0/FC4/3","Bundle_port2": "0/FC4/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/4","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/4","Bundle_port2": "0/FC4/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/5","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/5","Bundle_port2": "0/FC4/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/6","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/6","Bundle_port2": "0/FC4/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/7","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/7","Bundle_port2": "0/FC4/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/8","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/8","Bundle_port2": "1/FC4/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/9","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/9","Bundle_port2": "1/FC4/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/10","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/10","Bundle_port2": "1/FC4/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/11","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/11","Bundle_port2": "1/FC4/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/12","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/12","Bundle_port2": "1/FC4/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/13","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/13","Bundle_port2": "1/FC4/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/14","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/14","Bundle_port2": "1/FC4/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC4/15","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC4/15","Bundle_port2": "1/FC4/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/0","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/0","Bundle_port2": "0/FC5/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/1","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/1","Bundle_port2": "0/FC5/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/2","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/2","Bundle_port2": "0/FC5/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/3","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC5/3","Bundle_port2": "0/FC5/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/4","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC5/4","Bundle_port2": "0/FC5/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/5","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/5","Bundle_port2": "0/FC5/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/6","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/6","Bundle_port2": "0/FC5/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/7","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/7","Bundle_port2": "0/FC5/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/8","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/8","Bundle_port2": "1/FC5/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/9","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/9","Bundle_port2": "1/FC5/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/10","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/10","Bundle_port2": "1/FC5/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/11","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/11","Bundle_port2": "1/FC5/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/12","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/12","Bundle_port2": "1/FC5/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/13","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/13","Bundle_port2": "1/FC5/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/14","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/14","Bundle_port2": "1/FC5/6","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC5/15","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC5/15","Bundle_port2": "1/FC5/7","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/0","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/0","Bundle_port2": "0/FC0/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/1","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/1","Bundle_port2": "0/FC0/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/2","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/2","Bundle_port2": "0/FC0/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/3","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/3","Bundle_port2": "0/FC0/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/4","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/4","Bundle_port2": "0/FC0/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/5","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/5","Bundle_port2": "0/FC0/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/6","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/6","Bundle_port2": "0/FC0/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/7","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/7","Bundle_port2": "0/FC0/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/8","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/8","Bundle_port2": "1/FC0/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/9","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/9","Bundle_port2": "1/FC0/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/10","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/10","Bundle_port2": "1/FC0/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/11","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/11","Bundle_port2": "1/FC0/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/12","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/12","Bundle_port2": "1/FC0/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/13","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/13","Bundle_port2": "1/FC0/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/14","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/14","Bundle_port2": "1/FC0/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC6/15","Oper_state": "UP","Plane_id": "0","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC6/15","Bundle_port2": "1/FC0/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/0","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/0","Bundle_port2": "0/FC1/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/1","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/1","Bundle_port2": "0/FC1/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/2","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/2","Bundle_port2": "0/FC1/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/3","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/3","Bundle_port2": "0/FC1/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/4","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/4","Bundle_port2": "0/FC1/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/5","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/5","Bundle_port2": "0/FC1/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/6","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/6","Bundle_port2": "0/FC1/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/7","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/7","Bundle_port2": "0/FC1/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/8","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/8","Bundle_port2": "1/FC1/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/9","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/9","Bundle_port2": "1/FC1/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/10","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/10","Bundle_port2": "1/FC1/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/11","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/11","Bundle_port2": "1/FC1/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/12","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/12","Bundle_port2": "1/FC1/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/13","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/13","Bundle_port2": "1/FC1/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/14","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/14","Bundle_port2": "1/FC1/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC7/15","Oper_state": "UP","Plane_id": "1","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC7/15","Bundle_port2": "1/FC1/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/0","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/0","Bundle_port2": "0/FC2/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/1","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/1","Bundle_port2": "0/FC2/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/2","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/2","Bundle_port2": "0/FC2/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/3","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/3","Bundle_port2": "0/FC2/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/4","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/4","Bundle_port2": "0/FC2/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/5","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/5","Bundle_port2": "0/FC2/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/6","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/6","Bundle_port2": "0/FC2/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/7","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/7","Bundle_port2": "0/FC2/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/8","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/8","Bundle_port2": "1/FC2/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/9","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/9","Bundle_port2": "1/FC2/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/10","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/10","Bundle_port2": "1/FC2/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/11","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/11","Bundle_port2": "1/FC2/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/12","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/12","Bundle_port2": "1/FC2/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/13","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/13","Bundle_port2": "1/FC2/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/14","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/14","Bundle_port2": "1/FC2/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC8/15","Oper_state": "UP","Plane_id": "2","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC8/15","Bundle_port2": "1/FC2/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/0","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/0","Bundle_port2": "0/FC3/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/1","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/1","Bundle_port2": "0/FC3/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/2","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/2","Bundle_port2": "0/FC3/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/3","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/3","Bundle_port2": "0/FC3/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/4","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/4","Bundle_port2": "0/FC3/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/5","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/5","Bundle_port2": "0/FC3/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/6","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/6","Bundle_port2": "0/FC3/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/7","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/7","Bundle_port2": "0/FC3/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/8","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/8","Bundle_port2": "1/FC3/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/9","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/9","Bundle_port2": "1/FC3/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/10","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/10","Bundle_port2": "1/FC3/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/11","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/11","Bundle_port2": "1/FC3/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/12","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/12","Bundle_port2": "1/FC3/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/13","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/13","Bundle_port2": "1/FC3/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/14","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/14","Bundle_port2": "1/FC3/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC9/15","Oper_state": "UP","Plane_id": "3","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC9/15","Bundle_port2": "1/FC3/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/0","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/0","Bundle_port2": "0/FC4/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/1","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/1","Bundle_port2": "0/FC4/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/2","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/2","Bundle_port2": "0/FC4/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/3","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/3","Bundle_port2": "0/FC4/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/4","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/4","Bundle_port2": "0/FC4/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/5","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC10/5","Bundle_port2": "0/FC4/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/6","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/6","Bundle_port2": "0/FC4/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/7","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/7","Bundle_port2": "0/FC4/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/8","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/8","Bundle_port2": "1/FC4/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/9","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/9","Bundle_port2": "1/FC4/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/10","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/10","Bundle_port2": "1/FC4/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/11","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/11","Bundle_port2": "1/FC4/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/12","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/12","Bundle_port2": "1/FC4/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/13","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/13","Bundle_port2": "1/FC4/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/14","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/14","Bundle_port2": "1/FC4/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC10/15","Oper_state": "UP","Plane_id": "4","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC10/15","Bundle_port2": "1/FC4/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/0","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/0","Bundle_port2": "0/FC5/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/1","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/1","Bundle_port2": "0/FC5/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/2","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/2","Bundle_port2": "0/FC5/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/3","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC11/3","Bundle_port2": "0/FC5/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/4","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/4","Bundle_port2": "0/FC5/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/5","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/5","Bundle_port2": "0/FC5/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/6","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/6","Bundle_port2": "0/FC5/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/7","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/7","Bundle_port2": "0/FC5/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/8","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/8","Bundle_port2": "1/FC5/8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/9","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/9","Bundle_port2": "1/FC5/9","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/10","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/10","Bundle_port2": "1/FC5/10","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/11","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "1","Bundle_port1": "F0/FC11/11","Bundle_port2": "1/FC5/11","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/12","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/12","Bundle_port2": "1/FC5/12","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/13","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/13","Bundle_port2": "1/FC5/13","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/14","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/14","Bundle_port2": "1/FC5/14","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+{"index":{}}
+{"Bundle_rsp": "F0/FC11/15","Oper_state": "UP","Plane_id": "5","Total_links": "12","Down_links": "0","Bundle_port1": "F0/FC11/15","Bundle_port2": "1/FC5/15","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show controller fabric bundle all detail"}
+

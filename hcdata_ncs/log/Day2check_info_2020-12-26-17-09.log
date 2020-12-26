@@ -1,0 +1,53 @@
+2020-12-26 17:09:44,867:logger:INFO:_main_: hcdata_ncs Device Directory is Exist,So using the raw directory!
+2020-12-26 17:09:44,867:logger:INFO:_main_: start time:2020-12-26 17:09:44.865763!
+2020-12-26 17:09:47,200:logger:INFO:Waiting for all subprocesses done...
+2020-12-26 17:10:00,115:logger:WARNING:login_and_execcommand:rtp-ncs1 reconnecting....
+2020-12-26 17:10:13,019:logger:INFO:login_and_execcommand:rtp-ncs1 connect success!!!!
+2020-12-26 17:10:51,096:logger:INFO:login_and_execcommand: rtp-ncs1-show processes cpu location 0/rp0/CPU0 exec ok and write completed!
+2020-12-26 17:11:08,149:logger:INFO:login_and_execcommand: rtp-ncs1-show processes cpu location 0/rp1/CPU0 exec ok and write completed!
+2020-12-26 17:11:25,206:logger:INFO:login_and_execcommand: rtp-ncs1-show processes cpu location 1/rp0/CPU0 exec ok and write completed!
+2020-12-26 17:11:32,226:logger:WARNING:login_and_execcommand: rtp-ncs1_show processes cpu location 1/rp1/CPU0 exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:11:39,230:logger:WARNING:login_and_execcommand: rtp-ncs1_show processes cpu location 2/rp0/CPU0 exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:11:46,236:logger:WARNING:login_and_execcommand: rtp-ncs1_show processes cpu location 2/rp1/CPU0 exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:12:21,409:logger:INFO:login_and_execcommand: rtp-ncs1-show processes memory location all exec ok and write completed!
+2020-12-26 17:12:40,444:logger:INFO:login_and_execcommand: rtp-ncs1-show memory summary location all exec ok and write completed!
+2020-12-26 17:12:57,457:logger:INFO:login_and_execcommand: rtp-ncs1-show processes blocked location all exec ok and write completed!
+2020-12-26 17:13:04,466:logger:WARNING:login_and_execcommand: rtp-ncs1_show processes aborts location all exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:13:21,473:logger:INFO:login_and_execcommand: rtp-ncs1-admin show install active summary exec ok and write completed!
+2020-12-26 17:13:38,488:logger:INFO:login_and_execcommand: rtp-ncs1-admin show install inactive summary exec ok and write completed!
+2020-12-26 17:13:55,502:logger:INFO:login_and_execcommand: rtp-ncs1-admin show install superseded summary exec ok and write completed!
+2020-12-26 17:14:12,516:logger:INFO:login_and_execcommand: rtp-ncs1-show install active summary exec ok and write completed!
+2020-12-26 17:14:29,532:logger:INFO:login_and_execcommand: rtp-ncs1-show install inactive summary exec ok and write completed!
+2020-12-26 17:14:36,540:logger:WARNING:login_and_execcommand: rtp-ncs1_show install superseded summary exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:14:55,565:logger:INFO:login_and_execcommand: rtp-ncs1-admin show platform exec ok and write completed!
+2020-12-26 17:15:12,582:logger:INFO:login_and_execcommand: rtp-ncs1-admin show platform slice | exclude "RP" exec ok and write completed!
+2020-12-26 17:15:19,597:logger:WARNING:login_and_execcommand: rtp-ncs1_show context location all exec ok but no record match the template. the json can not create!!!!
+2020-12-26 17:15:38,609:logger:INFO:login_and_execcommand: rtp-ncs1-admin show environment fan | in "FT|FAN_" exec ok and write completed!
+2020-12-26 17:15:57,626:logger:INFO:login_and_execcommand: rtp-ncs1-admin show environment fan | in "PT|FAN_" exec ok and write completed!
+2020-12-26 17:16:20,660:logger:INFO:login_and_execcommand: rtp-ncs1-admin show environment power exec ok and write completed!
+2020-12-26 17:16:47,727:logger:INFO:login_and_execcommand: rtp-ncs1-admin show led exec ok and write completed!
+2020-12-26 17:17:12,823:logger:INFO:login_and_execcommand: rtp-ncs1-admin show hw-module fpd exec ok and write completed!
+2020-12-26 17:17:29,845:logger:INFO:login_and_execcommand: rtp-ncs1-show ntp status exec ok and write completed!
+2020-12-26 17:17:54,867:logger:INFO:login_and_execcommand: rtp-ncs1-admin dir harddisk: location all | in "kbytes free|/RP|/SC" exec ok and write completed!
+2020-12-26 17:18:21,886:logger:INFO:login_and_execcommand: rtp-ncs1-admin dir disk0: location all  | in "node|kbytes free" exec ok and write completed!
+2020-12-26 17:18:48,906:logger:INFO:login_and_execcommand: rtp-ncs1-admin dir rootfs: location all  | in "node|kbytes free" exec ok and write completed!
+2020-12-26 17:19:05,924:logger:INFO:login_and_execcommand: rtp-ncs1-show placement reoptimize exec ok and write completed!
+2020-12-26 17:19:22,934:logger:INFO:login_and_execcommand: rtp-ncs1-show redundancy summary exec ok and write completed!
+2020-12-26 17:19:39,945:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric plane all detail exec ok and write completed!
+2020-12-26 17:19:56,957:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric plane all statistics exec ok and write completed!
+2020-12-26 17:20:18,009:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric bundle all detail exec ok and write completed!
+2020-12-26 17:20:37,028:logger:INFO:login_and_execcommand: rtp-ncs1-admin show alarms brief exec ok and write completed!
+2020-12-26 17:20:56,040:logger:INFO:login_and_execcommand: rtp-ncs1-admin show vm exec ok and write completed!
+2020-12-26 17:21:13,053:logger:INFO:login_and_execcommand: rtp-ncs1-admin show sdr default-sdr pairing exec ok and write completed!
+2020-12-26 17:21:30,063:logger:INFO:login_and_execcommand: rtp-ncs1-admin show chassis exec ok and write completed!
+2020-12-26 17:21:51,085:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric link port s3 rx state down exec ok and write completed!
+2020-12-26 17:22:10,104:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric link port s2 rx state down exec ok and write completed!
+2020-12-26 17:22:29,120:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric sfe s13 all exec ok and write completed!
+2020-12-26 17:22:48,135:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric sfe s2 all exec ok and write completed!
+2020-12-26 17:23:05,147:logger:INFO:login_and_execcommand: rtp-ncs1-admin show controller fabric sfe fia all exec ok and write completed!
+2020-12-26 17:23:22,159:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 0/rp0/cpu0 exec ok and write completed!
+2020-12-26 17:23:39,170:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 0/rp1/cpu0 exec ok and write completed!
+2020-12-26 17:23:56,179:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 1/rp0/cpu0 exec ok and write completed!
+2020-12-26 17:24:13,190:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 1/rp1/cpu0 exec ok and write completed!
+2020-12-26 17:24:30,203:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 2/rp0/cpu0 exec ok and write completed!
+2020-12-26 17:24:47,218:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 2/rp1/cpu0 exec ok and write completed!

@@ -1,0 +1,29 @@
+{"index":{}}
+{"Node_id": "node0_RP1_CPU0","Pid": "6443","Tid": "6517","Name": "lpts_fm","State": "Reply","Time_in_state": "588:17:44.191","Miscinfo": "5828   node1_RP0_CPU0 PID:5828","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7732","Tid": "7792","Name": "ospf","State": "Reply","Time_in_state": "588:19:51.975","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7698","Tid": "7741","Name": "ospf","State": "Reply","Time_in_state": "588:19:52.721","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7523","Tid": "7595","Name": "isis","State": "Reply","Time_in_state": "588:19:54.649","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7524","Tid": "7593","Name": "isis","State": "Reply","Time_in_state": "588:19:54.654","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7408","Tid": "7521","Name": "isis","State": "Reply","Time_in_state": "588:19:55.529","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7337","Tid": "7575","Name": "bgp","State": "Reply","Time_in_state": "588:19:54.871","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7338","Tid": "7406","Name": "isis","State": "Reply","Time_in_state": "588:19:56.451","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7215","Tid": "7273","Name": "l2vpn_mgr","State": "Reply","Time_in_state": "588:19:57.937","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "7216","Tid": "7437","Name": "mpls_ldp","State": "Reply","Time_in_state": "588:19:56.133","Miscinfo": "8920   node1_RP0_CPU0 PID:8920","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node0_RP0_CPU0","Pid": "6182","Tid": "6309","Name": "lpts_fm","State": "Reply","Time_in_state": "588:20:30.402","Miscinfo": "5828   node1_RP0_CPU0 PID:5828","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node1_RP0_CPU0","Pid": "26191","Tid": "26191","Name": "sh_proc_ng_blocked","State": "Reply","Time_in_state": "00:00:00.100","Miscinfo": "4799   procfs_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node1_RP0_CPU0","Pid": "8925","Tid": "9299","Name": "te_control","State": "Reply","Time_in_state": "588:19:49.263","Miscinfo": "8920   lspv_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+{"index":{}}
+{"Node_id": "node1_RP0_CPU0","Pid": "6766","Tid": "7169","Name": "lpts_fm","State": "Reply","Time_in_state": "00:02:40.207","Miscinfo": "5828   lpts_pa","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes blocked location all"}
+

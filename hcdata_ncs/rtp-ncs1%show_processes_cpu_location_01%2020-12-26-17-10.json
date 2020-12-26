@@ -1,0 +1,529 @@
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "","Min1": "0","Min5": "0","Min15": "0","Process": "","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1","Min1": "0","Min5": "0","Min15": "0","Process": "init","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2","Min1": "0","Min5": "0","Min15": "0","Process": "kthreadd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/0:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/0:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7","Min1": "0","Min5": "0","Min15": "0","Process": "rcu_sched","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "8","Min1": "0","Min5": "0","Min15": "0","Process": "rcu_bh","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "9","Min1": "0","Min5": "0","Min15": "0","Process": "migration/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "10","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "11","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "12","Min1": "0","Min5": "0","Min15": "0","Process": "migration/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "13","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "14","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/1:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "15","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/1:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "16","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "17","Min1": "0","Min5": "0","Min15": "0","Process": "migration/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "18","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "19","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/2:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "20","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/2:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "21","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "22","Min1": "0","Min5": "0","Min15": "0","Process": "migration/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "23","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "24","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/3:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "25","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/3:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "26","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "27","Min1": "0","Min5": "0","Min15": "0","Process": "migration/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "28","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "29","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/4:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "30","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/4:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "31","Min1": "0","Min5": "0","Min15": "0","Process": "watchdog/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "32","Min1": "0","Min5": "0","Min15": "0","Process": "migration/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "33","Min1": "0","Min5": "0","Min15": "0","Process": "ksoftirqd/5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "34","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/5:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "35","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/5:0H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "36","Min1": "0","Min5": "0","Min15": "0","Process": "khelper","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "37","Min1": "0","Min5": "0","Min15": "0","Process": "kdevtmpfs","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "38","Min1": "0","Min5": "0","Min15": "0","Process": "netns","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "233","Min1": "0","Min5": "0","Min15": "0","Process": "writeback","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "236","Min1": "0","Min5": "0","Min15": "0","Process": "ksmd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "237","Min1": "0","Min5": "0","Min15": "0","Process": "khugepaged","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "238","Min1": "0","Min5": "0","Min15": "0","Process": "kintegrityd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "239","Min1": "0","Min5": "0","Min15": "0","Process": "bioset","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "240","Min1": "0","Min5": "0","Min15": "0","Process": "crypto","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "242","Min1": "0","Min5": "0","Min15": "0","Process": "kblockd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "639","Min1": "0","Min5": "0","Min15": "0","Process": "ata_sff","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "651","Min1": "0","Min5": "0","Min15": "0","Process": "khubd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "660","Min1": "0","Min5": "0","Min15": "0","Process": "md","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "754","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/1:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "785","Min1": "0","Min5": "0","Min15": "0","Process": "khungtaskd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "792","Min1": "0","Min5": "0","Min15": "0","Process": "kswapd0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "794","Min1": "0","Min5": "0","Min15": "0","Process": "fsnotify_mark","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1336","Min1": "0","Min5": "0","Min15": "0","Process": "uio","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1352","Min1": "0","Min5": "0","Min15": "0","Process": "kpsmoused","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1355","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/0:2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1394","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_addrconf","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1395","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/2:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1407","Min1": "0","Min5": "0","Min15": "0","Process": "deferwq","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1456","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1457","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1460","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1461","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1464","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1465","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_2","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1468","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1469","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1472","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1473","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_4","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1476","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_eh_5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1477","Min1": "0","Min5": "0","Min15": "0","Process": "scsi_tmf_5","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1488","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/4:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1490","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/3:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1494","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/5:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1559","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/0:1H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1562","Min1": "0","Min5": "0","Min15": "0","Process": "jbd2/vda1-8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "1563","Min1": "0","Min5": "0","Min15": "0","Process": "ext4-rsv-conver","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2001","Min1": "0","Min5": "0","Min15": "0","Process": "khvcd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2055","Min1": "0","Min5": "0","Min15": "0","Process": "cisco_nb","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2354","Min1": "0","Min5": "0","Min15": "0","Process": "jbd2/vdc-8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2355","Min1": "0","Min5": "0","Min15": "0","Process": "ext4-rsv-conver","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2401","Min1": "0","Min5": "0","Min15": "0","Process": "jbd2/vdb1-8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2402","Min1": "0","Min5": "0","Min15": "0","Process": "ext4-rsv-conver","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2464","Min1": "0","Min5": "0","Min15": "0","Process": "jbd2/vdb2-8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2465","Min1": "0","Min5": "0","Min15": "0","Process": "ext4-rsv-conver","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2489","Min1": "0","Min5": "0","Min15": "0","Process": "jbd2/vdb3-8","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2490","Min1": "0","Min5": "0","Min15": "0","Process": "ext4-rsv-conver","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2514","Min1": "0","Min5": "0","Min15": "0","Process": "kjournald","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2531","Min1": "0","Min5": "0","Min15": "0","Process": "bash","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2551","Min1": "0","Min5": "0","Min15": "0","Process": "bash","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "2587","Min1": "0","Min5": "0","Min15": "0","Process": "udevd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3060","Min1": "0","Min5": "0","Min15": "0","Process": "dbus-daemon","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3078","Min1": "0","Min5": "0","Min15": "0","Process": "sshd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3088","Min1": "0","Min5": "0","Min15": "0","Process": "rpcbind","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3153","Min1": "0","Min5": "0","Min15": "0","Process": "syslogd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3158","Min1": "0","Min5": "0","Min15": "0","Process": "klogd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3176","Min1": "0","Min5": "0","Min15": "0","Process": "xinetd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3190","Min1": "0","Min5": "0","Min15": "0","Process": "lighttpd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3208","Min1": "0","Min5": "0","Min15": "0","Process": "libvirtd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3254","Min1": "0","Min5": "0","Min15": "0","Process": "crond","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3297","Min1": "0","Min5": "0","Min15": "0","Process": "udevd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3398","Min1": "0","Min5": "0","Min15": "0","Process": "sh","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "3804","Min1": "0","Min5": "0","Min15": "0","Process": "udevd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4013","Min1": "0","Min5": "0","Min15": "0","Process": "bash","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4014","Min1": "0","Min5": "0","Min15": "0","Process": "dsr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4048","Min1": "0","Min5": "0","Min15": "0","Process": "ds","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4568","Min1": "0","Min5": "0","Min15": "0","Process": "bash","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4680","Min1": "0","Min5": "0","Min15": "0","Process": "processmgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4709","Min1": "0","Min5": "0","Min15": "0","Process": "devc-conaux-aux","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4712","Min1": "0","Min5": "0","Min15": "0","Process": "devc-conaux-con","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4713","Min1": "0","Min5": "0","Min15": "0","Process": "shmwin_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4714","Min1": "0","Min5": "0","Min15": "0","Process": "sdr_invmgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4715","Min1": "0","Min5": "0","Min15": "0","Process": "vm-monitor","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4717","Min1": "0","Min5": "0","Min15": "0","Process": "dumper","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4721","Min1": "0","Min5": "0","Min15": "0","Process": "qsm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4723","Min1": "0","Min5": "0","Min15": "0","Process": "correlatord","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4724","Min1": "0","Min5": "0","Min15": "0","Process": "syslogd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4725","Min1": "0","Min5": "0","Min15": "0","Process": "syslogd_helper","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4726","Min1": "0","Min5": "0","Min15": "0","Process": "syslog_dev","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4728","Min1": "0","Min5": "0","Min15": "0","Process": "mpa_fm_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4730","Min1": "0","Min5": "0","Min15": "0","Process": "spp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4731","Min1": "0","Min5": "0","Min15": "0","Process": "packet","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4732","Min1": "0","Min5": "0","Min15": "0","Process": "chkpt_proxy","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4733","Min1": "0","Min5": "0","Min15": "0","Process": "ltrace_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4734","Min1": "0","Min5": "0","Min15": "0","Process": "ltrace_sync","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4735","Min1": "0","Min5": "0","Min15": "0","Process": "resmon","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4736","Min1": "0","Min5": "0","Min15": "0","Process": "sld","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4738","Min1": "0","Min5": "0","Min15": "0","Process": "rmf_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4739","Min1": "0","Min5": "0","Min15": "0","Process": "bag_schema_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4740","Min1": "0","Min5": "0","Min15": "0","Process": "sysdb_svr_local","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4741","Min1": "0","Min5": "0","Min15": "0","Process": "enf_broker","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4742","Min1": "0","Min5": "0","Min15": "0","Process": "ssh_key_client","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4743","Min1": "0","Min5": "0","Min15": "0","Process": "gsp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4744","Min1": "0","Min5": "0","Min15": "0","Process": "fia_cfg","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4746","Min1": "0","Min5": "0","Min15": "0","Process": "fab_proxy","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4747","Min1": "0","Min5": "0","Min15": "0","Process": "meminfo_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4748","Min1": "0","Min5": "0","Min15": "0","Process": "showd_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4750","Min1": "0","Min5": "0","Min15": "0","Process": "aipc_cleaner","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4751","Min1": "0","Min5": "0","Min15": "0","Process": "rdsfs_svr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4753","Min1": "0","Min5": "0","Min15": "0","Process": "wdsysmon_fd_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4754","Min1": "0","Min5": "0","Min15": "0","Process": "sysdb_mc","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4755","Min1": "0","Min5": "0","Min15": "0","Process": "bundlemgr_checker","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4757","Min1": "0","Min5": "0","Min15": "0","Process": "cfgmgr-rp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4758","Min1": "0","Min5": "0","Min15": "0","Process": "parser_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4759","Min1": "0","Min5": "0","Min15": "0","Process": "nvgen_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4761","Min1": "0","Min5": "0","Min15": "0","Process": "timezone_config","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4762","Min1": "0","Min5": "0","Min15": "0","Process": "cerrno_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4763","Min1": "0","Min5": "0","Min15": "0","Process": "file_system_diag","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4766","Min1": "0","Min5": "0","Min15": "0","Process": "media_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4767","Min1": "0","Min5": "0","Min15": "0","Process": "procfs_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "4771","Min1": "0","Min5": "0","Min15": "0","Process": "sdr_instagt","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5298","Min1": "0","Min5": "0","Min15": "0","Process": "tty_exec_launcher","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5875","Min1": "0","Min5": "0","Min15": "0","Process": "ifmgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5876","Min1": "0","Min5": "0","Min15": "0","Process": "netio","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5877","Min1": "0","Min5": "0","Min15": "0","Process": "placed","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5879","Min1": "0","Min5": "0","Min15": "0","Process": "alarm-logger","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5880","Min1": "0","Min5": "0","Min15": "0","Process": "calv_alarm_mgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5881","Min1": "0","Min5": "0","Min15": "0","Process": "fwd_driver_partner","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5882","Min1": "0","Min5": "0","Min15": "0","Process": "mempool_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5883","Min1": "0","Min5": "0","Min15": "0","Process": "ncd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5885","Min1": "0","Min5": "0","Min15": "0","Process": "nsr_fo","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5887","Min1": "0","Min5": "0","Min15": "0","Process": "nsr_ping_reply","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5891","Min1": "0","Min5": "0","Min15": "0","Process": "rmf_cli_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5892","Min1": "0","Min5": "0","Min15": "0","Process": "rsi_agent","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5893","Min1": "0","Min5": "0","Min15": "0","Process": "sh_proc_mem_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5894","Min1": "0","Min5": "0","Min15": "0","Process": "sysmgr_show_proc_all_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5895","Min1": "0","Min5": "0","Min15": "0","Process": "tty_show_users_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5896","Min1": "0","Min5": "0","Min15": "0","Process": "fpd-serv","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5897","Min1": "0","Min5": "0","Min15": "0","Process": "mpls_io_ea","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5898","Min1": "0","Min5": "0","Min15": "0","Process": "aib","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5899","Min1": "0","Min5": "0","Min15": "0","Process": "bundlemgr_adj","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5900","Min1": "0","Min5": "0","Min15": "0","Process": "statsd_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5901","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_mfwd_partner","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5902","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_mfwd_partner","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5903","Min1": "0","Min5": "0","Min15": "0","Process": "pifibm_server_rp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5907","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_io","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5908","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_ma","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5910","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_nd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5913","Min1": "0","Min5": "0","Min15": "0","Process": "fib_mgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5917","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_ea","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5921","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_io","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5924","Min1": "0","Min5": "0","Min15": "0","Process": "procfind","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5932","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_ma","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5933","Min1": "0","Min5": "0","Min15": "0","Process": "debug_d","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "5939","Min1": "0","Min5": "0","Min15": "0","Process": "shelf_mgr_proxy","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6404","Min1": "0","Min5": "0","Min15": "0","Process": "tunl_gre_ea","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6427","Min1": "0","Min5": "0","Min15": "0","Process": "flowtrap","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6428","Min1": "0","Min5": "0","Min15": "0","Process": "l2fib_mgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6429","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_assembler","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6431","Min1": "0","Min5": "0","Min15": "0","Process": "statsd_manager_l","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6432","Min1": "0","Min5": "0","Min15": "0","Process": "mpls_io","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6433","Min1": "0","Min5": "0","Min15": "0","Process": "ntpd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6434","Min1": "0","Min5": "0","Min15": "0","Process": "clns","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6435","Min1": "0","Min5": "0","Min15": "0","Process": "arp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6436","Min1": "0","Min5": "0","Min15": "0","Process": "raw_ip","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6437","Min1": "0","Min5": "0","Min15": "0","Process": "tcp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6438","Min1": "0","Min5": "0","Min15": "0","Process": "udp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6439","Min1": "0","Min5": "0","Min15": "0","Process": "l2snoop","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6441","Min1": "0","Min5": "0","Min15": "0","Process": "tftp_fs","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6442","Min1": "0","Min5": "0","Min15": "0","Process": "showd_lc","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6443","Min1": "0","Min5": "0","Min15": "0","Process": "lpts_fm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6445","Min1": "0","Min5": "0","Min15": "0","Process": "ipsec_pp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6448","Min1": "0","Min5": "0","Min15": "0","Process": "eem_ed_sysmgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6453","Min1": "0","Min5": "0","Min15": "0","Process": "http_client","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6709","Min1": "0","Min5": "0","Min15": "0","Process": "rsvp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6710","Min1": "0","Min5": "0","Min15": "0","Process": "sdr_mgbl_proxy","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6711","Min1": "0","Min5": "0","Min15": "0","Process": "ospf","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6712","Min1": "0","Min5": "0","Min15": "0","Process": "ospfv3","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6713","Min1": "0","Min5": "0","Min15": "0","Process": "ospfv3_uv","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6714","Min1": "0","Min5": "0","Min15": "0","Process": "snmpd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6715","Min1": "0","Min5": "0","Min15": "0","Process": "ospf","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6719","Min1": "0","Min5": "0","Min15": "0","Process": "isis","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6720","Min1": "0","Min5": "0","Min15": "0","Process": "ospf","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6721","Min1": "0","Min5": "0","Min15": "0","Process": "ospf_uv","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6722","Min1": "0","Min5": "0","Min15": "0","Process": "isis","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6727","Min1": "0","Min5": "0","Min15": "0","Process": "bgp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6728","Min1": "0","Min5": "0","Min15": "0","Process": "isis","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6729","Min1": "0","Min5": "0","Min15": "0","Process": "isis","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6730","Min1": "0","Min5": "0","Min15": "0","Process": "isis_uv","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6732","Min1": "0","Min5": "0","Min15": "0","Process": "bpm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6733","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_static","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6734","Min1": "0","Min5": "0","Min15": "0","Process": "srms","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6735","Min1": "0","Min5": "0","Min15": "0","Process": "policy_repository","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6738","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_rib","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6739","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_rib","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6740","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_local","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6743","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_connected","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6744","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_local","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6745","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_connected","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6746","Min1": "0","Min5": "0","Min15": "0","Process": "bgp_epe","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6747","Min1": "0","Min5": "0","Min15": "0","Process": "mpls_static","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6750","Min1": "0","Min5": "0","Min15": "0","Process": "ipv4_rump","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6751","Min1": "0","Min5": "0","Min15": "0","Process": "ipv6_rump","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6753","Min1": "0","Min5": "0","Min15": "0","Process": "statsd_manager_g","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6899","Min1": "0","Min5": "0","Min15": "0","Process": "redstatsd","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6901","Min1": "0","Min5": "0","Min15": "0","Process": "cmp_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6903","Min1": "0","Min5": "0","Min15": "0","Process": "crypto_edm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6904","Min1": "0","Min5": "0","Min15": "0","Process": "eth_mgmt","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6908","Min1": "0","Min5": "0","Min15": "0","Process": "imaedm_server","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6910","Min1": "0","Min5": "0","Min15": "0","Process": "ipodwdm","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6911","Min1": "0","Min5": "0","Min15": "0","Process": "local_sock","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6912","Min1": "0","Min5": "0","Min15": "0","Process": "pfilter_ma","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6916","Min1": "0","Min5": "0","Min15": "0","Process": "spio_ma","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "6918","Min1": "0","Min5": "0","Min15": "0","Process": "ssm_process","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7397","Min1": "0","Min5": "0","Min15": "0","Process": "ether_caps_partner","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7399","Min1": "0","Min5": "0","Min15": "0","Process": "ether_sock","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7458","Min1": "0","Min5": "0","Min15": "0","Process": "mibd_entity","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7462","Min1": "0","Min5": "0","Min15": "0","Process": "mibd_infra","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7465","Min1": "0","Min5": "0","Min15": "0","Process": "mibd_interface","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7467","Min1": "0","Min5": "0","Min15": "0","Process": "mibd_route","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7509","Min1": "0","Min5": "0","Min15": "0","Process": "vlan_ea","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7559","Min1": "0","Min5": "0","Min15": "0","Process": "cdp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7620","Min1": "0","Min5": "0","Min15": "0","Process": "rt_check_mgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7621","Min1": "0","Min5": "0","Min15": "0","Process": "l2vpn_mgr","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7622","Min1": "0","Min5": "0","Min15": "0","Process": "mpls_ldp","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "7810","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/1:1H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "8563","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/u12:0","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "8773","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/3:1H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "10425","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/4:1H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "21469","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/u12:1","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "26384","Min1": "0","Min5": "0","Min15": "0","Process": "perl","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "26433","Min1": "0","Min5": "0","Min15": "0","Process": "perl","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "26498","Min1": "0","Min5": "0","Min15": "0","Process": "perl","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "26503","Min1": "0","Min5": "0","Min15": "0","Process": "kworker/2:1H","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+{"index":{}}
+{"Node": "node0_RP1_CPU0","Pid": "29756","Min1": "0","Min5": "0","Min15": "0","Process": "sleep","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show processes cpu location 01"}
+

@@ -1,0 +1,43 @@
+admin show controller fabric sfe s2 all
+Sat Dec 26 05:24:55.070 UTC
+
+   Sfe         Admin    Oper
+  R/S/A        State    State
+-----------------------------
+F0/FC0/0       UP       UP     
+F0/FC0/1       UP       UP     
+F0/FC0/2       UP       UP     
+F0/FC1/0       UP       UP     
+F0/FC1/1       UP       UP     
+F0/FC1/2       UP       UP     
+F0/FC2/0       UP       UP     
+F0/FC2/1       UP       UP     
+F0/FC2/2       UP       UP     
+F0/FC3/0       UP       UP     
+F0/FC3/1       UP       UP     
+F0/FC3/2       UP       UP     
+F0/FC4/0       UP       UP     
+F0/FC4/1       UP       UP     
+F0/FC4/2       UP       UP     
+F0/FC5/0       UP       UP     
+F0/FC5/1       UP       UP     
+F0/FC5/2       UP       UP     
+F0/FC6/0       UP       UP     
+F0/FC6/1       UP       UP     
+F0/FC6/2       UP       UP     
+F0/FC7/0       UP       UP     
+F0/FC7/1       UP       UP     
+F0/FC7/2       UP       UP     
+F0/FC8/0       UP       UP     
+F0/FC8/1       UP       UP     
+F0/FC8/2       UP       UP     
+F0/FC9/0       UP       UP     
+F0/FC9/1       UP       UP     
+F0/FC9/2       UP       UP     
+F0/FC10/0      UP       UP     
+F0/FC10/1      UP       UP     
+F0/FC10/2      UP       UP     
+F0/FC11/0      UP       UP     
+F0/FC11/1      UP       UP     
+F0/FC11/2      UP       UP     
+RP/1/RP0/CPU0:NCS-6008-B#

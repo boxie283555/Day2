@@ -1,0 +1,5 @@
+{"index":{}}
+{"A_node": "0/RP0/CPU0","S_node": "0/RP1/CPU0","State": "(Node Ready, NSR:Ready)","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show redundancy summary"}
+{"index":{}}
+{"A_node": "1/RP0/CPU0","S_node": "N/A","State": "","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show redundancy summary"}
+

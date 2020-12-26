@@ -1,0 +1,6 @@
+admin show install active summary
+Sat Dec 26 05:15:30.444 UTC
+     Active Packages: 1
+        ncs6k-sysadmin-6.3.3 version=6.3.3 [Boot image]
+
+RP/1/RP0/CPU0:NCS-6008-B#

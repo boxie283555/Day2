@@ -11,17 +11,3 @@ Parse1
  ^\S+.*=\s+${Crash_pid}
  ^Core\s+for\s+process:\s+${Crash_process}
  ^\S+.*:\s+${Crash_time}.* -> Record
-
-
-
-
-
-
-
-
-
-
-
-
-
-

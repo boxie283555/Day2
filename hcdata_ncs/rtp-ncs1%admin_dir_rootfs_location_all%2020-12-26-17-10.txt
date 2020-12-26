@@ -1,0 +1,27 @@
+admin dir rootfs: location all  | in "node|kbytes free$ll  | in "node|kbytes free"                          admin dir rootfs: location all  | in "node|kbytes fre$
+Sat Dec 26 05:20:47.849 UTC
+node:	0/4
+2453228 kbytes total (1368660 kbytes free)
+node:	0/4/VM1
+3965116 kbytes total (2086676 kbytes free)
+node:	0/RP1/CPU0/VM1
+3965116 kbytes total (2131696 kbytes free)
+node:	1/6/VM1
+3965116 kbytes total (2086672 kbytes free)
+node:	0/RP0/CPU0/VM1
+3965116 kbytes total (2131704 kbytes free)
+node:	1/RP0/CPU0/VM1
+3965116 kbytes total (2131744 kbytes free)
+node:	1/6
+2453228 kbytes total (1368720 kbytes free)
+node:	F0/SC0
+2453228 kbytes total (1660744 kbytes free)
+node:	F0/SC1
+2453228 kbytes total (1661340 kbytes free)
+node:	0/RP0
+2453228 kbytes total (1604008 kbytes free)
+node:	1/RP0
+2453228 kbytes total (1606672 kbytes free)
+node:	0/RP1
+2453228 kbytes total (1614804 kbytes free)
+RP/1/RP0/CPU0:NCS-6008-B#

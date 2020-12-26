@@ -1,0 +1,3 @@
+{"index":{}}
+{"Node": "1/RP1/CPU0","Gsp_transport": "healthy","Gsp_Global": "healthy","Gsp_sdr_transport": "healthy","Gsp_sdr_group": "healthy","Summary": "healthy","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show health gsp location 11"}
+

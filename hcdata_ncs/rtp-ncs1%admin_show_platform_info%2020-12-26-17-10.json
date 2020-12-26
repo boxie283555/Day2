@@ -1,0 +1,117 @@
+{"index":{}}
+{"Location": "0/4","Card_Type": "NC6-60X10GE-L-S","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/RP0","Card_Type": "NC6-RP","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/RP1","Card_Type": "NC6-RP","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC0","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC1","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC2","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC3","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC4","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FC5","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/CI0","Card_Type": "NCS-CRFT","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FT0","Card_Type": "NC6-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/FT1","Card_Type": "NC6-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT0","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT1","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT2","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT3","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT4","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "0/PT5","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/6","Card_Type": "NC6-10X100G-L-K","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/RP0","Card_Type": "NC6-RP","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC0","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC1","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC2","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC3","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC4","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FC5","Card_Type": "NC6-FC-MC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/CI0","Card_Type": "NCS-CRFT=","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FT0","Card_Type": "NC6-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/FT1","Card_Type": "NC6-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT0","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT1","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT2","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT3","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT4","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "1/PT5","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/SC0","Card_Type": "NCS-F-SCSW","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/SC1","Card_Type": "NCS-F-SCSW","Hw_State": "OPERATIONAL","Sw_state": "OPERATIONAL","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC0","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC1","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC2","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC3","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC4","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC5","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC6","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC7","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC8","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC9","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC10","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FC11","Card_Type": "NCS-F-FC","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/CI0","Card_Type": "NCS-CRFT","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FT0","Card_Type": "NCS-F-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/FT1","Card_Type": "NCS-F-FANTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/PT0","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/PT1","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/PT2","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/PT3","Card_Type": "NCS-AC-PWRTRAY","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/SW0","Card_Type": "NCS-F-SCSW (SW)","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+{"index":{}}
+{"Location": "F0/SW1","Card_Type": "NCS-F-SCSW (SW)","Hw_State": "OPERATIONAL","Sw_state": "N/A","Config_state": "NSHUT","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "admin show platform info"}
+

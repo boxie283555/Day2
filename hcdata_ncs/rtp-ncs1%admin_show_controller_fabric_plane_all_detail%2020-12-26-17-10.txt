@@ -1,0 +1,13 @@
+admin show controller fabric plane all detail
+Sat Dec 26 05:21:48.892 UTC
+
+Plane Admin Plane  Plane  up->dn  up->mcast Total   Down    PPU
+Id    State State  Mode   counter   counter Bundles Bundles State
+------------------------------------------------------------
+0     UP    UP          MC      79       120     32       0  NA        
+1     UP    UP          MC      79       148     32       1  NA        
+2     UP    UP          MC      79       152     32       1  NA        
+3     UP    UP          MC      79       152     32       0  NA        
+4     UP    UP          MC      79       151     32       0  NA        
+5     UP    UP          MC      79       159     32       0  NA        
+RP/1/RP0/CPU0:NCS-6008-B#

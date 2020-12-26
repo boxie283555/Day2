@@ -1,0 +1,27 @@
+show install inactive summary
+Sat Dec 26 05:16:38.495 UTC
+23 inactive package(s) found:
+    ncs6k-sse-1.1.0.5-r633.CSCvu25766
+    ncs6k-mgbl-1.0.0.0-r642
+    ncs6k-iosxr-fwding-3.0.0.3-r633.CSCvv57079
+    ncs6k-doc-1.0.0.0-r642
+    ncs6k-iosxr-fwding-3.0.0.22-r633.CSCvu25766
+    ncs6k-k9sec-1.1.0.0-r642
+    ncs6k-li-1.0.0.1-r633.CSCvn47048
+    ncs6k-mpls-1.1.0.0-r642
+    ncs6k-iosxr-os-2.1.0.19-r633.CSCvu25766
+    ncs6k-mcast-1.0.0.0-r642
+    ncs6k-sse-1.1.0.3-r633.CSCvu25766
+    ncs6k-iosxr-fwding-3.0.0.2-r633.CSCvv57079
+    ncs6k-iosxr-fwding-3.0.0.26-r633.CSCvu25766
+    ncs6k-iosxr-os-2.1.0.22-r633.CSCvu25766
+    ncs6k-iosxr-fwding-3.0.0.3-r633.CSCvu25766
+    ncs6k-iosxr-fwding-3.0.0.14-r633.CSCvu25766
+    ncs6k-iosxr-os-2.1.0.14-r633.CSCvu25766
+    ncs6k-iosxr-fwding-3.0.0.5-r633.CSCvu25766
+    ncs6k-iosxr-fwding-3.0.0.19-r633.CSCvu25766
+    ncs6k-sse-1.1.0.11-r633.CSCvn10473
+    ncs6k-mini-x-6.4.2
+    ncs6k-iosxr-os-2.1.0.26-r633.CSCvu25766
+    ncs6k-li-1.0.0.0-r642
+RP/1/RP0/CPU0:NCS-6008-B#

@@ -1,0 +1,4 @@
+show processes cpu location 2/rp1/CPU0
+Sat Dec 26 05:14:05.209 UTC
+---- node2_RP1_CPU0 ----
+RP/1/RP0/CPU0:NCS-6008-B#

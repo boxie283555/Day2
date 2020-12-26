@@ -1,0 +1,9 @@
+admin show chassis
+Sat Dec 26 05:23:39.007 UTC
+Serial Num    Rack Num    Rack Type   Rack State  Data Plane  Ctrl Plane  
+--------------------------------------------------------------------------
+FLM172265RR   1           LCC         OPERATIONAL CONN        CONN        
+FLM183171HN   0           LCC         OPERATIONAL CONN        CONN        
+FLM183572FX   F0          FCC         OPERATIONAL CONN        CONN        
+
+RP/1/RP0/CPU0:NCS-6008-B#

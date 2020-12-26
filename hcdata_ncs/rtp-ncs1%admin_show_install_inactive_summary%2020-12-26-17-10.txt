@@ -1,0 +1,6 @@
+admin show install inactive summary
+Sat Dec 26 05:15:47.455 UTC
+inactive     Inactive Packages: 1
+        ncs6k-mini-x-6.4.2
+
+RP/1/RP0/CPU0:NCS-6008-B#

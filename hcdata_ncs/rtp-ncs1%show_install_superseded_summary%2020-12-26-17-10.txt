@@ -1,0 +1,5 @@
+show install superseded summary
+Sat Dec 26 05:16:55.507 UTC
+No fully superseded package(s) found on the system
+
+RP/1/RP0/CPU0:NCS-6008-B#

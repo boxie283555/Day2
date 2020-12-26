@@ -16,8 +16,3 @@ Parse
   ^CHASSIS\s+LEVEL\s+POWER\s+INFO:\s+${Chassis_id}
   ^Power\s+Shelf\s+${Power_shelf}:.*
   ^\s+${Power_module}\s+${Supply_type}\s+${In_voltage_v}\s+${In_current_a}\s+${Out_voltage_v}\s+${Out_current_a}\s+${Status}\s* -> Record
-
-
-
-
-

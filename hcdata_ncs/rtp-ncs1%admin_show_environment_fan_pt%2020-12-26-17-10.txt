@@ -1,0 +1,22 @@
+admin show environment fan | in "PT|FAN_"
+Sat Dec 26 05:18:04.585 UTC
+Location     FRU Type           FAN_0   FAN_1   FAN_2   FAN_3   FAN_4   FAN_5
+0/PT1-PM0    PWR-3KW-AC-V2       7441    7914   
+0/PT1-PM1    PWR-3KW-AC-V2       9892    9763   
+0/PT1-PM2    PWR-3KW-AC-V2       7441    7849   
+0/PT5-PM0    PWR-3KW-AC-V2       7441    7914   
+0/PT5-PM1    PWR-3KW-AC-V2       7441    7914   
+0/PT5-PM2    PWR-3KW-AC-V2       7441    8022   
+1/PT1-PM0    PWR-3KW-AC-V2       7548    8022   
+1/PT1-PM1    PWR-3KW-AC-V2       7484    7914   
+1/PT2-PM2    PWR-3KW-AC-V2       9828    9785   
+1/PT5-PM0    PWR-3KW-AC-V2       7441    7849   
+1/PT5-PM1    PWR-3KW-AC-V2       7441    7914   
+1/PT5-PM2    PWR-3KW-AC-V2       7441    7914   
+F0/PT0-PM0    PWR-3KW-AC-V2          -       -   
+F0/PT0-PM1    PWR-3KW-AC-V2      10022   10559   
+F0/PT0-PM2    PWR-3KW-AC-V2          -       -   
+F0/PT3-PM0    PWR-3KW-AC-V2       9591    9849   
+F0/PT3-PM1    PWR-3KW-AC-V2          -       -   
+F0/PT3-PM2    PWR-3KW-AC-V2       9677    9699   
+RP/1/RP0/CPU0:NCS-6008-B#
