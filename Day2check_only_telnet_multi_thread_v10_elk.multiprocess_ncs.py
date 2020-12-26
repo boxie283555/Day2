@@ -26,8 +26,8 @@ import multiprocessing
 current_dir = str(os.getcwd())+ "/"
 parent_dir =  "hcdata_ncs"
 data_dir = current_dir + parent_dir
-template_dir = "/opt/hc/templates/"
-index_mapping_path = "/opt/hc/4837_index_mapping/ncs"
+template_dir = current_dir + "/ncs/"
+index_mapping_path = current_dir + "/ncs_index_mapping"
 
 
 device_work_dir_list = list()
@@ -44,8 +44,8 @@ select_template = dict()
 #xr_show_list = ["admin show environment fans","admin show platform","admin show hw-module fpd location all","admin show controllers fabric plane all", \
 #"admin show controllers fabric connectivity all","admin show install active sum"]
 
-os.path.join('/opt/hc/templates','/opt/hc/templates/index')
-os.environ["NET_TEXTFSM"] = "/opt/hc/templates"
+os.path.join(template_dir)
+os.environ["NET_TEXTFSM"] = template_dir
 #os.path.join('/Users/boxie2/Desktop/python/struct-telnet/ntc-templates/templates','/Users/boxie2/Desktop/python/struct-telnet/ntc-templates/templates/index')
 #os.environ["NET_TEXTFSM"] = "/Users/boxie2/Desktop/python/struct-telnet/ntc-templates/templates"
 
