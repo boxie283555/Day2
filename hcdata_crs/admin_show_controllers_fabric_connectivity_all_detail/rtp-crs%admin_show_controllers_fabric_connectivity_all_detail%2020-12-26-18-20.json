@@ -1,0 +1,17 @@
+{"index":{}}
+{"Card": "0/0/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/1/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/2/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/3/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/5/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/6/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/RP0/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+{"index":{}}
+{"Card": "0/RP1/CPU0","In_use": "1","Tx_plane01234567": "11111111","Rx_plane01234567": "11111111","Monitor_s": "1268859","Total_uptime": "1268859","Percent_uptime": "100.0000","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show controllers fabric connectivity all detail"}
+

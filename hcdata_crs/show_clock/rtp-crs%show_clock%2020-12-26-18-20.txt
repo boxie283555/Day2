@@ -1,0 +1,4 @@
+show clock
+Sat Dec 26 10:20:37.312 UTC
+10:20:37.343 UTC Sat Dec 26 2020
+RP/0/RP0/CPU0:CRS-B#

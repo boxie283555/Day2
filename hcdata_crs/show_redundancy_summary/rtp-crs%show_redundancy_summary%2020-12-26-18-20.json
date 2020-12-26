@@ -1,0 +1,3 @@
+{"index":{}}
+{"A_node": "0/RP0/CPU0","S_node": "0/RP1/CPU0","State": "(Ready, NSR: Ready)","Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "show redundancy summary"}
+

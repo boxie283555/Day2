@@ -1,0 +1,19 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Required Bundle_rsmp (\w+\/\w+\/\w+\/\w+)
+Value Oper_state (UP|DOWN)
+Value Down_flags ([A-Za-z]+)
+Value Plane_id (\d)
+Value Total_links (\d+)
+Value Used_links (\d+)
+Value Down_bp1_bp2 (\d+)
+Value Down_bp2_bp1 (\d+)
+Value Bundle_port1 (\w+\/\w+\/\w+\/\w+)
+Value Bundle_port2 (\w+\/\w+\/\w+\/\w+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s+${Bundle_rsmp}\s+${Oper_state}\s+${Plane_id}\s+${Total_links}\s+${Used_links}\s+${Down_bp1_bp2}\s+${Down_bp2_bp1}\s+${Bundle_port1}\s+${Bundle_port2} -> Record
+  ^\s+${Bundle_rsmp}\s+${Oper_state}\s+${Down_flags}\s+${Plane_id}\s+${Total_links}\s+${Used_links}\s+${Down_bp1_bp2}\s+${Down_bp2_bp1}\s+${Bundle_port1}\s+${Bundle_port2} -> Record

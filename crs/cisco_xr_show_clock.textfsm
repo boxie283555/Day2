@@ -1,0 +1,12 @@
+#Value Showtime (..:..:...* \S+ \S+ \S+ \d+ \d+)
+Value Timestamp (..:..:...*\s+\S+\s+\S+\s+\S+\s+\d+\s+\d+)
+#Value Year (\d+)
+#Value MonthDay (\d+)
+#Value Month (\w+)
+#Value Timezone (\S+)
+#Value Time (..:..:..)
+
+Start
+  #^${Time}.* ${Timezone} \w+ ${Month} ${MonthDay} ${Year} -> Record
+  ^${Timestamp} -> Record
+

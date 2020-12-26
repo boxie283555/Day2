@@ -1,0 +1,21 @@
+admin dir disk0: location all | in "free|node:"
+Sat Dec 26 10:23:18.601 UTC
+ node:	node0_RP0_CPU0
+12166610944 bytes total (7357680128 bytes free)
+ node:	node0_RP1_CPU0
+10700701696 bytes total (6059282944 bytes free)
+ node:	node0_SM0_SP
+ node:	node0_SM1_SP
+ node:	node0_SM5_SP
+ node:	node0_SM6_SP
+ node:	node0_SM2_SP
+ node:	node0_SM7_SP
+ node:	node0_SM3_SP
+ node:	node0_SM4_SP
+ node:	node0_0_SP
+ node:	node0_FC0_SP
+ node:	node0_FC1_SP
+ node:	node0_AM0_SP
+ node:	node0_AM1_SP
+ node:	node0_3_SP
+RP/0/RP0/CPU0:CRS-B#

@@ -1,0 +1,24 @@
+admin show redundancy
+Sat Dec 26 10:24:56.532 UTC
+Redundancy information for node 0/RP0/CPU0:
+==========================================
+Node 0/RP0/CPU0 is in ACTIVE role
+Partner node (0/RP1/CPU0) is in STANDBY role
+Standby node in 0/RP1/CPU0 is ready
+Standby node in 0/RP1/CPU0 is NSR-ready
+
+Reload and boot info
+----------------------
+PRP reloaded Fri Dec 11 17:52:37 2020: 2 weeks, 16 hours, 32 minutes ago
+Active node booted Fri Dec 11 17:52:37 2020: 2 weeks, 16 hours, 32 minutes ago
+Standby node boot Fri Dec 11 17:52:24 2020: 2 weeks, 16 hours, 32 minutes ago
+Standby node last went not ready Fri Dec 18 19:53:31 2020: 1 week, 14 hours, 31 minutes ago
+Standby node last went ready Fri Dec 18 19:53:31 2020: 1 week, 14 hours, 31 minutes ago
+Standby node last went not NSR-ready Fri Dec 18 19:55:31 2020: 1 week, 14 hours, 29 minutes ago
+Standby node last went NSR-ready Fri Dec 18 19:55:31 2020: 1 week, 14 hours, 29 minutes ago
+There have been 0 switch-overs since reload
+
+Active node reload "Cause: Software forced reload all"
+Standby node reload "Cause: HBAgent reloading node on receiving reload notification"
+
+RP/0/RP0/CPU0:CRS-B#

@@ -1,0 +1,20 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Required Card (\S+)
+Value In_use (\d+)
+Value Tx_plane01234567 (\S+)
+Value Rx_plane01234567 (\S+)
+Value Monitor_s (\d+)
+Value Total_uptime (\d+)
+Value Percent_uptime (\d+.\d+)
+
+
+Start
+ # ^${Showtime} 
+ # ^\s+Card.+Planes\s+
+ # ^\s+R\/S\/M.+01234567\s+
+  ^\s+-.+\s+
+  ^${Card}\s+${In_use}\s+${Tx_plane01234567}\s+${Rx_plane01234567}\s+${Monitor_s}\s+${Total_uptime}\s+${Percent_uptime} -> Record
+#^${PLANE_ID}\s+${ADMIN_STATE}\s+${PLANE_STATE}\s+${UP_DN_COUNTER}\s+${UP_MCAST_COUNTER} -> Record
+#Parse
+#  ^\s+${PLANE_ID}\s+${ADMIN_STATE}\s+${OPER_STATE}\s+${UP_DN_COUNTER}\s+${UP_MCAST_COUNTER}\s+ -> Record

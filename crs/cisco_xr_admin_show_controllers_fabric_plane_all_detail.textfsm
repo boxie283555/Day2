@@ -1,0 +1,26 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Required Plane_id (\d+)
+Value Admin_state (\S+)
+Value Oper_state (\S+)
+Value Up_dn_counter (\d+)
+Value Up_mcast_counter (\d+)
+Value Down_flags (\S+)
+Value Plane_mode (\S+)
+Value Total_bundles (\d+)
+Value Down_bundles (\d+)
+
+
+
+
+
+Start
+#  ^${Showtime} 
+  #^Plane.+up\-\>mcast.+Down\s+Plane\s+Total\s+Down
+  #^Id.+counter\s+counter.+Bundles\s+Bundles
+  ^-.+ 
+  ^\s+${Plane_id}\s+${Admin_state}\s+${Oper_state}\s+${Up_dn_counter}\s+${Up_mcast_counter}\s+${Plane_mode}\s+${Total_bundles}\s+${Down_bundles}\s+ -> Continue.Record
+  ^\s+${Plane_id}\s+${Admin_state}\s+${Oper_state}\s+${Up_dn_counter}\s+${Up_mcast_counter}\s+${Down_flags}\s+${Plane_mode}\s+${Total_bundles}\s+${Down_bundles}\s+ -> Record
+#^${PLANE_ID}\s+${ADMIN_STATE}\s+${PLANE_STATE}\s+${UP_DN_COUNTER}\s+${UP_MCAST_COUNTER} -> Record
+#Parse
+#  ^\s+${PLANE_ID}\s+${ADMIN_STATE}\s+${OPER_STATE}\s+${UP_DN_COUNTER}\s+${UP_MCAST_COUNTER}\s+ -> Record

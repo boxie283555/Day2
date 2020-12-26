@@ -1,0 +1,3 @@
+{"index":{}}
+{"Packages": ["disk0:hfr-asr9000v-nV-px-6.1.2","disk0:hfr-diags-px-6.1.2","disk0:hfr-doc-px-6.1.2","disk0:hfr-fpd-px-6.1.2","disk0:hfr-k9sec-px-6.1.2","disk0:hfr-li-px-6.1.2","disk0:hfr-mcast-px-6.1.2","disk0:hfr-mgbl-px-6.1.2","disk0:hfr-mini-px-6.1.2","disk0:hfr-mpls-px-6.1.2","disk0:hfr-services-px-6.1.2","disk0:hfr-video-px-6.1.2"],"Timestamp": "2020-12-26T10:20:37+0800","Hostname": "CRS-B","Platform_type": "CRS","Command_name": "admin show install active summary"}
+

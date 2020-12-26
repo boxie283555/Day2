@@ -1,0 +1,17 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Plane_id (\d+)
+Value In_cells (\d+)
+Value Out_cells (\d+)
+Value Ce_cells (\d+)
+Value Uce_cells (\d+)
+Value Pe_cells (\d+)
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  #^\s+${Plane_id}.* -> Record
+  #^\s+${Plane_id}\s+${In_cells}\s+${Out_cells}\s+${Ce_cells}\s+${Uce_cells}\s+${PE_CELLS}\s+ -> Record
+  ^\s+${Plane_id}\s+${In_cells}\s+${Out_cells}\s+${Ce_cells}\s+${Uce_cells}\s+${Pe_cells} -> Record

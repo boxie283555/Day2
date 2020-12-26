@@ -1,0 +1,25 @@
+Value Filldown Rack (\w+)
+Value Required Location (\S+)
+Value Fan0 (\d+)
+Value Fan1 (\d+)
+Value Fan2 (\d+)
+Value Fan3 (\d+)
+Value Fan4 (\d+)
+Value Fan5 (\d+)
+Value Fan6 (\d+)
+Value Fan7 (\d+)
+Value Fan8 (\d+)
+
+Start
+  #^.+UTC
+  #^.+BeiJing
+  #^\s+Fan\s+speed\s+\(rpm\):
+  #^\s+FAN1\s+FAN2\s+FAN3\s+FAN4\s+FAN5\s+FAN6\s+FAN7\s+FAN8\s+FAN9
+  #^\s+FAN0\s+FAN1\s+FAN2\s+FAN3\s+FAN4\s+FAN5\s+FAN6\s+FAN7\s+FAN8
+  #^Rack -> Parse
+  #^\s*$$
+  #^.* -> Error "LINE NOT FOUND"
+  #Parse
+  #^${Showtime}
+  ^(Rack)\s+${Rack}
+  ^\s+${Location}\s+${Fan0}\s+${Fan1}\s+${Fan2}\s+${Fan3}\s+${Fan4}\s+${Fan5}\s+${Fan6}\s+${Fan7}\s+${Fan8} -> Record

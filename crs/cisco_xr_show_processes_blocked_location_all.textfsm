@@ -1,0 +1,20 @@
+Value Filldown Node_id (\S+_\S+_\S+)
+Value Required Jid (\d+)
+Value Pid (\d+)
+Value Tid (\d+)
+Value Name (\S+)
+Value State (\S+)
+Value Time_in_state (\d+:\d+:\d+:\d+)
+Value Blockedon (\d+)
+Value T_name (\S+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^node:\s+${Node_id}
+ ^\s+${Jid}\s+${Pid}\s+${Tid}\s+${Name}\s+${State}\s+${Time_in_state}\s+${Blockedon}\s+${T_name} -> Record
+
+
+
+
