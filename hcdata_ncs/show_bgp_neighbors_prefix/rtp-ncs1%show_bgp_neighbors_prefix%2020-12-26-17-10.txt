@@ -1,0 +1,24 @@
+show bgp neighbors | inc "neighbor is|Family|accepted $ighbor is|Family|accepted p                          refixes|Maximum prefixes a$refixes|Maximum prefixes al                          lowed"show bgp neighbors | inc "neighbor is|Family|accepted$
+Sat Dec 26 05:27:34.189 UTC
+BGP neighbor is 16.1.1.6
+ For Address Family: IPv4 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1048576
+ For Address Family: IPv6 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 524288
+BGP neighbor is 22.1.1.1
+ For Address Family: IPv4 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1048576
+ For Address Family: IPv6 Labeled-unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 131072
+BGP neighbor is 33.1.1.1
+ For Address Family: IPv4 Unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 1048576
+ For Address Family: IPv6 Labeled-unicast
+  0 accepted prefixes, 0 are bestpaths
+  Maximum prefixes allowed 131072
+RP/1/RP0/CPU0:NCS-6008-B#

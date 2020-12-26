@@ -1,0 +1,13 @@
+{"index":{}}
+{"Neighbor": "16.1.1.6","Remote_as": "16","State": "Idle (No best local address found)","Route_refresh": "0","Family": "IPv4 Unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+{"index":{}}
+{"Neighbor": "","Remote_as": "","State": "","Route_refresh": "","Family": "IPv6 Unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+{"index":{}}
+{"Neighbor": "22.1.1.1","Remote_as": "100","State": "Idle (No route to multi-hop neighbor)","Route_refresh": "0","Family": "IPv4 Unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+{"index":{}}
+{"Neighbor": "","Remote_as": "","State": "","Route_refresh": "","Family": "IPv6 Labeled-unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+{"index":{}}
+{"Neighbor": "33.1.1.1","Remote_as": "100","State": "Idle (No route to multi-hop neighbor)","Route_refresh": "0","Family": "IPv4 Unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+{"index":{}}
+{"Neighbor": "","Remote_as": "","State": "","Route_refresh": "","Family": "IPv6 Labeled-unicast","Timestamp": "2020-12-26T05:12:41+0800","Hostname": "NCS-6008-B","Platform_type": "NCS","Command_name": "show bgp neighbors info"}
+

@@ -1,1 +1,1 @@
-rtp-ncs1::172.18.120.178::boxie2::As4809.hsiehbo::cisco_xr::NCS::cisco_xr
+rtp-ncs1::172.18.45.178::test::test123::cisco_xr::NCS::cisco_xr

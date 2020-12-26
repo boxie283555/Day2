@@ -51,3 +51,112 @@
 2020-12-26 17:24:13,190:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 1/rp1/cpu0 exec ok and write completed!
 2020-12-26 17:24:30,203:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 2/rp0/cpu0 exec ok and write completed!
 2020-12-26 17:24:47,218:logger:INFO:login_and_execcommand: rtp-ncs1-show health gsp location 2/rp1/cpu0 exec ok and write completed!
+2020-12-26 17:25:08,236:logger:INFO:login_and_execcommand: rtp-ncs1-show health sysdb exec ok and write completed!
+2020-12-26 17:25:25,247:logger:INFO:login_and_execcommand: rtp-ncs1-show bgp neighbors | inc "neighbor is|Family|accepted prefixes|Maximum prefixes allowed" exec ok and write completed!
+2020-12-26 17:25:42,259:logger:INFO:login_and_execcommand: rtp-ncs1-show bgp neighbors detail | i "neighbor is|Remote AS|BGP state|Family|Route_Refres" exec ok and write completed!
+2020-12-26 17:25:44,263:logger:INFO:login_and_execcommand:rtp-ncs1-clear counters exec ok
+2020-12-26 17:25:46,264:logger:INFO:login_and_execcommand:rtp-ncs1-clear plane counters exec ok
+2020-12-26 17:25:46,265:logger:WARNING:Import_es_new:rtp-ncs1 there are 45 Json file, but 6 Json file is not exist!
+2020-12-26 17:25:47,684:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_processes_cpu_location_00%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:48,189:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_processes_cpu_location_01%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:48,679:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_processes_cpu_location_10%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:48,680:logger:WARNING:Import_es_new:rtp-ncs1--show processes cpu location 11 Json file is not exist!
+2020-12-26 17:25:48,682:logger:WARNING:Import_es_new:rtp-ncs1--show processes cpu location 20 Json file is not exist!
+2020-12-26 17:25:48,683:logger:WARNING:Import_es_new:rtp-ncs1--show processes cpu location 21 Json file is not exist!
+2020-12-26 17:25:50,266:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_processes_memory_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:51,450:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_memory_summary_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:52,264:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_processes_blocked_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:52,265:logger:WARNING:Import_es_new:rtp-ncs1--show processes aborts location all Json file is not exist!
+2020-12-26 17:25:53,188:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_install_active_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:54,167:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_install_inactive_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:55,892:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_install_superseded_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:56,586:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_install_active_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:57,320:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_install_inactive_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:57,321:logger:WARNING:Import_es_new:rtp-ncs1--show install superseded summary Json file is not exist!
+2020-12-26 17:25:58,733:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_platform_info%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:59,497:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_platform_slice%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:25:59,498:logger:WARNING:Import_es_new:rtp-ncs1--show context location all Json file is not exist!
+2020-12-26 17:26:00,250:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_environment_fan_ft%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:00,930:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_environment_fan_pt%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:01,786:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_environment_power%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:03,019:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_led%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:04,030:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_hw-module_fpd%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:04,861:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_ntp_status%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:05,781:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_dir_harddisk_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:06,708:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_dir_disk0_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:07,468:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_dir_rootfs_location_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:08,239:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_placement_reoptimize%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:09,161:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_redundancy_summary%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:10,082:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_plane_all_detail%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:11,022:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_plane_all_statistics%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:12,003:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_bundle_all_detail%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:12,846:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_alarms_brief%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:13,767:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_vm%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:14,428:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_sdr_default-sdr_pairing%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:15,140:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_chassis%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:16,226:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_link_port_s3_rx_state_down%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:17,453:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_link_port_s2_rx_state_down%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:18,377:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_sfe_s13_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:19,297:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_sfe_s2_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:20,220:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%admin_show_controller_fabric_sfe_fia_all%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:21,448:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_00%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:21,633:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_01%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:21,780:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_10%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:21,938:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_11%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:22,092:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_20%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:22,243:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_gsp_location_21%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:23,598:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_health_sysdb%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:24,520:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_bgp_neighbors_prefix%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:26,241:logger:INFO:Import_es_new:rtp-ncs1--rtp-ncs1%show_bgp_neighbors_info%2020-12-26-17-10.json import to ES OK!
+2020-12-26 17:26:26,839:logger:INFO:_main_: Total execution time:0:16:41.973453!
+2020-12-26 17:26:26,840:logger:INFO:mv_files: show_processes_cpu_location_00 directory is exists!!!
+2020-12-26 17:26:26,840:logger:INFO:mv_files: show_processes_cpu_location_01 directory is exists!!!
+2020-12-26 17:26:26,840:logger:INFO:mv_files: show_processes_cpu_location_10 directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_cpu_location_11 directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_cpu_location_20 directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_cpu_location_21 directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_memory_location_all directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_memory_summary_location_all directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_blocked_location_all directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: show_processes_aborts_location_all directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: admin_show_install_active_summary directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: admin_show_install_inactive_summary directory is exists!!!
+2020-12-26 17:26:26,841:logger:INFO:mv_files: admin_show_install_superseded_summary directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: show_install_active_summary directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: show_install_inactive_summary directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: show_install_superseded_summary directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: admin_show_platform_slice directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: show_context_location_all directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: admin_show_environment_fan_ft directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: admin_show_environment_fan_pt directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: admin_show_environment_power directory is exists!!!
+2020-12-26 17:26:26,842:logger:INFO:mv_files: admin_show_led directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: admin_show_hw-module_fpd directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: show_ntp_status directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: admin_dir_harddisk_location_all directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: admin_dir_disk0_location_all directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: admin_dir_rootfs_location_all directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: show_placement_reoptimize directory is exists!!!
+2020-12-26 17:26:26,843:logger:INFO:mv_files: show_redundancy_summary directory is exists!!!
+2020-12-26 17:26:26,852:logger:INFO:mv_files: admin_show_controller_fabric_plane_all_detail directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_controller_fabric_plane_all_statistics directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_controller_fabric_bundle_all_detail directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_alarms_brief directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_vm directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_sdr_default-sdr_pairing directory is exists!!!
+2020-12-26 17:26:26,853:logger:INFO:mv_files: admin_show_chassis directory is exists!!!
+2020-12-26 17:26:26,854:logger:INFO:mv_files: admin_show_controller_fabric_link_port_s3_rx_state_down directory is exists!!!
+2020-12-26 17:26:26,854:logger:INFO:mv_files: admin_show_controller_fabric_link_port_s2_rx_state_down directory is exists!!!
+2020-12-26 17:26:26,854:logger:INFO:mv_files: admin_show_controller_fabric_sfe_s13_all directory is exists!!!
+2020-12-26 17:26:26,854:logger:INFO:mv_files: admin_show_controller_fabric_sfe_s2_all directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: admin_show_controller_fabric_sfe_fia_all directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_00 directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_01 directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_10 directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_11 directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_20 directory is exists!!!
+2020-12-26 17:26:26,855:logger:INFO:mv_files: show_health_gsp_location_21 directory is exists!!!
+2020-12-26 17:26:26,856:logger:INFO:mv_files: show_clock directory is exists!!!
+2020-12-26 17:26:26,856:logger:INFO:mv_files: show_running_hostname directory is exists!!!
+2020-12-26 17:26:26,856:logger:INFO:mv_files: admin_show_environment_power-supply_old directory is exists!!!
+2020-12-26 17:26:26,908:logger:INFO:mv_files: all files moved success
