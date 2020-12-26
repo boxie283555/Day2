@@ -1,0 +1,11 @@
+{
+   "from":0,
+   "size":10000000,
+    "query": {
+        "range": {
+            "Timestamp": {
+            	"gte": "now-10h"
+        	}
+        }
+    }
+}

@@ -1,0 +1,298 @@
+[1;35;1m2020-12-07 20:52:07 "4808" customer indexes got failed by url "/_cat/indices?index=hc.4808*" [0m
+[1;33;1m
+888    888 888d88PY88b 
+888    888 888    888 
+8888888888 888        
+888    888 888        
+888    888 888    888 
+888    888 Y88b  d88P 
+888    888  "Y8888P"  
+       [0m
+[1;32;1m2020-12-07 20:54:25 ES 10.75.44.133 port 9200 is open[0m
+[1;33;1m
+888    888 888d88PY88b 
+888    888 888    888 
+8888888888 888        
+888    888 888        
+888    888 888    888 
+888    888 Y88b  d88P 
+888    888  "Y8888P"  
+       [0m
+[1;32;1m2020-12-07 20:55:07 ES 10.75.44.133 port 9200 is open[0m
+[1;34;1m2020-12-07 20:55:07 4808 es hc process starting [0m
+[1;34;1m2020-12-07 20:55:07 explain file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/rules_json/rules_4808.json" load success[0m
+[1;34;1m2020-12-07 20:55:07 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:07 elasticsearch index "hc.4808_a9k.iox.bgp.default.info_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:08 elasticsearch index "hc.4808_a9k.iox.bgp.default.info_2020.12" search was successful, a total of 86 records were found[0m
+[1;32;1m2020-12-07 20:55:08 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:08 The data is imported into the DF original table, and a total of 84 records are imported[0m
+[1;32;1m2020-12-07 20:55:08 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:08 excel a9k.iox.bgp.default.info sheet has been generated ，total 84 rows[0m
+[1;34;1m2020-12-07 20:55:08 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:08 elasticsearch index "hc.4808_a9k.iox.bgp.info_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:08 elasticsearch index "hc.4808_a9k.iox.bgp.info_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:55:08 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:08 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:08 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:08 excel a9k.iox.bgp.info sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:08 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:08 elasticsearch index "hc.4808_a9k.iox.bgp.prefix_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:08 elasticsearch index "hc.4808_a9k.iox.bgp.prefix_2020.12" search was successful, a total of 86 records were found[0m
+[1;32;1m2020-12-07 20:55:08 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:08 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:08 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.bgp.vrf.prefix_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.bgp.vrf.prefix_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:55:09 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:09 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:09 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.bootvar_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.bootvar_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:55:09 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:09 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:09 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:09 excel a9k.iox.bootvar sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:09 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.disk0_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:09 elasticsearch index "hc.4808_a9k.iox.disk0_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:55:09 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:09 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:09 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:09 excel a9k.iox.disk0 sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:09 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:10 elasticsearch index "hc.4808_a9k.iox.fans_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:10 elasticsearch index "hc.4808_a9k.iox.fans_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:55:10 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:10 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:10 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:10 elasticsearch index "hc.4808_a9k.iox.fpd_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:10 elasticsearch index "hc.4808_a9k.iox.fpd_2020.12" search was successful, a total of 124 records were found[0m
+[1;32;1m2020-12-07 20:55:10 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:10 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:10 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:10 elasticsearch index "hc.4808_a9k.iox.harddisk_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.harddisk_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:55:11 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:11 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:11 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:11 excel a9k.iox.harddisk sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:11 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.health.gsp_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.health.gsp_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:55:11 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:11 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:11 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.install.inactive_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.install.inactive_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:55:11 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:11 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:11 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:11 excel a9k.iox.install.inactive sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:11 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:11 elasticsearch index "hc.4808_a9k.iox.led_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.led_2020.12" search was successful, a total of 10 records were found[0m
+[1;32;1m2020-12-07 20:55:12 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:12 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:12 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.memory.summary_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.memory.summary_2020.12" search was successful, a total of 18 records were found[0m
+[1;32;1m2020-12-07 20:55:12 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:12 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:12 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.ntp_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.ntp_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:55:12 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:12 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:12 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:12 elasticsearch index "hc.4808_a9k.iox.pfm_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:13 elasticsearch index "hc.4808_a9k.iox.pfm_2020.12" search was successful, a total of 52 records were found[0m
+[1;32;1m2020-12-07 20:55:13 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:13 The data is imported into the DF original table, and a total of 16 records are imported[0m
+[1;32;1m2020-12-07 20:55:13 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:13 excel a9k.iox.pfm sheet has been generated ，total 16 rows[0m
+[1;34;1m2020-12-07 20:55:13 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:13 elasticsearch index "hc.4808_a9k.iox.platform_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:13 elasticsearch index "hc.4808_a9k.iox.platform_2020.12" search was successful, a total of 52 records were found[0m
+[1;32;1m2020-12-07 20:55:13 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:13 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:55:13 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:13 excel a9k.iox.platform sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:55:13 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:13 elasticsearch index "hc.4808_a9k.iox.power.supply_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:13 elasticsearch index "hc.4808_a9k.iox.power.supply_2020.12" search was successful, a total of 10 records were found[0m
+[1;32;1m2020-12-07 20:55:13 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:13 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:13 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:14 elasticsearch index "hc.4808_a9k.iox.prm_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:14 elasticsearch index "hc.4808_a9k.iox.prm_2020.12" search was successful, a total of 280 records were found[0m
+[1;32;1m2020-12-07 20:55:14 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:14 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:14 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:14 elasticsearch index "hc.4808_a9k.iox.process.block_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:14 elasticsearch index "hc.4808_a9k.iox.process.block_2020.12" search was successful, a total of 224 records were found[0m
+[1;32;1m2020-12-07 20:55:14 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:14 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:14 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:15 elasticsearch index "hc.4808_a9k.iox.process.cpu_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:15 elasticsearch index "hc.4808_a9k.iox.process.cpu_2020.12" search was successful, a total of 928 records were found[0m
+[1;32;1m2020-12-07 20:55:15 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:15 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:55:15 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:15 elasticsearch index "hc.4808_a9k.iox.redundancy.summary_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:15 elasticsearch index "hc.4808_a9k.iox.redundancy.summary_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:55:15 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:15 The data is imported into the DF original table, and a total of 4 records are imported[0m
+[1;32;1m2020-12-07 20:55:15 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:55:15 excel a9k.iox.redundancy.summary sheet has been generated ，total 4 rows[0m
+[1;34;1m2020-12-07 20:55:15 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:55:16 elasticsearch index "hc.4808_a9k.iox.temperture_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:55:16 elasticsearch index "hc.4808_a9k.iox.temperture_2020.12" search was successful, a total of 308 records were found[0m
+[1;32;1m2020-12-07 20:55:16 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:55:16 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;31;1m2020-12-07 20:55:16 error message "[Errno 2] No such file or directory: '/Users/boxie2/Desktop/BJ/4808/cu_hc_es/hc_results_4808/hc_4808-20201207-205507.xlsx'" [0m
+[1;33;1m
+888    888 888d88PY88b 
+888    888 888    888 
+8888888888 888        
+888    888 888        
+888    888 888    888 
+888    888 Y88b  d88P 
+888    888  "Y8888P"  
+       [0m
+[1;32;1m2020-12-07 20:56:24 ES 10.75.44.133 port 9200 is open[0m
+[1;34;1m2020-12-07 20:56:24 4808 es hc process starting [0m
+[1;34;1m2020-12-07 20:56:24 explain file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/rules_json/rules_4808.json" load success[0m
+[1;34;1m2020-12-07 20:56:24 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:25 elasticsearch index "hc.4808_a9k.iox.bgp.default.info_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:25 elasticsearch index "hc.4808_a9k.iox.bgp.default.info_2020.12" search was successful, a total of 86 records were found[0m
+[1;32;1m2020-12-07 20:56:25 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:25 The data is imported into the DF original table, and a total of 84 records are imported[0m
+[1;32;1m2020-12-07 20:56:25 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:25 excel a9k.iox.bgp.default.info sheet has been generated ，total 84 rows[0m
+[1;34;1m2020-12-07 20:56:25 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:25 elasticsearch index "hc.4808_a9k.iox.bgp.info_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:25 elasticsearch index "hc.4808_a9k.iox.bgp.info_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:56:25 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:25 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:25 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:25 excel a9k.iox.bgp.info sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:25 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bgp.prefix_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bgp.prefix_2020.12" search was successful, a total of 86 records were found[0m
+[1;32;1m2020-12-07 20:56:26 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:26 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:26 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bgp.vrf.prefix_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bgp.vrf.prefix_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:56:26 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:26 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:26 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bootvar_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:26 elasticsearch index "hc.4808_a9k.iox.bootvar_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:56:26 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:26 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:26 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:26 excel a9k.iox.bootvar sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:26 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:27 elasticsearch index "hc.4808_a9k.iox.disk0_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:27 elasticsearch index "hc.4808_a9k.iox.disk0_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:56:27 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:27 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:27 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:27 excel a9k.iox.disk0 sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:27 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:27 elasticsearch index "hc.4808_a9k.iox.fans_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:27 elasticsearch index "hc.4808_a9k.iox.fans_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:56:27 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:27 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:27 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:27 elasticsearch index "hc.4808_a9k.iox.fpd_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.fpd_2020.12" search was successful, a total of 124 records were found[0m
+[1;32;1m2020-12-07 20:56:28 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:28 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:28 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.harddisk_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.harddisk_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:56:28 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:28 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:28 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:28 excel a9k.iox.harddisk sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:28 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.health.gsp_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.health.gsp_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:56:28 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:28 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:28 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:28 elasticsearch index "hc.4808_a9k.iox.install.inactive_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.install.inactive_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:56:29 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:29 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:29 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:29 excel a9k.iox.install.inactive sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:29 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.led_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.led_2020.12" search was successful, a total of 10 records were found[0m
+[1;32;1m2020-12-07 20:56:29 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:29 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:29 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.memory.summary_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.memory.summary_2020.12" search was successful, a total of 18 records were found[0m
+[1;32;1m2020-12-07 20:56:29 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:29 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:29 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:29 elasticsearch index "hc.4808_a9k.iox.ntp_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:30 elasticsearch index "hc.4808_a9k.iox.ntp_2020.12" search was successful, a total of 2 records were found[0m
+[1;32;1m2020-12-07 20:56:30 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:30 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:30 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:30 elasticsearch index "hc.4808_a9k.iox.pfm_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:30 elasticsearch index "hc.4808_a9k.iox.pfm_2020.12" search was successful, a total of 52 records were found[0m
+[1;32;1m2020-12-07 20:56:30 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:30 The data is imported into the DF original table, and a total of 16 records are imported[0m
+[1;32;1m2020-12-07 20:56:30 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:30 excel a9k.iox.pfm sheet has been generated ，total 16 rows[0m
+[1;34;1m2020-12-07 20:56:30 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:30 elasticsearch index "hc.4808_a9k.iox.platform_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:30 elasticsearch index "hc.4808_a9k.iox.platform_2020.12" search was successful, a total of 52 records were found[0m
+[1;32;1m2020-12-07 20:56:30 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:30 The data is imported into the DF original table, and a total of 2 records are imported[0m
+[1;32;1m2020-12-07 20:56:30 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:30 excel a9k.iox.platform sheet has been generated ，total 2 rows[0m
+[1;34;1m2020-12-07 20:56:30 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:31 elasticsearch index "hc.4808_a9k.iox.power.supply_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:31 elasticsearch index "hc.4808_a9k.iox.power.supply_2020.12" search was successful, a total of 10 records were found[0m
+[1;32;1m2020-12-07 20:56:31 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:31 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:31 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:31 elasticsearch index "hc.4808_a9k.iox.prm_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:31 elasticsearch index "hc.4808_a9k.iox.prm_2020.12" search was successful, a total of 280 records were found[0m
+[1;32;1m2020-12-07 20:56:31 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:31 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:31 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:31 elasticsearch index "hc.4808_a9k.iox.process.block_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:32 elasticsearch index "hc.4808_a9k.iox.process.block_2020.12" search was successful, a total of 224 records were found[0m
+[1;32;1m2020-12-07 20:56:32 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:32 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:32 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:32 elasticsearch index "hc.4808_a9k.iox.process.cpu_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:32 elasticsearch index "hc.4808_a9k.iox.process.cpu_2020.12" search was successful, a total of 928 records were found[0m
+[1;32;1m2020-12-07 20:56:32 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:32 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:32 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:33 elasticsearch index "hc.4808_a9k.iox.redundancy.summary_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:33 elasticsearch index "hc.4808_a9k.iox.redundancy.summary_2020.12" search was successful, a total of 4 records were found[0m
+[1;32;1m2020-12-07 20:56:33 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:33 The data is imported into the DF original table, and a total of 4 records are imported[0m
+[1;32;1m2020-12-07 20:56:33 DF table write to excel start[0m
+[1;32;1m2020-12-07 20:56:33 excel a9k.iox.redundancy.summary sheet has been generated ，total 4 rows[0m
+[1;34;1m2020-12-07 20:56:33 query json file "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/query_json/hc_4808_query_date.json" load succeed[0m
+[1;34;1m2020-12-07 20:56:33 elasticsearch index "hc.4808_a9k.iox.temperture_2020.12" exist , query starting[0m
+[1;36;1m2020-12-07 20:56:33 elasticsearch index "hc.4808_a9k.iox.temperture_2020.12" search was successful, a total of 308 records were found[0m
+[1;32;1m2020-12-07 20:56:33 health check data begins to be imported into the DF original table[0m
+[1;33;1m2020-12-07 20:56:33 The data is imported into the DF original table, and a total of 0 records are imported[0m
+[1;34;1m2020-12-07 20:56:33 write /Users/boxie2/Desktop/BJ/4808/cu_hc_es/hc_results_4808/hc_4808-20201207-205624.xlsx file normally[0m
+[1;36;1m2020-12-07 20:56:33 The health check data analyze total 22 index, 9 index with check result, took 9.3s[0m
+[1;34;1m2020-12-07 20:56:33 The health check data process normally[0m
+[1;32;1m2020-12-07 20:56:34 under the directory "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/hc_results_4808/", like  "hc_4808" is found , the latest file is "hc_4808-20201207-205624.xlsx":)[0m
+[1;32;1m2020-12-07 20:56:34 under the directory "/Users/boxie2/Desktop/BJ/4808/cu_hc_es/hc_log/", like  "hc_4808_error_log" is found , the latest file is "hc_4808_error_log-20201207-205507.txt":)[0m
+[1;34;1m2020-12-07 20:56:37 mail with " /Users/boxie2/Desktop/BJ/4808/cu_hc_es/hc_results_4808/hc_4808-20201207-205624.xlsx" attachment has been sent[0m

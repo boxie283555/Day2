@@ -1,0 +1,13 @@
+{
+  "fans":{
+      "header": ["Hostname","Timestamp","Location","Rack","Fan0","Fan1","Fan2","Fan3","Fan4","Fan5","Fan6","Fan7","Fan8"],
+      "conditions_1": {
+          "class":[{"Location":["fullmatch","Lower","$"]}],
+          "check":[{"Fan\\d+":[">","4000","0","$"]},{"Rack":["=","0","1","$"],"Fan\\d+":[">","3900","1","$"]}]
+      },
+      "conditions_2": {
+          "class":[],
+          "check":[{"Fan\\d+":[">","4000","0","and","<","5000","0","$"]},{"Fan\\d+":["<","3490","1","$"]}]
+      }
+    }
+}

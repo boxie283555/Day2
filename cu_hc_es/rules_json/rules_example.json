@@ -1,0 +1,17 @@
+{
+"fans":{
+    "header": ["hostname","timestamp","fan_tray","rack","fan1","fan2","fan3","fan4","fan5","fan6","fan7","fan8","fan9"],
+    "conditions_1": {
+        "class":[{"location":["Upper|search","Lower|match"],"hostname":["CRS16|search"]},{"hostname":["CRS161|search"]}],
+        "check":[{"fan\\d+":["3520|>","4500|<"],"hostname":["CRS16|fullmatch"]},{"hostname":["CRS-X|fullmatch"]}]
+    },
+    "conditions_2": {
+        "class":[{"location":["Lower|search"]},{"hostname":["CRS16|search"]}],
+        "check":[{"fan\\d+":["3530|>","4500|<"],"hostname":["CRS-C|fullmatch"]},{"hostname":["CRS-X|fullmatch"]}]
+    },
+    "conditions_3": {
+        "class":[{"location":["Upper|search"]},{"hostname":["CRS16|search"]}],
+        "check":[{"fan\\d+":["3530|>","4500|<"],"hostname":["CRS-C|fullmatch"]},{"hostname":["CRS-X|fullmatch"]}]
+    }
+  }
+}

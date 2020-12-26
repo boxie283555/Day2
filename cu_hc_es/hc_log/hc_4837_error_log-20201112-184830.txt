@@ -1,0 +1,24 @@
+2020-11-12 18:48:32 "hc.4837_a9k.iox.process.mem_2020.11" index rules json get "a9k.iox.process.mem" checklist failed
+2020-11-12 18:48:32 "hc.4837_a9k.iox.temperture_2020.11" index rules json get "a9k.iox.temperture" checklist failed
+2020-11-12 18:48:32 got es index "hc.4837_chart.iox.process.mem_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.context_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.disk0_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fabric.bundle_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fabric.connectivity_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fabric.plane.statistics_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fabric.plane_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fans_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.fpd_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.harddisk_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.led_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.memory.summary_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.ntp_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.placement_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.platform_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.power.supply.old_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.power.supply_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.process.abort_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.process.block_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.process.cpu_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.redundancy.summary_2020.11" data is empty
+2020-11-12 18:48:32 got es index "hc.4837_iox.redundancy_2020.11" data is empty

@@ -1,0 +1,4 @@
+2020-11-17 09:12:06 index "hc.9929_a9k.iox.bgp.prefix_2020.11" divltnum process number transform failed , host "snxa-cal-e-1" dividend is  subtrahend is 5500 
+2020-11-17 09:12:06 index "hc.9929_a9k.iox.bgp.prefix_2020.11" divltnum process number transform failed , host "snxa-cal-e-1" dividend is  subtrahend is 5500 
+2020-11-17 09:12:07 "hc.9929_a9k.iox.bgp.vrf.prefix_2020.11" index rules json get "a9k.iox.bgp.vrf.prefix" checklist failed
+2020-11-17 09:12:10 "hc.9929_a9k.iox.install.active_2020.11" index rules json get "a9k.iox.install.active" checklist failed

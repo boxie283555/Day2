@@ -1,0 +1,125 @@
+{
+  "iox.fans":{
+      "header": ["Hostname","Timestamp","Platform_type","Location","Rack","Fan0","Fan1","Fan2","Fan3","Fan4","Fan5","Fan6","Fan7","Fan8"],
+      "conditions_1": {
+          "class":[{"Location":["fullmatch","Upper","$"]}],
+          "check":[{"Fan\\d+":[">","3900","1","and","<","4000","1","$"]},{"Fan\\d+":[">","3000","0","$"]}]
+      },
+      "conditions_2": {
+          "class":[],
+          "check":[{"Fan\\d+":[">","4000","0","and","<","5000","0","$"]},{"Fan\\d+":["<","3490","1","$"]}]
+      }
+    },
+  "iox.fpd":{
+      "header": ["Hostname","Timestamp","Platform_type","Location","Cardtype","Version","Subtype","Currversion","Version","Upgrade"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Upgrade":["fullmatch","No","0","$"]}]
+      }
+  },
+  "iox.platform":{
+      "header": ["Hostname","Timestamp","Platform_type","Node","Type","Plim","State","Config_state"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"State":["fullmatch","((?!IOS XR RUN).)*$","0","and","fullmatch","((?!OK).)*$","0","$"]}]
+      }
+  },
+  "iox.fabric.plane":{
+      "header": ["Hostname","Timestamp","Platform_type","Plane_id","Admin_state","Oper_state","Up_dn_counter","Up_mcast_counter","Down_flags","Plane_mode","Total_bundles","Down_bundles"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Admin_state":["fullmatch","((?!UP).)*$","0","$"]},{"Oper_state":["fullmatch","((?!UP).)*$","0","$"]}]
+      }
+  },
+  "iox.fabric.connectivity":{
+      "header": ["Hostname","Timestamp","Platform_type","Card","In_use","Tx_plane01234567","Rx_plane01234567","Monitor_s","Total_uptime","Percent_uptime"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Tx_plane01234567":["search","\\.","0","$"]},{"Rx_plane01234567":["search","\\.","0","$"]}]
+      }
+  },
+  "iox.fabric.bundle":{
+      "header": ["Hostname","Timestamp","Platform_type","Bundle_rsmp","Oper_state","Down_flags","Plane_id","Total_links","Used_links","Down_bp1_bp2","Down_bp2_bp1","Bundle_port1","Bundle_port2"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Oper_state":["fullmatch","UP","0","$"],"Down_bp1_bp2":[">","11","0","$"]},{"Oper_state":["fullmatch","UP","0","$"],"Down_bp2_bp1":[">","11","0","$"]}]
+      }
+  },
+  "iox.ntp":{
+      "header": ["Hostname","Timestamp","Platform_type","Clock_ntp_state"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Clock_ntp_state":["fullmatch","synchronized","0","$"]}]
+      }
+  },
+  "iox.disk0":{
+      "header": ["Hostname","Timestamp","Platform_type","Node_id","Bytes_total","Bytes_free"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Bytes_free":["divltnum","Bytes_total","0.8","0"]}]
+      }
+  },
+  "iox.led":{
+      "header": ["Hostname","Timestamp","Platform_type","Node","Module","Status"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Status":["fullmatch","((?!OK).)*$","0","$"]}]
+      }
+  },
+  "iox.harddisk":{
+      "header": ["Hostname","Timestamp","Platform_type","Node_id","Bytes_total","Bytes_free"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Bytes_free":["divltnum","Bytes_total","0.8","0"]}]
+      }
+  },
+  "iox.memory.summary":{
+      "header": ["Hostname","Timestamp","Platform_type","Node","Phy_mem","App_mem","App_avb"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"App_avb":["divltnum","App_mem","0.8","0"]}]
+      }
+  },
+  "iox.process.abort":{
+      "header": ["Hostname","Timestamp","Platform_type","Node","Reason"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Reason":["search","abnormal","0","$"]}]
+      }
+  },
+  "iox.process.block":{
+      "header": ["Hostname","Timestamp","Platform_type","Node_id","Jid","Pid","Tid","Name","State","Time_in_state","Blockedon","T_name"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"State":["fullmatch","Mutex","0","$"]}]
+      }
+  },
+  "iox.power.supply":{
+      "header": ["Hostname","Timestamp","Platform_type","Rack","Pem","Outv","Outc"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Outv":["<","55","0","$"]},{"Outc":["!=","1","0","$"]}]
+      }
+  },
+  "iox.process.cpu":{
+      "header": ["Hostname","Timestamp","Platform_type","Pid","Min1","Min5","Min15","Process"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Min5":[">","0","0","$"]},{"Min15":[">","0","0","$"]}]
+      }
+  },
+  "iox.placement":{
+      "header": ["Hostname","Timestamp","Platform_type","Group_name","Current_placement","Reoptimized_placement","Reopt"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"Reoptimized_placement":["copopstr","Current_placement","=","0"]}]
+      }
+  },
+  "iox.redundancy.summary":{
+      "header": ["Hostname","Timestamp","Platform_type","A_node","S_node","State"],
+      "conditions_1": {
+          "class":[],
+          "check":[{"State":["fullmatch","((?!1Node Ready, NSR: Not Configured).)*$","0","$"]}]
+      }
+  }
+}
