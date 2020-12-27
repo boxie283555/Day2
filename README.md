@@ -11,7 +11,7 @@
 
 
 # Day2安装步骤：
-1.需要安装ElasticSearch数据库，安装方法参见其它Git文档。
+1.需要安装ElasticSearch数据库,安装方法参见其它Git文档。
 
 2.git clone https://github.com/boxie283555/Day2.git下载软件到本地。
 
