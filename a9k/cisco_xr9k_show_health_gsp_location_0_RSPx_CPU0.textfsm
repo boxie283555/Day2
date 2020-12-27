@@ -1,0 +1,26 @@
+Value Node (\d\/\w+\d\/CPU\d)
+Value Gsp_transport (\S+)
+Value Gsp_Global (\S+)
+Value Gsp_sdr_transport (\S+)
+Value Gsp_sdr_group (\S+)
+Value Summary (\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^Target\s+node:\s+${Node}
+  ^\s+(gsp|global)\s*transport\s*is\s*${Gsp_transport}. 
+  ^\s+gsp\s*global\s*system\s*group\s*(transport)*\s*is\s*${Gsp_Global}. 
+  ^.*\s*Verifying\s+SDR\s+transport\s*.* -> Sdr
+  ^.*\s*Verifying\s+gsp\s+SDR\s+system\s+group\s*.* -> Group
+  ^Summary:\s+gsp\s+is\s+${Summary}. -> Record 
+
+Sdr
+  ^\s+(gsp)*\s*SDR\s*(system)*\s*(group)*\s*transport\s*is\s*${Gsp_sdr_transport}. -> Parse
+
+Group
+  ^\s+gsp\s*SDR\s*system\s*group\s*(transport)*\s*is\s*${Gsp_sdr_group}. -> Parse
+

@@ -1,0 +1,11 @@
+Value Rack (\d)
+Value Chassis_pid (\S+)
+Value Sn (\S+)
+
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+ 
+Parse
+  ^\s+${Rack}\s+${Chassis_pid}\s+${Sn}\s* -> Record
+

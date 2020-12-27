@@ -1,0 +1,16 @@
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+Value Pid (\d+)
+Value Min1 (\d+)
+Value Min5 (\d+)
+Value Min15 (\d+)
+Value Process (\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^CPU\s+utilization\s+for\s+one\s+minute:\s+${Min1}.*${Min5}.*${Min15} -> Record
+  ^${Pid}\s+${Min1}\%\s+${Min5}\%\s+${Min15}\%\s+${Process} -> Record

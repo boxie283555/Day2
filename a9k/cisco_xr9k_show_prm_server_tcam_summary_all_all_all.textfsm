@@ -1,0 +1,15 @@
+Value Filldown Node (\d\/\d\/CPU\d)
+Value Filldown Np_number (NP\d)
+Value Filldown Logical_table (\S+\s+\(\d\))
+Value Partition_id (\d)
+Value Required Free_entry (\d+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^\s+Node:\s+${Node}: -> Continue
+  ^TCAM\s+summary\s+for\s+${Np_number}: -> Continue
+  ^\s+TCAM\s+Logical\s+Table:\s+${Logical_table} -> Continue
+  ^\s+Partition\s+ID:\s+${Partition_id}.\s+priority:\s+\d+.\s+valid\s+entries:\s+\d+.\s+free\s+entries:\s+${Free_entry} -> Record
+  ^\s+TCAM\s+Logical\s+Table:\s+${Logical_table}.\s+free\s+entries:\s+${Free_entry} -> Record

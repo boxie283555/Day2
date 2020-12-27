@@ -1,0 +1,20 @@
+Value Filldown Node (node0\_((\d)|(RSP\d))\_CPU\d)
+Value Required Raised_time ((\S+\s+\d+\s+..:..:\d\d\s+\d+)|(\w+\s+\w+\s+\d+\s+..:..:...))
+Value Sname ((\d\s+)|(\--))
+Value Fault_name (\S+)
+Value Sev ((\w\/\w)|(\w+))
+Value Proc_id (\d+\s*)
+#Value Dev_name ((\S+\s+)*|(\S+\s+\S+\s+\S+))
+Value Dev_name ((\w+((\s+\w+)*))|((\w+\s+)*))
+Value Handle (\dx\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^node:\s+${Node} -> Continue
+  ^${Raised_time}\|${Sname}\|${Fault_name}\s+\|${Sev}\s*\|${Proc_id}\|${Dev_name}\|${Handle} -> Record
+  #^${Raised_time}\|${Sname}\|${Fault_name}\s+\|${Sev}\s*\|${Proc_id}\|${Dev_name}\|${Handle} -> Record
+

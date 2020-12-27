@@ -1,0 +1,25 @@
+Value Filldown Node (\d\/\w+\d\/\*)
+Value Module (\S+)
+Value Led (\S+)
+Value Required Status (Off|On)
+Value Alarm_reason (\S+)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^${Node} -> Continue
+ ^\s+${Module}\s+${Led}\s+${Status}\s+${Alarm_reason} -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+

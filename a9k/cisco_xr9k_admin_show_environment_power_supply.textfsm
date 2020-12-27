@@ -1,0 +1,19 @@
+Value Filldown Rsi (\d?\/\w+\/\w+\/\*)
+#Value Module (\S+\s+\S+)
+#Value Capacity (\d+)
+#Value Required Status (\S+)
+Value Required Power_supply (\d+\.\d+)
+Value Voltage_v (\d+\.\d+)
+Value Current_a (\d+\.\d+)
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^${Rsi}\s+${Power_supply}\s+${Voltage_v}\s+${Current_a} -> Record
+
+
+
+
+

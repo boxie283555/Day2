@@ -1,0 +1,13 @@
+Value Filldown Neighbor ((\d+\.\d+\.\d+\.\d+)|(.*))
+Value Family (.*)
+Value Required Accept_prefixes (\d+)
+Value Maximum_prefixes (\d+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^BGP\s+neighbor\s+is\s+${Neighbor}
+ ^\s+For\s+Address\s+Family:\s+${Family}
+ ^\s+${Accept_prefixes}\s+accepted\s+prefixes.*
+ ^\s+Maximum\s+prefixes\s+allowed\s+${Maximum_prefixes} -> Record

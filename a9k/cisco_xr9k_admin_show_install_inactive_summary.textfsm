@@ -1,0 +1,17 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value List Packages (disk\d:\S+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+  #^${Showtime} 
+  ^\s+${Packages} 
+  ^\s+${Packages} -> Record
+
+
+
+
+
+

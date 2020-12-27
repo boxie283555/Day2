@@ -1,0 +1,12 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+#Value List Smu_packages (disk\d:hfr-px-\d.\d.\d.CSC\S+-\d.\d.\d)
+Value List Smu_packages ((disk\d:hfr-px-\d.\d.\d.CSC\S+-\d.\d.\d)|(disk\d:asr9k-px-\d.\d.\d.CSC\S+-\d.\d.\d))
+
+
+Start
+  #^${Showtime} 
+  ^\s+${Smu_packages}
+  ^\s+${Smu_packages} -> Record 
+
+

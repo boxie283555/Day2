@@ -1,0 +1,16 @@
+Value Node (\d\/\w+\d\/CPU\d)
+#Value Gsp_transport (\S+)
+#Value Gsp_Global (\S+)
+#Value Gsp_sdr_transport (\S+)
+#Value Gsp_sdr_group (\S+)
+Value Summary (\S+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^Target\s+node:\s+${Node}
+  ^Summary:\s+gsp\s+is\s+${Summary}. -> Record 
+

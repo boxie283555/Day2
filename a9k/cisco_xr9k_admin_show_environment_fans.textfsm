@@ -1,0 +1,26 @@
+Value Required Location (\d+\/\w+\/\*)
+Value Fan0 (\d+)
+Value Fan1 (\d+)
+Value Fan2 (\d+)
+Value Fan3 (\d+)
+Value Fan4 (\d+)
+Value Fan5 (\d+)
+Value Fan6 (\d+)
+Value Fan7 (\d+)
+Value Fan8 (\d+)
+Value Fan9 (\d+)
+Value Fan10 (\d+)
+Value Fan11 (\d+)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^${Location}\s+\(Speed\)
+  ^\s+${Fan0}\s+${Fan1}\s+${Fan2}\s+${Fan3}\s+${Fan4}\s+${Fan5}\s+${Fan6}\s+${Fan7}\s+${Fan8}\s+${Fan9}\s+${Fan10}\s+${Fan11} -> Record
+  ^\s+${Fan0}\s+${Fan1}\s+${Fan2}\s+${Fan3}\s+${Fan4}\s+${Fan5} -> Record
+  ^^${Location}\s+\(Speed\) -> Parse
+
+

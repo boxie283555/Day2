@@ -1,0 +1,10 @@
+Value Filldown Node_id (\S+_\S+_\S+)
+Value Required Bytes_total (\d+)
+Value Bytes_free (\d+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^\s+node:\s+${Node_id}
+ ^${Bytes_total}\s+bytes\s+total\s+\(${Bytes_free}.* -> Record

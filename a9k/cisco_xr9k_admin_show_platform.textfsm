@@ -1,0 +1,13 @@
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+Value Required Node (\S+)
+Value Type (\S+)
+#Value Plim (\S+(\s\S+)*)
+Value State (\S+(\s\S+)*)
+Value Config_state (\S+)
+
+Start
+  #^${Showtime} -> Record
+  ^\-+ -> Parse
+
+Parse
+  ^${Node}\s+${Type}\s+${State}\s+(${Config_state})? -> Record

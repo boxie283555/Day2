@@ -1,0 +1,26 @@
+Value Node (\S+\d+\_\S*\d*\_\S*\d*)
+Value Phy_mem (\d+M)
+Value App_mem (\d+M)
+Value App_avb (\d+M)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^Node:\s+${Node}
+ ^Physical\s+Memory:\s+${Phy_mem}\s+total
+ ^\s+Application\s+Memory\s+:\s+${App_mem}\s+\(${App_avb}\s+available\) -> Record
+ ^Node:\s+${Node} -> Parse1
+
+
+
+
+
+
+
+
+
+
+
+
+

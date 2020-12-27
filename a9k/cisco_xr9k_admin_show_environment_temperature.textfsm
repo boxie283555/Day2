@@ -1,0 +1,11 @@
+Value Filldown Node ((\d\/\d\/.)|(\d\/\w+\d\/.))
+Value Modules (\S+)
+Value Sensor (\S+)
+Value Required Deg_C (\d+.\d+)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^${Node}
+ ^\s+${Modules}\s+${Sensor}\s+${Deg_C} -> Record

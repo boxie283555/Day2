@@ -1,0 +1,10 @@
+#Value Filldown exectimestamp (\S+ \w+ \d+ ..:..:...* \S+)
+#Value Filldown Showtime (\S+\s+\S+\s+\d+ ..:..:..*\S+)
+#Value List Base_packages (disk\d:hfr-\S+-px-\d.\d.\d)
+Value List Base_packages ((disk\d:asr9k-\S+-px-\d.\d.\d)|(disk\d:hfr-\S+-px-\d.\d.\d))
+
+
+Start
+  #^${Showtime} 
+  ^\s+${Base_packages}
+  ^\s+${Base_packages} -> Record

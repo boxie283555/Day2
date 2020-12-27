@@ -1,0 +1,24 @@
+#Value Node ((\d\/\w+\d\/\w+\d)|(\d\/\d\/\w+\d))
+Value Node ((\S+)|(\S+\s+10GE))
+#Value Link_state (Up|(N\/A)|Down)
+Value Link_state ((\S+\s+\(\S+\s+\S+\))|(\S+))
+
+Start
+# ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+ ^------ -> Parse1
+
+Parse1
+ ^\s+${Node}\s+\|\s+${Link_state} -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+

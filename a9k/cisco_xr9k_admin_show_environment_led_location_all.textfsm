@@ -1,0 +1,22 @@
+Value Node (\S+)
+Value Module (\S+)
+Value Status (\S+)
+
+Start
+ ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^${Node}:\s+Module\s+\(${Module}\)\s+\S+.*:\s+${Status} -> Record
+
+
+
+
+
+
+
+
+
+
+
+
+

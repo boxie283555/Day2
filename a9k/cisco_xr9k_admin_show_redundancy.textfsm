@@ -1,0 +1,21 @@
+Value Redundancy_info (\S+)
+#Value Active_node ((F\d|\d)\/(SC|RP)\d\/CPU0)
+#Value Standby_node ((F\d|\d)\/(SC|RP)\d\/CPU0)
+#Value Ready_YN_node ((F\d|\d)\/(SC|RP)\d\/CPU0\s+(is ready)|(Node Ready))
+#Value NSR_YN_Node (((F\d|\d)\/(SC|RP)\d\/CPU0)\s+(is NSR-not-configured)|(is NSR-ready))
+Value Required Sw_times ([1-9]{1,2})
+Value Lastsotime (\S{3}\s+\S{3}\s+\d{1,2}\s+..:..:..\s+\d{4})
+Value Reason (.*)
+#Value Lastsotime (..:..:..)
+#Value LASTSOYDAY (\S{3}\s+\S{3}\s+\d{2}\s+..:..:..\s+\d{4}:\s+\d+\s+weeks\,\s+\d+\s+days)
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse1
+
+Parse1
+ ^Redundancy\s+information\s+for\s+node\s+${Redundancy_info}. -> Continue
+ ^Last\s+switch\-over\s+${Lastsotime}.* -> Continue
+ ^There\s+has\s+been\s+${Sw_times}\s+switch\S+\s+since\s+reload -> Continue
+ ^Standby\s+node\s+reload\s+\"${Reason}\" -> Record

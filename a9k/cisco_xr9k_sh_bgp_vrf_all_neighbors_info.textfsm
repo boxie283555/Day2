@@ -1,0 +1,15 @@
+Value Neighbor ((\d+\.\d+\.\d+\.\d+)|(.*))
+Value Vrf (\S+)
+Value Remote_as (\d+)
+#Value State (\w+)
+Value State (.*)
+Value Family (.*)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^BGP\s+neighbor\s+is\s+${Neighbor}.*\s+vrf\s+${Vrf}
+ ^\s+Remote\s+AS\s+${Remote_as}.*
+ ^\s+BGP\s+state\s+.\s+${State},*\s*.*
+ ^\s+For\s+Address\s+Family:\s+${Family} -> Record

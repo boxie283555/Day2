@@ -1,0 +1,13 @@
+Value Node (\d\/\w+\d\/\w+\d)
+Value Confreg (\dx\d+)
+
+
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+  ^Node\s+${Node}: -> Continue
+  ^\s+CONFREG\s+variable\s+.\s+${Confreg} -> Record
+

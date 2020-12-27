@@ -1,0 +1,14 @@
+Value Filldown Neighbor ((\d+\.\d+\.\d+\.\d+)|(.*))
+Value Filldown Remote_as (\d+)
+#Value Filldown State (\w+)
+Value Filldown State (.*)
+Value Required Family (.*)
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^BGP\s+neighbor\s+is\s+${Neighbor}\s*
+ ^\s+Remote\s+AS\s+${Remote_as}.*
+ ^\s+BGP\s+state\s+.\s+${State},*\s*.*
+ ^\s+For\s+Address\s+Family:\s+${Family} -> Record
