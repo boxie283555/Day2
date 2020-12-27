@@ -26,8 +26,8 @@ import multiprocessing
 current_dir = str(os.getcwd())+ "/"
 parent_dir =  "hcdata_a9k"
 data_dir = current_dir + parent_dir
-template_dir = current_dir + "a9k"
-index_mapping_path = current_dir+ "a9k_index_mapping/asr/"
+template_dir = str(os.getcwd())+ "/a9k"
+index_mapping_path = str(os.getcwd())+ "/a9k_index_mapping"
 
 
 device_work_dir_list = list()
