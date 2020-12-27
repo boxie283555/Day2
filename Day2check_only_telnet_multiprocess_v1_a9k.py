@@ -840,7 +840,7 @@ with open('command_alias_matrix_a9k_v1.conf') as a9k_command_alias:
 
 
 
-with open ('device_a9k.txt') as devices_file:
+with open ('device.a9k.txt') as devices_file:
      for device_node in devices_file:
           devices = re.split("::",device_node)
           hostname.append(devices[0].strip())
