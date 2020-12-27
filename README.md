@@ -2,6 +2,8 @@
      这个项目主要目的是检查Cisco NCS，CRS设备运行状态。三种类型的设备分别有对应的检查命令，通过这些命令收集的信息，并对输出结果通过TextFSM进行结构化处理，输出到ElasticSearch数据库进行存储，并通过Kibana进行展示或通过程序中定义的检查规则，对命令采集到的异常信息进行XlS格式的输出。
      设备的登录方式为Telnet或SSH
 
+     设备时区仅支持GMT，UTC，CST，或为其它名字的时区请Pull Request
+
 
 # Day2安装步骤：
 1.需要安装ElasticSearch数据库，安装方法参见其它Git文档。
