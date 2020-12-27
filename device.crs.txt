@@ -1,1 +1,1 @@
-rtp-crs::172.18.104.13::test::test.hsiehbo::cisco_xr::CRS::cisco_xr
+crs::17.18.10.15::test::test::cisco_xr::CRS::cisco_xr
