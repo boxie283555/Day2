@@ -24,8 +24,8 @@ import paramiko
 current_dir = str(os.getcwd())+ "/"
 parent_dir =  "hcdata_a9k"
 data_dir = current_dir + parent_dir
-template_dir = "/Users/boxie2/Desktop/BJ/4808/templates/"
-index_mapping_path = "/Users/boxie2/Desktop/BJ/4808/index_mapping"
+template_dir = current_dir + "/a9k/"
+index_mapping_path = current_dir + "a9k_index_mapping"
 
 
 device_work_dir_list = list()
@@ -42,8 +42,8 @@ select_template = dict()
 #xr_show_list = ["admin show environment fans","admin show platform","admin show hw-module fpd location all","admin show controllers fabric plane all", \
 #"admin show controllers fabric connectivity all","admin show install active sum"]
 
-os.path.join('/Users/boxie2/Desktop/BJ/4808/templates/')
-os.environ["NET_TEXTFSM"] = "/Users/boxie2/Desktop/BJ/4808/templates/"
+os.path.join(template_dir))
+os.environ["NET_TEXTFSM"] = template_dir
 
 WAITE_FILE_TIME = 3
 WAITE_COMMAND_TIME = 2
