@@ -1,0 +1,46 @@
+2021-01-05 18:56:43,363:logger:INFO:_main_: hcdata_a9k Device Directory is Exist,So using the raw directory!
+2021-01-05 18:56:43,363:logger:INFO:_main_: start time:2021-01-05 18:56:43.361087!
+2021-01-05 18:56:46,534:logger:INFO:Waiting for all subprocesses done...
+2021-01-05 18:57:06,757:logger:INFO:login_and_execcommand:asr9001 connect success!!!!
+2021-01-05 18:57:56,784:logger:WARNING:login_and_execcommand: asr9001%show_vrf_all%2021-01-05-18-57.txt-cisco_xr9k_sh_vrf_all.textfsm template error!
+2021-01-05 18:57:57,186:logger:INFO:_main_: Total execution time:0:01:13.825431!
+2021-01-05 18:57:57,187:logger:INFO:mv_files: show_vrf_all directory is exists!!!
+2021-01-05 18:57:57,187:logger:INFO:mv_files: admin_show_environment_fans directory is exists!!!
+2021-01-05 18:57:57,187:logger:INFO:mv_files: admin_show_environment_power-supply directory is exists!!!
+2021-01-05 18:57:57,187:logger:INFO:mv_files: show_environment_leds_details_location_all directory is exists!!!
+2021-01-05 18:57:57,187:logger:INFO:mv_files: admin_show_platform directory is exists!!!
+2021-01-05 18:57:57,188:logger:INFO:mv_files: admin_show_hw-module_fpd_location_all directory is exists!!!
+2021-01-05 18:57:57,188:logger:INFO:mv_files: admin_dir_disk0_location_all directory is exists!!!
+2021-01-05 18:57:57,188:logger:INFO:mv_files: admin_dir_harddisk_location_all directory is exists!!!
+2021-01-05 18:57:57,188:logger:INFO:mv_files: admin_show_install_active_summary_smu directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: admin_show_install_active_summary_base directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: ad_show_install_active_summary directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: admin_show_install_inactive_summary directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: admin_show_install_commit_summary directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: admin_show_install_superceded directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: show_ntp_status directory is exists!!!
+2021-01-05 18:57:57,189:logger:INFO:mv_files: admin_show_redundancy directory is exists!!!
+2021-01-05 18:57:57,190:logger:INFO:mv_files: show_redundancy_summary directory is exists!!!
+2021-01-05 18:57:57,190:logger:INFO:mv_files: show_context_location_all directory is exists!!!
+2021-01-05 18:57:57,193:logger:INFO:mv_files: show_processes_aborts_location_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_processes_cpu directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_processes_blocked_location_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_processes_memory_location_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_memory_summary_location_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_pfm_location_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: show_prm_server_tcam_summary_all_all_all directory is exists!!!
+2021-01-05 18:57:57,194:logger:INFO:mv_files: admin_show_variables_boot_location_all directory is exists!!!
+2021-01-05 18:57:57,195:logger:INFO:mv_files: show_controllers_backplane_ethernet_links_location_0 directory is exists!!!
+2021-01-05 18:57:57,195:logger:INFO:mv_files: show_controllers_backplane_ethernet_links_location_1 directory is exists!!!
+2021-01-05 18:57:57,195:logger:INFO:mv_files: show_health_gsp_location_1 directory is exists!!!
+2021-01-05 18:57:57,195:logger:INFO:mv_files: show_health_gsp_location_0 directory is exists!!!
+2021-01-05 18:57:57,201:logger:INFO:mv_files: show_bgp_vrf_all_neighbors_prefix directory is exists!!!
+2021-01-05 18:57:57,201:logger:INFO:mv_files: sh_bgp_vrf_all_neighbors directory is exists!!!
+2021-01-05 18:57:57,201:logger:INFO:mv_files: show_bgp_neighbors directory is exists!!!
+2021-01-05 18:57:57,201:logger:INFO:mv_files: sh_bgp_neighbors_prefix directory is exists!!!
+2021-01-05 18:57:57,202:logger:INFO:mv_files: admin_show_environment_temperature directory is exists!!!
+2021-01-05 18:57:57,202:logger:INFO:mv_files: show_clock directory is exists!!!
+2021-01-05 18:57:57,202:logger:INFO:mv_files: show_inventory_rack directory is exists!!!
+2021-01-05 18:57:57,202:logger:INFO:mv_files: show_running_hostname directory is exists!!!
+2021-01-05 18:57:57,202:logger:INFO:mv_files: admin_show_environment_power-supply_old directory is exists!!!
+2021-01-05 18:57:57,240:logger:INFO:mv_files: all files moved success

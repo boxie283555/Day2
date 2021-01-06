@@ -1,0 +1,5 @@
+2021-01-05 18:21:13,518:logger:INFO:_main_: hcdata_a9k Device Directory is Exist,So using the raw directory!
+2021-01-05 18:21:13,518:logger:INFO:_main_: start time:2021-01-05 18:21:13.516559!
+2021-01-05 18:21:17,183:logger:INFO:Waiting for all subprocesses done...
+2021-01-05 18:21:37,405:logger:INFO:login_and_execcommand:asr9001 connect success!!!!
+2021-01-05 18:22:37,453:logger:INFO:login_and_execcommand: asr9001-admin show environment fans exec ok and write completed!

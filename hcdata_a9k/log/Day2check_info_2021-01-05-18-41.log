@@ -1,0 +1,9 @@
+2021-01-05 18:41:49,204:logger:INFO:_main_: hcdata_a9k Device Directory is Exist,So using the raw directory!
+2021-01-05 18:41:49,205:logger:INFO:_main_: start time:2021-01-05 18:41:49.203019!
+2021-01-05 18:41:53,436:logger:INFO:Waiting for all subprocesses done...
+2021-01-05 18:42:13,661:logger:INFO:login_and_execcommand:asr9001 connect success!!!!
+2021-01-05 18:42:54,360:logger:INFO:_main_: Total execution time:0:01:05.157004!
+2021-01-05 18:42:54,361:logger:INFO:mv_files: show_clock directory is exists!!!
+2021-01-05 18:42:54,362:logger:INFO:mv_files: show_running_hostname directory is exists!!!
+2021-01-05 18:42:54,362:logger:INFO:mv_files: admin_show_environment_power-supply_old directory is exists!!!
+2021-01-05 18:42:54,370:logger:INFO:mv_files: all files moved success

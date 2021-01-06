@@ -1,0 +1,6 @@
+2021-01-05 18:17:28,878:logger:INFO:_main_: hcdata_a9k Device Directory is Exist,So using the raw directory!
+2021-01-05 18:17:28,879:logger:INFO:_main_: start time:2021-01-05 18:17:28.874965!
+2021-01-05 18:17:28,901:logger:INFO:Waiting for all subprocesses done...
+2021-01-05 18:17:33,917:logger:CRITICAL:login_and_execcommand:a9k connect error 0 times
+2021-01-05 18:17:34,027:logger:INFO:_main_: Total execution time:0:00:05.152246!
+2021-01-05 18:17:34,053:logger:INFO:mv_files: all files moved success
