@@ -113,7 +113,7 @@ general_body_today = {
      "sort": { "Timestamp": "desc"},
      "query": {
           "bool" : { 
-               "must":{"range": {"Timestamp": {"gte": "now-4H"}}}
+               "must":{"range": {"Timestamp": {"gte": "now-1d"}}}
           }
      }
 }
@@ -264,7 +264,7 @@ if __name__ == "__main__":
           print("index",index)
           print("sheetname",sheetname[index])
           print("index_database[index]",index_database[index])
-          search(sheetname[index],general_body_today,index_database[index],workbook)
+          search(sheetname[index],general_body,index_database[index],workbook)
 
 
      
