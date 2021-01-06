@@ -1,0 +1,9 @@
+Value Required Vrf (\S+)
+Value Required Rd (\d+:\d+)
+
+
+Start
+  ^\S+\s+\S+\s+\d+\s+..:..:\d\d\.\d\d\d\s+\S+ -> Parse
+
+Parse
+ ^${Vrf}\s+${Rd}.* -> Record
