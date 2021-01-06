@@ -42,7 +42,7 @@ select_template = dict()
 #xr_show_list = ["admin show environment fans","admin show platform","admin show hw-module fpd location all","admin show controllers fabric plane all", \
 #"admin show controllers fabric connectivity all","admin show install active sum"]
 
-os.path.join(template_dir))
+os.path.join(template_dir)
 os.environ["NET_TEXTFSM"] = template_dir
 
 WAITE_FILE_TIME = 3

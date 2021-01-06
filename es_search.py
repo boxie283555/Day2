@@ -16,11 +16,11 @@ import logging.handlers
 from elasticsearch import Elasticsearch
 import xlrd, xlwt
 from xlutils.copy import copy as xl_copy
-from pyecharts import charts
-from pyecharts.charts import Line
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+#from pyecharts import charts
+#from pyecharts.charts import Line
+#import numpy as np
+#import pandas as pd
+#import matplotlib.pyplot as plt
 
 
 
@@ -101,7 +101,7 @@ ntp_body = {
 }
 
 general_body = {
-   "size": 100000,
+   "size": 10000,
    "sort": { "Timestamp": "desc"},
    "query": {
       "match_all": {}
@@ -109,7 +109,7 @@ general_body = {
 }
 
 general_body_today = {
-     "size": 60000,
+     "size": 10000,
      "sort": { "Timestamp": "desc"},
      "query": {
           "bool" : { 
@@ -120,41 +120,17 @@ general_body_today = {
 
 
 #es_address = "http://10.75.44.133:9200"
-es_address = "http://10.124.205.121:9200"
+es_address = "http://127.0.0.1:9200"
 
 #elastic = Elasticsearch(hosts= "10.75.44.133")
-elastic = Elasticsearch(hosts= "10.124.205.121")
+elastic = Elasticsearch(hosts= "127.0.0.1")
 #index_database_1 = "hc9929_iox.platform_2020.09"
 #index_database = "hc9929_iox.fans_2020.09"
 #index_database_fpd = "hc9929_iox.fpd_2020.09"
 #index_database_processes_memory = "hc.4837_iox.process.mem_2020.09"
-index_database = ["hc.4837_ncs.iox.process.cpu_2020.12",\
-"hc.4837_iox.process.mem_2020.12", "hc.4837_ncs.iox.memory.summary_2020.12", "hc.4837_ncs.iox.process.block_2020.12",\
-"hc.4837_ncs.iox.process.abort_2020.12", "hc.4837_ncs.iox.admin.install.active_2020.12", "hc.4837_ncs.iox.admin.install.inactive_2020.12",\
-"hc.4837_ncs.iox.admin.install.superseded_2020.12", "hc.4837_ncs.iox.install.active_2020.12", "hc.4837_ncs.iox.install.inactive_2020.12",\
-"hc.4837_ncs.iox.install.superseded_2020.12", "hc.4837_ncs.iox.platform_2020.12", "hc.4837_ncs.iox.platform.slice_2020.12",\
-"hc.4837_ncs.iox.context_2020.12", "hc.4837_ncs.iox.fans.ft_2020.12", "hc.4837_ncs.iox.fans.pt_2020.12", "hc.4837_ncs.iox.power.supply_2020.12",\
-"hc.4837_ncs.iox.led_2020.12", "hc.4837_ncs.iox.fpd_2020.12", "hc.4837_ncs.iox.ntp_2020.12", "hc.4837_ncs.iox.harddisk_2020.12",\
-"hc.4837_ncs.iox.disk0_2020.12", "hc.4837_ncs.iox.rootfs_2020.12", "hc.4837_ncs.iox.placement_2020.12", "hc.4837_ncs.iox.redundancy.summary_2020.12",\
-"hc.4837_ncs.iox.fabric.plane_2020.12", "hc.4837_ncs.iox.fabric.plane.statistics_2020.12", "hc.4837_ncs.iox.fabric.bundle_2020.12",\
-"hc.4837_ncs.iox.alarms_2020.12", "hc.4837_ncs.iox.vm_2020.12", "hc.4837_ncs.iox.sdr.pairing_2020.12", "hc.4837_ncs.iox.chassis_2020.12",\
-"hc.4837_ncs.iox.fabric.s3.rx.down_2020.12", "hc.4837_ncs.iox.fabric.s2.rx.down_2020.12", "hc.4837_ncs.iox.fabric.sfe.s13_2020.12",\
-"hc.4837_ncs.iox.fabric.sfe.s2_2020.12", "hc.4837_ncs.iox.fabric.sfe.fia_2020.12", "hc.4837_ncs.iox.gsp_2020.12",\
-"hc.4837_ncs.iox.sysdb_2020.12","hc.4837_ncs.iox.bgp.default.info_2020.12","hc.4837_ncs.iox.bgp.default.prefix_2020.12"]
+index_database = ["cmi_vpn_a9k.ioxrvrf_2021.01"]
 
-sheetname = ["process.cpu",\
-"process.mem","memory.summary","process.block",\
-"process.abort","admin.install.active","admin.install.inactive",\
-"admin.install.superseded","install.active","install.inactive",\
-"install.superseded","platform","platform.slice",\
-"context","fans.ft","fans.pt","power.supply",\
-"led","fpd","ntp","harddisk",\
-"disk0","rootfs","placement","redundancy.summary",\
-"fabric.plane","fabric.plane.statistics","fabric.bundle",\
-"alarms","vm","sdr.pairing","chassis",\
-"fabric.s3.rx.down","fabric.s2.rx.down","fabric.sfe.s13",\
-"fabric.sfe.s2","fabric.sfe.fia","gsp",\
-"sysdb","bgp.default.info","bgp.default.prefix"]
+sheetname = ["vrf"]
 
 
 
