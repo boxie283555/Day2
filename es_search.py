@@ -16,11 +16,11 @@ import logging.handlers
 from elasticsearch import Elasticsearch
 import xlrd, xlwt
 from xlutils.copy import copy as xl_copy
-#from pyecharts import charts
-#from pyecharts.charts import Line
-#import numpy as np
-#import pandas as pd
-#import matplotlib.pyplot as plt
+from pyecharts import charts
+from pyecharts.charts import Line
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 
 
