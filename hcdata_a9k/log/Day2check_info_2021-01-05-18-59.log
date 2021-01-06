@@ -1,8 +1,0 @@
-2021-01-05 18:59:24,459:logger:INFO:_main_: hcdata_a9k Device Directory is Exist,So using the raw directory!
-2021-01-05 18:59:24,459:logger:INFO:_main_: start time:2021-01-05 18:59:24.455706!
-2021-01-05 18:59:27,805:logger:INFO:Waiting for all subprocesses done...
-2021-01-05 18:59:48,027:logger:INFO:login_and_execcommand:asr9001 connect success!!!!
-2021-01-05 19:00:38,056:logger:WARNING:login_and_execcommand: asr9001_show vrf all exec ok but no record match the template. the json can not create!!!!
-2021-01-05 19:00:58,064:logger:INFO:login_and_execcommand: asr9001-admin show environment fans exec ok and write completed!
-2021-01-05 19:01:18,073:logger:INFO:login_and_execcommand: asr9001-admin show environment power-supply location all | begin "Current" exec ok and write completed!
-2021-01-05 19:01:38,081:logger:INFO:login_and_execcommand: asr9001-show environment leds details location all exec ok and write completed!
