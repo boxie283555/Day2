@@ -1,1 +1,1 @@
-asr9001::10.124.3.85::cisco::cisco::cisco_xr::A9K::cisco_xr
+asr9001::10.12.1.2::cisco::cisco::cisco_xr::A9K::cisco_xr
