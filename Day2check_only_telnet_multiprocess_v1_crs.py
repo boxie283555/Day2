@@ -68,6 +68,7 @@ def get_nowtime():
      return timestamp1,timestamp2,timestamp3,timestamp4
 
 def import_index_mapping(es_address,key_es):
+     result = True
      os.chdir(index_mapping_path)
      index_ext_time = get_nowtime()[1]
      host = set_eshost[key_es]
@@ -80,17 +81,18 @@ def import_index_mapping(es_address,key_es):
                mapping_file = jsondir[each_index] + "mapping.json"
                with open(mapping_file, 'r', encoding='utf-8') as f:
                     data=json.loads(f.read())
-
                response = elastic.indices.create(index=index_database,body=data,ignore=400)
                if 'acknowledged' in response:
                     if response['acknowledged'] == True:
                          logger.info('import_index_mapping:{} INDEX MAPPING SUCCESS FOR INDEX'.format(response['index']))
 
+
                elif 'error' in response:
                     logger.info('import_index_mapping:ERROR {}'.format(response['error']['root_cause']))
                     logger.info('import_index_mapping:TYPE {}'.format(response['error']['type']))
-
+                    result = False
                logger.info('import_index_mapping:response {}'.format(response))
+     return(result)
 
 def import_es_new(file_list,name):
      if len(file_list) == len(crs_command):
@@ -551,37 +553,23 @@ except FileExistsError:
 if __name__ == '__main__':
      #print("start time " , startTime)
      logger.info('_main_: start time:{}!'.format(startTime))
+     import_flag = True
      today = get_nowtime()[3]
      if today == "1" or today == "01":
           for key_es in set_eshost:
                es_address = "http://" + str(set_eshost[key_es]) + ":9200/"
-               import_index_mapping(es_address,key_es)
-               #import_index_a9k_mapping(es_address,key_es)
-
-    # thread_holder = []
-    # for name,ip_address,user,passwd,platform,login_mode in zip(hostname,ip,username,password,platform_mode,login):
-    #      th = threading.Thread(target=login_and_execcommand,args=(name,ip_address,user,passwd,platform,login_mode))
-    #      th.start()
-    #      thread_holder.append(th)
-    # for thread in thread_holder:
-    #      thread.join()
-     #print ("Total execution time",(datetime.datetime.now() - startTime))
-   #  logger.info('_main_: Total execution time:{}!'.format(datetime.datetime.now() - startTime))
-   #  mv_files()
-   #  mv_a9k_files()
-
-     cpus = multiprocessing.cpu_count()
-     print("cpu",cpus)
-     p = multiprocessing.Pool(cpus*60)
-     for name,ip_address,user,passwd,platform,login_mode in zip(hostname,ip,username,password,platform_mode,login):
-          result =p.apply_async(login_and_execcommand, args=(name,ip_address,user,passwd,platform,login_mode,))
-     #print('Waiting for all subprocesses done...')
-     logger.info("Waiting for all subprocesses done...")
-     p.close()
-     p.join()
-
-     logger.info('_main_: Total execution time:{}!'.format(datetime.datetime.now() - startTime))
-     mv_files()
+               import_flag = import_index_mapping(es_address,key_es)
+     if import_flag:
+          cpus = multiprocessing.cpu_count()
+          print("cpu",cpus)
+          p = multiprocessing.Pool(cpus*60)
+          for name,ip_address,user,passwd,platform,login_mode in zip(hostname,ip,username,password,platform_mode,login):
+               result =p.apply_async(login_and_execcommand, args=(name,ip_address,user,passwd,platform,login_mode,))
+          logger.info("Waiting for all subprocesses done...")
+          p.close()
+          p.join()
+          logger.info('_main_: Total execution time:{}!'.format(datetime.datetime.now() - startTime))
+          mv_files()
 
 
 
